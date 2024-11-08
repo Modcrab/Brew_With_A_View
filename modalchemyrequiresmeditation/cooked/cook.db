@@ -1,0 +1,4729 @@
+{
+    "files": [
+        {
+            "path": "gameplay\\gui_new\\actionscript\\clik_as3.as3proj",
+            "level": 0,
+            "seed": 1,
+            "id": "75A89B36-5B0446E6-A65E5D89-95DB1B8D"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\com\\gskinner\\geom\\colormatrix.as",
+            "level": 0,
+            "seed": 1,
+            "id": "1694C709-D3714784-08AD5F86-819A8AA1"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\com\\gskinner\\motion\\easing\\back.as",
+            "level": 0,
+            "seed": 1,
+            "id": "1F3E122E-B0EB0006-8CCAA910-DFE300B4"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\com\\gskinner\\motion\\easing\\bounce.as",
+            "level": 0,
+            "seed": 1,
+            "id": "E1D4C16F-57601217-DF794539-12FC4735"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\com\\gskinner\\motion\\easing\\circular.as",
+            "level": 0,
+            "seed": 1,
+            "id": "CAC207F4-615FDDF6-32A24193-D62D94FE"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\com\\gskinner\\motion\\easing\\cubic.as",
+            "level": 0,
+            "seed": 1,
+            "id": "F2DC4EF2-30AFE3B4-4548FF18-DFB5887C"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\com\\gskinner\\motion\\easing\\elastic.as",
+            "level": 0,
+            "seed": 1,
+            "id": "943A4B71-E271AD9E-9983BC72-78B284CA"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\com\\gskinner\\motion\\easing\\exponential.as",
+            "level": 0,
+            "seed": 1,
+            "id": "8AFE5883-A3D664E6-A373D6D4-4B7B65BF"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\com\\gskinner\\motion\\easing\\linear.as",
+            "level": 0,
+            "seed": 1,
+            "id": "57909BAE-303414D2-9B81BCC3-B91B9477"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\com\\gskinner\\motion\\easing\\quadratic.as",
+            "level": 0,
+            "seed": 1,
+            "id": "8470DAD2-EFB46E95-7CAAEE98-81B76A7F"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\com\\gskinner\\motion\\easing\\quartic.as",
+            "level": 0,
+            "seed": 1,
+            "id": "0F608AE6-CD6297AF-22AE3E1E-7A8E06AA"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\com\\gskinner\\motion\\easing\\quintic.as",
+            "level": 0,
+            "seed": 1,
+            "id": "A4565904-2925A662-5DABB4B2-1684C0FE"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\com\\gskinner\\motion\\easing\\sine.as",
+            "level": 0,
+            "seed": 1,
+            "id": "D0672F4A-F5C3CDE5-051D3ED5-64384FA3"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\com\\gskinner\\motion\\gtween.as",
+            "level": 0,
+            "seed": 1,
+            "id": "171C865F-47DA64F9-615834FF-653AAA18"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\com\\gskinner\\motion\\gtweener.as",
+            "level": 0,
+            "seed": 1,
+            "id": "C3BA4D60-054178AF-E6A0B7E6-B35DEB9E"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\com\\gskinner\\motion\\gtweentimeline.as",
+            "level": 0,
+            "seed": 1,
+            "id": "FAE03CE4-8D667420-B711D3EE-F6E570BF"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\com\\gskinner\\motion\\plugins\\autohideplugin.as",
+            "level": 0,
+            "seed": 1,
+            "id": "76E49E5B-26A3D76B-0AEF19AB-AB6E6641"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\com\\gskinner\\motion\\plugins\\blurplugin.as",
+            "level": 0,
+            "seed": 1,
+            "id": "3CC6B5A4-AAEC7B60-2FC0F43E-9C6D082C"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\com\\gskinner\\motion\\plugins\\coloradjustplugin.as",
+            "level": 0,
+            "seed": 1,
+            "id": "76D51ABA-1530027D-62BBA8BF-E3E1FA59"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\com\\gskinner\\motion\\plugins\\colortransformplugin.as",
+            "level": 0,
+            "seed": 1,
+            "id": "4E4143DD-2D04714D-0A60A0F4-965AF94E"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\com\\gskinner\\motion\\plugins\\currentframeplugin.as",
+            "level": 0,
+            "seed": 1,
+            "id": "EF560A08-8A938C91-BD30EDB0-2D26DE2E"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\com\\gskinner\\motion\\plugins\\igtweenplugin.as",
+            "level": 0,
+            "seed": 1,
+            "id": "8083FA2B-6BED2547-9BA3AE15-F2126A5E"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\com\\gskinner\\motion\\plugins\\matrixplugin.as",
+            "level": 0,
+            "seed": 1,
+            "id": "28F2A465-2E855E2C-B2C86D10-3932BA5E"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\com\\gskinner\\motion\\plugins\\motionblurplugin.as",
+            "level": 0,
+            "seed": 1,
+            "id": "1BBC4626-412FCEA2-1B7006E4-324F177B"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\com\\gskinner\\motion\\plugins\\smartrotationplugin.as",
+            "level": 0,
+            "seed": 1,
+            "id": "8E2F8FB2-06D2024E-645C0E3C-43CA95C0"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\com\\gskinner\\motion\\plugins\\snappingplugin.as",
+            "level": 0,
+            "seed": 1,
+            "id": "E737CCBD-8C1B1AC9-B695C24E-BB916A17"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\com\\gskinner\\motion\\plugins\\soundtransformplugin.as",
+            "level": 0,
+            "seed": 1,
+            "id": "09C8B6FD-ABD9F2FD-31CDAE21-5D8DC779"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\description.txt",
+            "level": 0,
+            "seed": 1,
+            "id": "E88466F7-3C75BFA9-EA500999-6B7FF66A"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\core\\constants\\keycode.as",
+            "level": 0,
+            "seed": 1,
+            "id": "4D1BF8DD-75831FDA-ED62D67B-5165EF2D"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\core\\corecomponent.as",
+            "level": 0,
+            "seed": 1,
+            "id": "D1AB796B-339EA99E-D020A3E9-26FF8B78"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\core\\corehud.as",
+            "level": 0,
+            "seed": 1,
+            "id": "6E1265FD-444D8D4A-1B675B16-87459CD4"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\core\\corehudmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "3B8C7210-C743BAD8-B68C08F6-A377DD4F"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\core\\coremenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "41469C57-05F7ECA0-51F86C7D-F3057FB0"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\core\\coremenumodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "226A92A0-6A8C7E25-23E3687A-E9988E73"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\core\\corepopup.as",
+            "level": 0,
+            "seed": 1,
+            "id": "10A19AFF-06181302-E615CF67-4588DCB0"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\core\\data\\inputaxisdata.as",
+            "level": 0,
+            "seed": 1,
+            "id": "4AB10573-209AD522-74369E59-E65FFC4B"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\core\\events\\gameevent.as",
+            "level": 0,
+            "seed": 1,
+            "id": "4B42274C-B1D37A9C-BA445BD7-5DCCBD31"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\core\\igameadapter.as",
+            "level": 0,
+            "seed": 1,
+            "id": "EDB7BCC9-1C4E3FEF-B30AAE91-A8949678"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\core\\overlay\\blackscreen.as",
+            "level": 0,
+            "seed": 1,
+            "id": "9EDFB703-45424E5E-C91D9DE5-238A6E53"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\core\\overlay\\loadingoverlay.as",
+            "level": 0,
+            "seed": 1,
+            "id": "60566FCE-49044E41-A8CE6385-4E571357"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\core\\overlay\\loadingscreen.as",
+            "level": 0,
+            "seed": 1,
+            "id": "8AF02973-BF01CBB2-75D4349B-C1104F77"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\core\\overlay\\savingoverlay.as",
+            "level": 0,
+            "seed": 1,
+            "id": "0CAFDE80-014CBB3E-CDE6D5ED-3E240E7A"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\core\\utils\\inpututils.as",
+            "level": 0,
+            "seed": 1,
+            "id": "444CBA10-FF694ABB-991D0097-7D40CC28"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\constants\\aspectratio.as",
+            "level": 0,
+            "seed": 1,
+            "id": "BEC56610-B4571649-EC60A438-91913386"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\constants\\commonconstants.as",
+            "level": 0,
+            "seed": 1,
+            "id": "078427F4-CE84ADF3-FDDE8A0D-605309FD"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\constants\\cursortype.as",
+            "level": 0,
+            "seed": 1,
+            "id": "8AFB6B46-6139B93B-4A0AA4F7-66640FC2"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\constants\\debugdataprovider.as",
+            "level": 0,
+            "seed": 1,
+            "id": "C19ADB03-FDF9675C-2BA66CF9-CB385F14"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\constants\\einputdevicetype.as",
+            "level": 0,
+            "seed": 1,
+            "id": "69E8B01E-38A6E7FD-3DB27EBE-52514B99"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\constants\\einputpriority.as",
+            "level": 0,
+            "seed": 1,
+            "id": "5D1514D8-8E7F35EE-17FC5BD4-9180ED76"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\constants\\gwintinputfeedback.as",
+            "level": 0,
+            "seed": 1,
+            "id": "942B2C03-6601D817-EAD6F56B-8CD224CE"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\constants\\hudbloodmesstype.as",
+            "level": 0,
+            "seed": 1,
+            "id": "55B933CF-B17456B5-122C251F-B989E5AB"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\constants\\inventoryactiontype.as",
+            "level": 0,
+            "seed": 1,
+            "id": "EC0E94A8-185E6F39-B29443FF-91D5E73E"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\constants\\inventoryfiltertype.as",
+            "level": 0,
+            "seed": 1,
+            "id": "23406904-FDE8A419-17CFEA0F-537384BB"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\constants\\inventoryslottype.as",
+            "level": 0,
+            "seed": 1,
+            "id": "B9004004-EE3A788C-8339E798-9390805D"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\constants\\itemquality.as",
+            "level": 0,
+            "seed": 1,
+            "id": "6C183B98-B5106537-325F1D9F-BAB9842D"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\constants\\keyboardkeys.as",
+            "level": 0,
+            "seed": 1,
+            "id": "825B7596-1509F00F-3413F1F4-17D2E0A1"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\constants\\keycode.as",
+            "level": 0,
+            "seed": 1,
+            "id": "2E38AEB8-C17D2C4B-696F6C66-079AD85F"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\constants\\mapstate.as",
+            "level": 0,
+            "seed": 1,
+            "id": "E4984EDB-A6E97E99-DD50EEAB-37B62622"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\constants\\messagebutton.as",
+            "level": 0,
+            "seed": 1,
+            "id": "B8B2F231-C655B1E5-04DD0B8C-B6D0952C"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\constants\\mutationresourcetype.as",
+            "level": 0,
+            "seed": 1,
+            "id": "ECE8619F-966D8B50-3F6FEBDC-89067C91"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\constants\\platformtype.as",
+            "level": 0,
+            "seed": 1,
+            "id": "379C2952-8E0F505F-9EE844B5-F8CBE66F"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\constants\\queststatustype.as",
+            "level": 0,
+            "seed": 1,
+            "id": "EC003EC0-747AA1F2-B61FF7EC-7DDA4E8E"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\constants\\skillcolor.as",
+            "level": 0,
+            "seed": 1,
+            "id": "57D757EE-A2CEDC29-9FAC93D6-8ACDAACC"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\constants\\slotvisualstate.as",
+            "level": 0,
+            "seed": 1,
+            "id": "053D8AC7-D56F0BB6-B0F3228C-F6467C5B"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\constants\\sysmessagetype.as",
+            "level": 0,
+            "seed": 1,
+            "id": "B714DC0A-4B92D894-5BC4D72E-6CC49549"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\constants\\textcolor.as",
+            "level": 0,
+            "seed": 1,
+            "id": "C3BEDF21-6B16ADA6-357D7B67-3EF6ADAD"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\constants\\tooltipalignment.as",
+            "level": 0,
+            "seed": 1,
+            "id": "9FF24ADC-88F21B9B-D002EDE2-173D8626"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\advancedtablistitem.as",
+            "level": 0,
+            "seed": 1,
+            "id": "C3A659C9-73377B46-421EC653-0CAA3E98"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\baselistitem.as",
+            "level": 0,
+            "seed": 1,
+            "id": "F9603C68-1DAAF260-866DDCA3-F9E7818D"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\conditionalbutton.as",
+            "level": 0,
+            "seed": 1,
+            "id": "C303711E-3C72F33D-D501467E-418FBB9F"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\conditionalclosebutton.as",
+            "level": 0,
+            "seed": 1,
+            "id": "813F11D7-DE8BB35A-A1A972BB-A3E44C5D"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\gamepadbutton.as",
+            "level": 0,
+            "seed": 1,
+            "id": "23E94B61-378E7C93-D06CD2B4-0C7F1DD5"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\hintbutton.as",
+            "level": 0,
+            "seed": 1,
+            "id": "6383E307-ECD90B79-B4C351DD-A17B2750"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\inputfeedbackbutton.as",
+            "level": 0,
+            "seed": 1,
+            "id": "2899ABB7-A6F0ED2D-9E8715CF-6EB598F5"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\inputfeedbackbuttoncustom.as",
+            "level": 0,
+            "seed": 1,
+            "id": "AF975831-67EDF61C-079811AC-C929F284"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\invisiblecomponent.as",
+            "level": 0,
+            "seed": 1,
+            "id": "733287F8-C6EB39DB-8BFC86C0-BE4E3F7C"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\itemproprenderer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "F2BA32E1-0B9D50CD-18219EFB-FA618A99"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\keyboardbuttonclickarea.as",
+            "level": 0,
+            "seed": 1,
+            "id": "223F8F5C-9C237C3B-AF4FC0E8-8B1F553B"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\keyboardbuttonicon.as",
+            "level": 0,
+            "seed": 1,
+            "id": "8E28C4C4-C2717D43-E0F9529F-E765A369"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\keyboardbuttonmouseicon.as",
+            "level": 0,
+            "seed": 1,
+            "id": "30F57525-EDBDAAB9-4063B16A-6F2AC692"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\label.as",
+            "level": 0,
+            "seed": 1,
+            "id": "E82F1447-5F3DF93F-C9C6420F-E4F7C7AD"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\looptweener.as",
+            "level": 0,
+            "seed": 1,
+            "id": "CF2F893D-6F1EC542-4F00D78F-6E42780C"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\modulehighlighting.as",
+            "level": 0,
+            "seed": 1,
+            "id": "BE774D0A-3BEC29A5-007570FE-DFB7BE14"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\mousecursor.as",
+            "level": 0,
+            "seed": 1,
+            "id": "E1B15848-B64A9C56-10C7730E-18166400"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\mousecursorcomponent.as",
+            "level": 0,
+            "seed": 1,
+            "id": "5668CD1C-B73F95F9-2F0A6819-0E87A6B8"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\rendererslist.as",
+            "level": 0,
+            "seed": 1,
+            "id": "AC49CB18-BCD0F483-6700E416-47FC50CB"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\tablistitem.as",
+            "level": 0,
+            "seed": 1,
+            "id": "EB07F9B8-B7807E95-A8A62180-9B8550E4"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\tooltipanchor.as",
+            "level": 0,
+            "seed": 1,
+            "id": "E320977E-8B094095-22EF5222-391B178B"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\w3background.as",
+            "level": 0,
+            "seed": 1,
+            "id": "B7295E9F-40BCFC1F-CCE63946-3EAA22FA"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\w3baseslot.as",
+            "level": 0,
+            "seed": 1,
+            "id": "FE18A37F-C53AC540-29A208AE-D6F44DDB"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\w3button.as",
+            "level": 0,
+            "seed": 1,
+            "id": "BE59A914-09AD5012-72522367-DB43DF9F"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\w3choicedialog.as",
+            "level": 0,
+            "seed": 1,
+            "id": "EEB87F35-6D291227-3E84C40C-6BD785CE"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\w3directionalscrollinglist.as",
+            "level": 0,
+            "seed": 1,
+            "id": "1F5BEA79-9A4EBA99-ECD75EA9-EF9E3620"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\w3dropdownitemrenderer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "2F6539E5-6F6299ED-8B114F51-A96AE4FA"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\w3dropdownlist.as",
+            "level": 0,
+            "seed": 1,
+            "id": "E28B7F06-5AD68778-E7100DF8-4410A804"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\w3dropdownmenulistitem.as",
+            "level": 0,
+            "seed": 1,
+            "id": "17305894-2AF0E9C8-60F00A95-65E48D6E"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\w3gamepadbutton.as",
+            "level": 0,
+            "seed": 1,
+            "id": "78794DC3-B1C0CD6D-6A45B84D-9F869B33"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\w3label.as",
+            "level": 0,
+            "seed": 1,
+            "id": "A54F06CE-6A5BEBC4-2D37A8BC-1B1EA35D"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\w3listselectiontracker.as",
+            "level": 0,
+            "seed": 1,
+            "id": "D3B51081-B4B69FF9-D41D9A03-2D093B3C"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\w3messagequeue.as",
+            "level": 0,
+            "seed": 1,
+            "id": "459476C7-00B0D132-3D5C8217-6DF4CD51"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\w3optionsseparator.as",
+            "level": 0,
+            "seed": 1,
+            "id": "F64BE2EE-54DB2E51-7C7A9E45-78131A84"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\w3optionstepper.as",
+            "level": 0,
+            "seed": 1,
+            "id": "A2B1C926-452A6022-C88CE484-6AA8FC6C"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\w3quantityslider.as",
+            "level": 0,
+            "seed": 1,
+            "id": "0D0670FA-B1AEEE6D-1E9BC198-BAF6F1B6"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\w3rendertotextureholder.as",
+            "level": 0,
+            "seed": 1,
+            "id": "BAA7F977-64053B35-2BBD088A-C86FFE88"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\w3scrollingcategorizedlist.as",
+            "level": 0,
+            "seed": 1,
+            "id": "A63BA5A1-8D57595D-384BBB75-36ED248A"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\w3scrollinglist.as",
+            "level": 0,
+            "seed": 1,
+            "id": "FB309CDD-F011330B-AE9C7FBF-47502711"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\w3slider.as",
+            "level": 0,
+            "seed": 1,
+            "id": "5E95EACC-9A8F731A-A191675D-090F6CE6"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\w3textarea.as",
+            "level": 0,
+            "seed": 1,
+            "id": "829D9590-D3E9E07B-976D9FAB-9CAC07D4"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\w3uiloader.as",
+            "level": 0,
+            "seed": 1,
+            "id": "E7123E90-8CCA37D7-5569C021-727BF428"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\w3uiloaderpaperdollslot.as",
+            "level": 0,
+            "seed": 1,
+            "id": "218835CC-EEE984D6-0725F394-C08D783B"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\controls\\w3uiloaderslot.as",
+            "level": 0,
+            "seed": 1,
+            "id": "C24DBB0A-F433D56A-9494D3F2-698573FB"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\data\\griddata.as",
+            "level": 0,
+            "seed": 1,
+            "id": "8F07055A-7C210CF9-87F5FC1F-DF224FC0"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\data\\keybindingdata.as",
+            "level": 0,
+            "seed": 1,
+            "id": "E76BB9EB-AD6F7EA2-E9759286-7DEA9306"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\data\\playerstatsdata.as",
+            "level": 0,
+            "seed": 1,
+            "id": "A2C4062A-F159FB00-428A122F-F8AF0589"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\data\\popupdata.as",
+            "level": 0,
+            "seed": 1,
+            "id": "EFC7A020-DE174AC6-8923F18D-9B412CAA"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\data\\staticmappindata.as",
+            "level": 0,
+            "seed": 1,
+            "id": "C40E7FCC-163D0E68-98A34DE1-00B22068"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\data\\sysmessagedata.as",
+            "level": 0,
+            "seed": 1,
+            "id": "E93BE651-0F07EE9E-9FB90886-7CBD06A4"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\data\\tooltipdata.as",
+            "level": 0,
+            "seed": 1,
+            "id": "7C8B850F-620F05B7-20852768-A4FA304F"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\events\\categorychangeevent.as",
+            "level": 0,
+            "seed": 1,
+            "id": "2AE76D68-9EE8A534-1435C42B-D1C22425"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\events\\contextchangeevent.as",
+            "level": 0,
+            "seed": 1,
+            "id": "2AB59C87-ED79E4F8-03FC7B4D-27C5FDBE"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\events\\contextevent.as",
+            "level": 0,
+            "seed": 1,
+            "id": "E72A5123-459CC9FC-AA75339E-9766AE30"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\events\\controllerchangeevent.as",
+            "level": 0,
+            "seed": 1,
+            "id": "2733C861-90B6BE8E-E7889A29-CCBBA9B6"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\events\\gridevent.as",
+            "level": 0,
+            "seed": 1,
+            "id": "AF6A4350-50BE5703-6D6F9E28-25238C8E"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\events\\gwintcardevent.as",
+            "level": 0,
+            "seed": 1,
+            "id": "33A97C87-152DCB60-8C3BA069-C3579B35"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\events\\gwintholderevent.as",
+            "level": 0,
+            "seed": 1,
+            "id": "97BEBBA0-69C53837-25C0436C-6D00685C"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\events\\inputfeedbackevent.as",
+            "level": 0,
+            "seed": 1,
+            "id": "FE59AEE4-7A63CE08-8489433E-CDCDABBE"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\events\\itemdragevent.as",
+            "level": 0,
+            "seed": 1,
+            "id": "79B8B70F-C4036CB6-88FF75B2-A8D36439"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\events\\mapanimation.as",
+            "level": 0,
+            "seed": 1,
+            "id": "57CB231F-32143032-6B7D6972-80EB0AFB"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\events\\mapcontextevent.as",
+            "level": 0,
+            "seed": 1,
+            "id": "A461D290-ED586F08-76E2D91A-05433590"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\events\\mapfilterevent.as",
+            "level": 0,
+            "seed": 1,
+            "id": "B281584B-CA9E7F23-1EEACE1F-87EE2E87"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\events\\mapnavigation.as",
+            "level": 0,
+            "seed": 1,
+            "id": "2099056A-2B368285-AB957955-57A521EC"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\events\\slotactionevent.as",
+            "level": 0,
+            "seed": 1,
+            "id": "20757555-C363967B-C10CABFE-8112DDBA"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\events\\slotconnectorevent.as",
+            "level": 0,
+            "seed": 1,
+            "id": "FE6655B9-7573010A-E672FB62-0FA0AA15"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\events\\tooltipevent.as",
+            "level": 0,
+            "seed": 1,
+            "id": "A5599404-40AC79C3-E345AA1D-5C734EC7"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\hud.as",
+            "level": 0,
+            "seed": 1,
+            "id": "E8C34EB2-04A8B87F-9D3B078C-A2BC249F"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\hudmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "0BBF6146-EA13E049-7D79DD1D-87E09E2A"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\hudmodulemanager.as",
+            "level": 0,
+            "seed": 1,
+            "id": "1C0D815A-96E7B81D-321CE40A-C470CABA"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\hudmodulemanagerentry.as",
+            "level": 0,
+            "seed": 1,
+            "id": "21DEED73-A2B4E728-E40C2B42-4C69FB3B"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\lightweightuiloader.as",
+            "level": 0,
+            "seed": 1,
+            "id": "DE37005D-4E11D1C4-617F63DD-25E5C65F"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\buffs\\hudbuff.as",
+            "level": 0,
+            "seed": 1,
+            "id": "73F7F8F2-429C2C67-606B7BE9-D095D28A"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\buffs\\hudbuffdurationbar.as",
+            "level": 0,
+            "seed": 1,
+            "id": "5C1D9D4D-F8A56317-9D31D9ED-8CF20B0C"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\console\\consolemessageitem.as",
+            "level": 0,
+            "seed": 1,
+            "id": "BF37C29E-85B77112-3248CE7A-4B523A06"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\console\\consolemessagesqueue.as",
+            "level": 0,
+            "seed": 1,
+            "id": "1346A672-87B04669-EB99DBD7-7636E7D7"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\dialog\\dialogactiontype.as",
+            "level": 0,
+            "seed": 1,
+            "id": "C7E6820E-D471C34D-03CBD483-975E693A"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\dialog\\option.as",
+            "level": 0,
+            "seed": 1,
+            "id": "3A62ED14-79172022-338760E6-C2754076"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\dialog\\optioncontainer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "5A148310-15354F26-A45F86CA-00E0396D"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\dialog\\optionlist.as",
+            "level": 0,
+            "seed": 1,
+            "id": "EEAA58D1-BA65EA84-4F37E19B-3F247F4E"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\dialog\\skipindicator.as",
+            "level": 0,
+            "seed": 1,
+            "id": "BC8D725E-91E77BCA-6D9782BF-18DB89BF"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\hudmoduleammo.as",
+            "level": 0,
+            "seed": 1,
+            "id": "5AB59363-C5908959-2F72EBA0-C4068746"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\hudmoduleanchors.as",
+            "level": 0,
+            "seed": 1,
+            "id": "95DD6595-03AC3CCA-89EFC098-44F15BF7"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\hudmoduleareainfo.as",
+            "level": 0,
+            "seed": 1,
+            "id": "6025AADF-F520B1D7-2DF25594-174F01DD"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\hudmodulebase.as",
+            "level": 0,
+            "seed": 1,
+            "id": "9E59D6A2-B789B939-AC71C23A-A28ECFA2"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\hudmodulebiomonitor.as",
+            "level": 0,
+            "seed": 1,
+            "id": "93E9C72C-54915BCB-5F9A4727-B315E36E"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\hudmoduleboathealth.as",
+            "level": 0,
+            "seed": 1,
+            "id": "02EAA8DD-F0E28B9B-B7572D77-05CDF53F"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\hudmodulebossfocus.as",
+            "level": 0,
+            "seed": 1,
+            "id": "967B89DC-FD8FA6DC-5DA830FF-B71F8339"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\hudmodulebuffs.as",
+            "level": 0,
+            "seed": 1,
+            "id": "87866C3A-E1512977-E89B3DBB-A52BE17E"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\hudmodulecompanion.as",
+            "level": 0,
+            "seed": 1,
+            "id": "5306A1CF-9A4247FE-3CE15D00-B13B5759"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\hudmoduleconsole.as",
+            "level": 0,
+            "seed": 1,
+            "id": "3156DA7A-69680375-E81F7C3D-9E8B3AAD"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\hudmodulecontrolsfeedback.as",
+            "level": 0,
+            "seed": 1,
+            "id": "DB6E08BA-17270016-08505280-9C904BD5"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\hudmodulecrosshair.as",
+            "level": 0,
+            "seed": 1,
+            "id": "B9CAC55D-BBAC1446-89F44498-E8D6B358"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\hudmoduledamageditems.as",
+            "level": 0,
+            "seed": 1,
+            "id": "9847721D-182BB122-1413CE3C-94974AA0"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\hudmoduledeathscreen.as",
+            "level": 0,
+            "seed": 1,
+            "id": "50BF3AFD-DD27B3C4-ACF14B55-8DE63A8D"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\hudmoduledebugtext.as",
+            "level": 0,
+            "seed": 1,
+            "id": "7BA94037-038B48A3-DA161E9F-ED3E3D40"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\hudmoduledialog.as",
+            "level": 0,
+            "seed": 1,
+            "id": "9262E15B-53C28E20-F3A508DD-DFE0B916"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\hudmoduleenemyfocus.as",
+            "level": 0,
+            "seed": 1,
+            "id": "3885B9D1-4B9DB438-C79700DB-CECE17B6"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\hudmodulehorsepanicbar.as",
+            "level": 0,
+            "seed": 1,
+            "id": "B560A544-963C917F-59620D09-A0BD1D16"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\hudmodulehorsestaminabar.as",
+            "level": 0,
+            "seed": 1,
+            "id": "7AE253B8-4F131556-13192E32-4087C35B"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\hudmoduleinteractions.as",
+            "level": 0,
+            "seed": 1,
+            "id": "406247DB-766F214C-A5F4C623-E7C47F52"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\hudmoduleiteminfo.as",
+            "level": 0,
+            "seed": 1,
+            "id": "45EA7595-9FEB7D2D-6C3872BF-9E5F7E8C"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\hudmodulejournalupdate.as",
+            "level": 0,
+            "seed": 1,
+            "id": "9F9FC95E-3B9B58C8-8030DE54-719570B8"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\hudmodulelootpopup.as",
+            "level": 0,
+            "seed": 1,
+            "id": "9FABA8A3-44783B1B-EE498882-53EA3573"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\hudmodulemedallion.as",
+            "level": 0,
+            "seed": 1,
+            "id": "D92F5ABF-BC6A376D-ED9217FB-9F16F957"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\hudmodulemessage.as",
+            "level": 0,
+            "seed": 1,
+            "id": "DB1E625D-E97CF440-D52ECB98-31E1D6D9"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\hudmoduleminimap2.as",
+            "level": 0,
+            "seed": 1,
+            "id": "84A760DE-D4489E8D-FFA6EC07-0904B58B"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\hudmoduleoneliners.as",
+            "level": 0,
+            "seed": 1,
+            "id": "209683AA-205DC46F-57595914-BF424C48"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\hudmoduleoxygenbar.as",
+            "level": 0,
+            "seed": 1,
+            "id": "A15CA109-E9D175E1-D8DA838A-B2AA3C96"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\hudmodulepickeditemsinfo.as",
+            "level": 0,
+            "seed": 1,
+            "id": "FBD6B502-199C1F8A-14221AA0-18328674"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\hudmodulequests.as",
+            "level": 0,
+            "seed": 1,
+            "id": "E26EFB93-0BFC2E69-40590A9F-F3BD55E7"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\hudmoduleradialmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "8F602ED8-C99699E9-48B80B40-B9BA3F52"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\hudmodulesigninfo.as",
+            "level": 0,
+            "seed": 1,
+            "id": "A0966B94-19CB58A4-ACA83AAA-3481C7FB"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\hudmodulestatbars.as",
+            "level": 0,
+            "seed": 1,
+            "id": "418D7530-8D35B4A4-0DF7EE8C-CC390B8A"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\hudmodulesubtitles.as",
+            "level": 0,
+            "seed": 1,
+            "id": "6CA52A3A-54A2B2E5-747EEA6D-489E6A67"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\hudmoduletest.as",
+            "level": 0,
+            "seed": 1,
+            "id": "045B9FCB-AB05BB22-934A92A3-DCAA53C5"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\hudmoduletimelapse.as",
+            "level": 0,
+            "seed": 1,
+            "id": "C9DB22FD-533ABEB1-DFF24BFD-1C2F0981"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\hudmoduletimeleft.as",
+            "level": 0,
+            "seed": 1,
+            "id": "660A2B9D-ADFC10D1-425D3896-C02892F3"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\hudmodulewatermark.as",
+            "level": 0,
+            "seed": 1,
+            "id": "ACE3F1B6-C0146CD2-32149330-BF800D68"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\hudmodulewolfhead.as",
+            "level": 0,
+            "seed": 1,
+            "id": "816646DE-BA05D804-B0918091-6EC6666A"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\iteminfo\\huditeminfo.as",
+            "level": 0,
+            "seed": 1,
+            "id": "AF187486-99512BE5-C9852D7E-98C2907C"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\iteminfo\\hudpotioninfo.as",
+            "level": 0,
+            "seed": 1,
+            "id": "D7AD2BD0-CCF4D730-AD7483CF-5F4593DA"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\iteminfo\\hudpotionkeyboardinfo.as",
+            "level": 0,
+            "seed": 1,
+            "id": "87884DA8-DF70FE1C-CAC90CCA-22D05843"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\journalupdate\\questbookinfo.as",
+            "level": 0,
+            "seed": 1,
+            "id": "785D199D-5DA04EBD-29849A79-42569D72"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\lootpopup\\hudlootfloatingtooltip.as",
+            "level": 0,
+            "seed": 1,
+            "id": "5E241CB8-2D4D1ED8-8953C11E-C175AF37"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\lootpopup\\hudlootgamepadbuttons.as",
+            "level": 0,
+            "seed": 1,
+            "id": "A9C146AD-EE9FC7C3-384B18A6-100CF70C"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\lootpopup\\hudlootitemmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "17741979-2CC92379-A57B58A8-BF6125DA"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\lootpopup\\hudlootitemslistitem.as",
+            "level": 0,
+            "seed": 1,
+            "id": "FC03DF08-041961A1-496D27F4-5994FC58"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\medallion\\hudfocuspoint.as",
+            "level": 0,
+            "seed": 1,
+            "id": "1525E473-75A7385B-2686D999-DEFBF607"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\medallion\\hudwolfshead.as",
+            "level": 0,
+            "seed": 1,
+            "id": "BD8A5DBA-42C4C874-AA45F79F-CEB9BF53"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\minimap2\\basemap.as",
+            "level": 0,
+            "seed": 1,
+            "id": "F01BDF85-8C778AF2-6CCFFC3A-24BDCAD5"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\minimap2\\buffedmonsterinfo.as",
+            "level": 0,
+            "seed": 1,
+            "id": "0FA10007-32D0A97F-656B4B8D-FEE01AD5"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\minimap2\\commonmap.as",
+            "level": 0,
+            "seed": 1,
+            "id": "B94E0D9B-B9C6BDD5-AA4A01D7-8BFF5BA9"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\minimap2\\commonmapcontainer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "5DEB1CA1-4876A0EF-B7291493-A68C7944"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\minimap2\\distanceinfo.as",
+            "level": 0,
+            "seed": 1,
+            "id": "E575B42B-3F93FFF8-0ACA8A63-FDD99329"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\minimap2\\hubmap.as",
+            "level": 0,
+            "seed": 1,
+            "id": "21948D11-7D5E1211-4D191A25-2ACFD29A"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\minimap2\\hubmapcontainer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "992114B8-F2B873B1-4B083F8E-4BFEF0C4"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\minimap2\\interiormap.as",
+            "level": 0,
+            "seed": 1,
+            "id": "F82666BA-ED96337E-2D0A71ED-1A528697"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\minimap2\\interiormapcontainer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "5B712431-CC0C4761-0F6B0204-C56137A7"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\minimap2\\mappath.as",
+            "level": 0,
+            "seed": 1,
+            "id": "6DB8F1A0-A368A103-3FCA23F0-A7F32512"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\minimap2\\mappin.as",
+            "level": 0,
+            "seed": 1,
+            "id": "15325CF1-76573B44-BA2BB040-7038B2F5"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\minimap2\\minimaploader.as",
+            "level": 0,
+            "seed": 1,
+            "id": "0C32C264-9ED58B08-2BF18C8A-3808EBC5"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\minimap2\\minimappininstance.as",
+            "level": 0,
+            "seed": 1,
+            "id": "04AE2702-FBC50446-E5B6D65A-A2C7B463"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\minimap2\\minimaptile.as",
+            "level": 0,
+            "seed": 1,
+            "id": "2317A55A-ECE5AFE2-35B5CD5D-16F8DDEE"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\minimap2\\waypoint.as",
+            "level": 0,
+            "seed": 1,
+            "id": "1280B5EA-606E970C-71FFAEA5-823B5F4D"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\minimap2\\waypointinstance.as",
+            "level": 0,
+            "seed": 1,
+            "id": "2829CE08-25ECBC32-327A3C50-6309E295"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\minimap2\\worldconditioninfo.as",
+            "level": 0,
+            "seed": 1,
+            "id": "9805066B-FF7931C8-83B9E7BB-670A5579"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\pickeditemsinfo\\hudpickeditemsinfolistitem.as",
+            "level": 0,
+            "seed": 1,
+            "id": "17D7190F-9439D2F7-CF053CEB-736F073B"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\quests\\hudquestcontainer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "8B4534C8-7196DCEF-A530B477-FCDA66B3"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\quests\\hudquestobjectivelist.as",
+            "level": 0,
+            "seed": 1,
+            "id": "7286915B-4CE901CC-6B42ECB0-5B606562"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\quests\\hudquestobjectivelistitem.as",
+            "level": 0,
+            "seed": 1,
+            "id": "16CE35C9-E6368F38-8BEDE06E-5084E2DF"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\radialmenu\\radialmenufieldscontainer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "8A3BF0C2-72136433-3E4BCE83-B35C06EF"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\radialmenu\\radialmenuitem.as",
+            "level": 0,
+            "seed": 1,
+            "id": "56808E85-21AE50CD-02008109-75A4F30D"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\radialmenu\\radialmenuitemcounter.as",
+            "level": 0,
+            "seed": 1,
+            "id": "C6C166B5-9C7F98D7-CBEC92BB-1211E43E"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\radialmenu\\radialmenuitemequipped.as",
+            "level": 0,
+            "seed": 1,
+            "id": "DF726F59-7E2627E2-FE28633C-DA4425D5"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\radialmenu\\radialmenuselectedinfo.as",
+            "level": 0,
+            "seed": 1,
+            "id": "927468D2-06C5C2EA-2780BB94-97613E1E"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\radialmenu\\radialmenusubitemview.as",
+            "level": 0,
+            "seed": 1,
+            "id": "DC311A98-7B40ADA5-1504749D-4C8DC281"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\signinfo\\huditeminfo.as",
+            "level": 0,
+            "seed": 1,
+            "id": "EFDE9A84-BC1EACF8-173C2111-CFB6A1E7"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\statbars\\hudhealthbarvines.as",
+            "level": 0,
+            "seed": 1,
+            "id": "FF5E2BE2-389F5122-F23652ED-F58D2B38"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\statbars\\hudstatbar.as",
+            "level": 0,
+            "seed": 1,
+            "id": "D56D0054-F4C05303-C1408551-0A59A703"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\statbars\\hudstatbarblood.as",
+            "level": 0,
+            "seed": 1,
+            "id": "6386CA9D-653E1D9A-4811B6FB-06078847"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\statbars\\hudstatbarstamina.as",
+            "level": 0,
+            "seed": 1,
+            "id": "7A8A2A29-B8E0E44A-EFC1B244-FB4B6EF9"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\statbars\\hudstatbartoxicity.as",
+            "level": 0,
+            "seed": 1,
+            "id": "E451BFBC-2357D063-B72BE094-B36704EB"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\wolfhead\\focusindicator.as",
+            "level": 0,
+            "seed": 1,
+            "id": "036157D9-2C28FA1A-DBE0DF10-71094B13"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\wolfhead\\staminaindicator.as",
+            "level": 0,
+            "seed": 1,
+            "id": "001E04E0-35A42863-2C5ABC15-B42D8A34"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\wolfhead\\w3statindicator.as",
+            "level": 0,
+            "seed": 1,
+            "id": "3FED1804-81E61867-56164712-CCED061C"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\modules\\wolfhead\\wolfmedallion.as",
+            "level": 0,
+            "seed": 1,
+            "id": "8779EA6D-E25007B8-3E45C5A4-C21EE689"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\states\\basestate.as",
+            "level": 0,
+            "seed": 1,
+            "id": "A51439F7-25A58150-7B2E9AA2-161F3765"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\states\\hidestate.as",
+            "level": 0,
+            "seed": 1,
+            "id": "A7550354-F1D35D1E-454993BC-1738AC66"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\states\\ondemandstate.as",
+            "level": 0,
+            "seed": 1,
+            "id": "10EE9FBA-13C720A1-367AB4A7-78F693B4"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\states\\onupdatestate.as",
+            "level": 0,
+            "seed": 1,
+            "id": "5176DB09-F3514A8A-7FF8AC86-315F92BC"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\states\\showstate.as",
+            "level": 0,
+            "seed": 1,
+            "id": "3A39F81D-B4B2A1D8-A9384440-2E6ECFCF"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\hud\\states\\statemachine.as",
+            "level": 0,
+            "seed": 1,
+            "id": "372015FC-DD4A7094-5900025F-0DD799BF"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\interfaces\\iabstractitemcontainermodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "877186F6-2D339598-B7D70181-1F9F815D"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\interfaces\\ianchorable.as",
+            "level": 0,
+            "seed": 1,
+            "id": "C51CF653-A9B912F9-25B65560-6724D5EB"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\interfaces\\ibaseslot.as",
+            "level": 0,
+            "seed": 1,
+            "id": "F6ADB14F-A0B4385F-04FA2B3D-C2234396"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\interfaces\\idragtarget.as",
+            "level": 0,
+            "seed": 1,
+            "id": "D3FFABE3-C51063E3-163002CB-658931D9"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\interfaces\\idroptarget.as",
+            "level": 0,
+            "seed": 1,
+            "id": "79F0503E-20132FE9-32944418-E8B1E2CB"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\interfaces\\igriditemrenderer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "811C7E89-B6D46A18-61C4F711-AA51979D"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\interfaces\\iinteractionobject.as",
+            "level": 0,
+            "seed": 1,
+            "id": "73EA5CFB-F731211B-D62E443A-F3027B9E"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\interfaces\\iinventoryslot.as",
+            "level": 0,
+            "seed": 1,
+            "id": "6F4F972A-A2AEA85A-0AB13C9C-D0199532"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\interfaces\\ipaperdollslot.as",
+            "level": 0,
+            "seed": 1,
+            "id": "BBCF1EBF-7A943AEB-289A5D05-20462CB1"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\interfaces\\iscrollinglist.as",
+            "level": 0,
+            "seed": 1,
+            "id": "E9FC8454-8BDF9DC8-AAD471C7-5485DD47"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\interfaces\\itooltipholder.as",
+            "level": 0,
+            "seed": 1,
+            "id": "848987F6-6F6B619F-1F1C8D98-D96D87E3"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\managers\\contextinfomanager.as",
+            "level": 0,
+            "seed": 1,
+            "id": "9EFDCAE9-D24A4C98-37B8F601-E058981B"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\managers\\contexttooltipdata.as",
+            "level": 0,
+            "seed": 1,
+            "id": "51E6F319-0B21A4AF-1CF96354-1B9ECD5F"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\managers\\inputfeedbackmanager.as",
+            "level": 0,
+            "seed": 1,
+            "id": "0B449BD3-38D20E28-83B91FF6-98CB700C"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\managers\\inputmanager.as",
+            "level": 0,
+            "seed": 1,
+            "id": "E9576175-3C44E040-763FDC54-7A3201CD"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\managers\\panelmodulemanager.as",
+            "level": 0,
+            "seed": 1,
+            "id": "87796395-389C58A7-ED7B4B34-A0E89E1D"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\managers\\runtimeassetsmanager.as",
+            "level": 0,
+            "seed": 1,
+            "id": "60520D16-82D30A9E-780F2FE3-F25AB6C1"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\managers\\w3dragmanager.as",
+            "level": 0,
+            "seed": 1,
+            "id": "AD1DDC6A-38FA4A3B-C66D320B-8FEC4B88"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\managers\\zoommanager.as",
+            "level": 0,
+            "seed": 1,
+            "id": "AD11CBA4-29AAEDCD-48ABD3FA-F95FA038"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\alchemy\\alchemymenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "8EB4A077-5821F2D1-388292EC-EACA8683"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\alchemy\\alchemysublistmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "3C1C70E9-C3873581-0619617D-B0C1820B"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\blacksmith\\blacksmithitempanel.as",
+            "level": 0,
+            "seed": 1,
+            "id": "918DBFA1-CC6EDD1F-65539A8A-73E9A137"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\blacksmith\\blacksmithmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "C7E073AE-8ED1CFB3-7D1DF2CF-E396A2E0"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\blacksmith\\enchantingitemslistmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "4EC746F0-19AE7B62-B16F5391-83EB4A66"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\blacksmith\\enchantingmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "6E057BF7-6EFBA662-F73A0C49-9CADCED0"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\blacksmith\\itemaddsocketinfo.as",
+            "level": 0,
+            "seed": 1,
+            "id": "22DB1E49-207F44BF-511BF7BE-C7C0B3D1"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\blacksmith\\itemdisassembleinfo.as",
+            "level": 0,
+            "seed": 1,
+            "id": "6EA6B10A-DE310517-7821C489-F60849DC"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\blacksmith\\itemrepairinfo.as",
+            "level": 0,
+            "seed": 1,
+            "id": "CA2190AF-067B7E6E-0D812DCF-1B3C0B5D"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\blacksmith\\itemsocketsinfo.as",
+            "level": 0,
+            "seed": 1,
+            "id": "D881BB1E-0A1FA62D-76DB95A8-EB4C4EF1"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\blacksmith\\moduleblacksmithgrid.as",
+            "level": 0,
+            "seed": 1,
+            "id": "F0AE38E0-9AB48BE3-E01DFD81-21818563"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\blacksmith\\requiredingredientslistmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "E5283B85-FBEF3DD9-124B3CFD-62DFC80A"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\character\\characterbuttoncontainermodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "B740B215-93DCA3B9-1DEA2DC7-0ABFC439"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\character\\characterbuttoncontainermodule_console.as",
+            "level": 0,
+            "seed": 1,
+            "id": "8CC94330-565F2F51-270FF991-C5B03A0C"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\character\\characterbuttoncontainermodule_pc.as",
+            "level": 0,
+            "seed": 1,
+            "id": "B0F8E06A-69EF439A-A81CF0B3-D0CA8316"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\character\\characterfloatingtooltipmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "967CFCB2-3DF392E0-85A3592D-34F6E713"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\character\\characterperksmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "A299C60A-A3E59971-807A546E-60958871"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\character\\characterpointsmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "036ED76D-A6E3C6CC-B4FA8124-1B0EB38F"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\character\\characterskillsmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "46204045-5382879B-55C12960-5ED3D8B1"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\character\\charactertabsmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "113A978D-39B31549-B588468A-839688BF"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\character\\charactertreegrid.as",
+            "level": 0,
+            "seed": 1,
+            "id": "951F8E6D-2E7B6B50-959AC844-AC530411"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\character\\mutationtooltiptitle.as",
+            "level": 0,
+            "seed": 1,
+            "id": "D1055A12-517BA690-F7C949E0-BC88B239"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\character\\perkslot.as",
+            "level": 0,
+            "seed": 1,
+            "id": "750E02C3-D0AFA013-E83763CE-C6BF5257"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\character\\perktreemodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "6E518132-08D0ADF4-FC8C5FBF-C6E3DE20"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\character\\skillslot.as",
+            "level": 0,
+            "seed": 1,
+            "id": "E74FF900-3E24B7D6-83622207-040F2B80"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\character\\skilltreegrid.as",
+            "level": 0,
+            "seed": 1,
+            "id": "D4D04DB0-6A5A10FA-C7B27425-001A7AF8"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\character\\skilltreemodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "9CE48F6F-248CEB34-6489B15E-4BBD0839"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\character_menu\\charactermodebackground.as",
+            "level": 0,
+            "seed": 1,
+            "id": "8D7222C6-2842EEC9-6DE349CC-E194AABA"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\character_menu\\characterskilllistitem.as",
+            "level": 0,
+            "seed": 1,
+            "id": "D6435DC8-957A724E-2F0F5FA1-75C77413"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\character_menu\\characterskilllistmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "0F04EE0F-6BD97273-CF057FDB-11AA187B"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\character_menu\\characterskillslotslist.as",
+            "level": 0,
+            "seed": 1,
+            "id": "B87B14FE-1EC1CD92-B5FE00E4-E22AD63F"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\character_menu\\charactertabbedlistmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "7D30E66B-8875EEEE-2D16FB52-AC2EA9C6"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\character_menu\\mastermutationitemrenderer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "622BF65F-C435B978-75F86767-34C0C186"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\character_menu\\menucharacter.as",
+            "level": 0,
+            "seed": 1,
+            "id": "35286548-16B489F2-D16DEE00-35631B05"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\character_menu\\moduleskillssockets.as",
+            "level": 0,
+            "seed": 1,
+            "id": "1FB66395-F1A87D1A-C116EBFB-3928D401"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\character_menu\\mutationconnector.as",
+            "level": 0,
+            "seed": 1,
+            "id": "9604E6F8-3C69D2AE-0137E0BF-248CD164"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\character_menu\\mutationitemrenderer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "2E22636B-536F69B2-EFC2179C-02B7333F"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\character_menu\\mutationitemslist.as",
+            "level": 0,
+            "seed": 1,
+            "id": "34680DC3-4EE4A644-5DF4E3E8-77246FB5"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\character_menu\\mutationmasterrequirements.as",
+            "level": 0,
+            "seed": 1,
+            "id": "167F6256-70F0890F-700C52DE-AF191236"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\character_menu\\mutationprogressitemrenderer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "21696BD8-3D578C08-9FA9F9C3-1099166A"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\character_menu\\mutationrequirements.as",
+            "level": 0,
+            "seed": 1,
+            "id": "7FCBD7BD-AFAEE5FB-E8133D2E-608D05A9"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\character_menu\\mutationresearch.as",
+            "level": 0,
+            "seed": 1,
+            "id": "32C45D86-3AD8A601-38E3AF17-FCA06229"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\character_menu\\mutationresourceinfo.as",
+            "level": 0,
+            "seed": 1,
+            "id": "DB504726-158F6183-E408FA6B-23BFFFE0"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\character_menu\\mutationresourcepanel.as",
+            "level": 0,
+            "seed": 1,
+            "id": "1BB0EDD5-A719F102-6FDBFC2A-99B97853"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\character_menu\\mutationresourceslist.as",
+            "level": 0,
+            "seed": 1,
+            "id": "21A48699-F677B7E2-19F25635-02A9C5BD"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\character_menu\\mutationspanel.as",
+            "level": 0,
+            "seed": 1,
+            "id": "56826BAE-C4935824-71CF9758-935B0400"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\character_menu\\mutationtooltip.as",
+            "level": 0,
+            "seed": 1,
+            "id": "27B9F907-0D4DF1E7-DAC10956-5D92AA3C"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\character_menu\\mutationtooltipbutton.as",
+            "level": 0,
+            "seed": 1,
+            "id": "F2550D60-09BEEA28-95DE3C65-BA78FEF9"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\character_menu\\skillcolorrenderer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "F098FC20-C8035713-AAEFC38C-FBB06352"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\character_menu\\skillsgrouptitle.as",
+            "level": 0,
+            "seed": 1,
+            "id": "54698944-4A202824-1AACB2CF-DDA8DA1B"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\character_menu\\skillslotconnector.as",
+            "level": 0,
+            "seed": 1,
+            "id": "120C5669-127DB856-A46F5FE9-9D276476"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\character_menu\\skillsocketsgroup.as",
+            "level": 0,
+            "seed": 1,
+            "id": "47104E59-E155403D-40ADCC8A-22CA8236"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\abstractgridcontainer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "CAA18735-419BBC69-A734CCAE-48D6C69D"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\abstractinventorycontainer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "2DF9A9E0-0AFC5D0A-D73471EF-B2A8787A"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\adaptivestatslistitem.as",
+            "level": 0,
+            "seed": 1,
+            "id": "5F144B46-85EFA2F9-86C651DC-D3469812"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\buttoncontainermodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "4FB3D6BE-83021155-E01CB7A2-BEFF3F4C"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\checkboxlistitem.as",
+            "level": 0,
+            "seed": 1,
+            "id": "5D2D61FD-BDE89984-D62E358E-82D97709"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\checkboxlistmode.as",
+            "level": 0,
+            "seed": 1,
+            "id": "4A77098E-5239CEC3-D1949B50-1CC7E06D"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\cleanmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "4AB9D507-F7C9928E-8CB32D79-2023B867"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\colorsprite.as",
+            "level": 0,
+            "seed": 1,
+            "id": "E090A169-A624F7B7-59DB1E3E-4FAF59AC"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\commongridmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "36181646-D85D54DB-5CB24812-5243B0AF"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\contextactionitemrenderer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "79969DE3-C7C03CA8-6ABE6147-35BDB3FF"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\downloadbutton.as",
+            "level": 0,
+            "seed": 1,
+            "id": "D9519D16-264D5CED-1001528D-FB6AA2BD"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\dropdownenchantmentsfiltermode.as",
+            "level": 0,
+            "seed": 1,
+            "id": "B49F53AC-1811772F-5E235D6A-DE8B0FEB"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\dropdownlistfiltermode.as",
+            "level": 0,
+            "seed": 1,
+            "id": "FB5616D3-310CAACB-DB22597C-CA1A7F78"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\dropdownlistmodulebase.as",
+            "level": 0,
+            "seed": 1,
+            "id": "E7BED89E-DE91B1FE-FCF05221-1B3834DE"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\enchantmentlistitemrenderer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "87897F43-3DF006EC-FF51B701-1B65AF98"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\feedbackdropdownmenulistitem.as",
+            "level": 0,
+            "seed": 1,
+            "id": "F0C1597E-987E03B0-A530CBAB-DC4A6F0F"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\floatingtooltip.as",
+            "level": 0,
+            "seed": 1,
+            "id": "12796502-F50B27C3-AB6F7351-F74CC76A"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\fullstatslistitem.as",
+            "level": 0,
+            "seed": 1,
+            "id": "BC730718-15768E5A-52104008-7CB97B42"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\icondropdownmenulistitem.as",
+            "level": 0,
+            "seed": 1,
+            "id": "DD42C73D-E6DCE56C-25A37769-A1C9CF8C"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\iconitemrenderer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "61DF6DD3-C7AC0B03-26F5F212-7A099A0B"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\icontextareamodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "9F7BFAC6-EA038719-17E36DBC-F851AE29"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\inventorylistitemrenderer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "B06C44C9-14DE714F-C4D3C9FC-DE01EBD9"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\inventorystatslistitem.as",
+            "level": 0,
+            "seed": 1,
+            "id": "6E745B4A-2E78E31B-A78A59C5-05A59C27"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\itemdatastub.as",
+            "level": 0,
+            "seed": 1,
+            "id": "8E523129-56155394-83D33548-75F44DD3"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\journallegend.as",
+            "level": 0,
+            "seed": 1,
+            "id": "F725FF0A-0DD32D8F-C17D8279-213F44B4"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\journalrewardmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "3F4C3D31-D979F66A-0245FA5E-07BF6B19"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\journalrewards.as",
+            "level": 0,
+            "seed": 1,
+            "id": "0BA61BF4-D4C89D03-70394B69-2BA65054"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\listmodulebase.as",
+            "level": 0,
+            "seed": 1,
+            "id": "7D397D5B-5E58C84D-D2157475-38332F5A"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\loadingsymbol.as",
+            "level": 0,
+            "seed": 1,
+            "id": "2876A9C6-20803A6C-5F5401C6-35D11C3C"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\messagemodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "D3A27870-3B47C64D-CA422151-2E6CC17A"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\modulecommonplayergrid.as",
+            "level": 0,
+            "seed": 1,
+            "id": "2FFCC894-16786A90-9636681B-45D6B51A"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\modulemerchantinfo.as",
+            "level": 0,
+            "seed": 1,
+            "id": "EA74F1EF-4A4C4588-CA2CB7A1-D18B8F2E"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\navigationmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "B6C92353-69A3F45C-257B90E9-B9A39046"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\paidaction.as",
+            "level": 0,
+            "seed": 1,
+            "id": "D8229E76-D240EBAB-02D4F51A-4FF63D4F"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\plainlistmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "604E7F13-FAC29957-77DEE6B7-D9664D5F"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\playerdetails.as",
+            "level": 0,
+            "seed": 1,
+            "id": "5DCC391A-3E7AE2E6-5106F32E-30A3D954"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\playerdetails_console.as",
+            "level": 0,
+            "seed": 1,
+            "id": "0A3EB036-D9F22B96-2952BF58-83928B4B"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\playerdetails_pc.as",
+            "level": 0,
+            "seed": 1,
+            "id": "4E9A0A89-90BEC45E-A75508A4-0D222D31"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\playerdetailsstatitem.as",
+            "level": 0,
+            "seed": 1,
+            "id": "366F758E-22085E68-1505F6F8-9609153C"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\playerfullstatsmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "936CA432-74DED1F2-820ECA2F-4B7986A0"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\playerstatsmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "B88C9431-A6CDD87C-84BE5B4F-63BCF184"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\quantitypopup.as",
+            "level": 0,
+            "seed": 1,
+            "id": "3CFFCFC0-18643953-C96B2CE1-6CE5BD15"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\recipeiconitemrenderer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "AA04EDF0-86F84A3F-BA49F644-791686D6"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\rightclickmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "C3FD642B-54C4BDC4-4FBCA676-F418B081"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\rightclickmenu_console.as",
+            "level": 0,
+            "seed": 1,
+            "id": "2F26FF83-55AAE141-F31D2E88-31A36EC8"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\rightclickmenu_pc.as",
+            "level": 0,
+            "seed": 1,
+            "id": "A3AB8BB1-BBDCB8E9-7CED4CAE-AB469B3B"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\skilldatastub.as",
+            "level": 0,
+            "seed": 1,
+            "id": "1F7EB985-A81F85C6-BC781E1C-6AB4F48D"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\statstooltip.as",
+            "level": 0,
+            "seed": 1,
+            "id": "184E5CC2-401875DF-D87B4F3F-53436CD6"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\tablistitemicon.as",
+            "level": 0,
+            "seed": 1,
+            "id": "0F402417-12EF3F66-DC6CD2C2-5EEC9094"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\tablistitemiconscontainer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "832A6160-A3804C85-757E60BD-B07F6652"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\textareamodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "890F2077-9EF237BE-C0EED981-0C9EFA1F"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\textareamodulecustominput.as",
+            "level": 0,
+            "seed": 1,
+            "id": "0BAD9740-60DFB1BC-C35B7102-53F75064"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\textareamoduleitemtooltip.as",
+            "level": 0,
+            "seed": 1,
+            "id": "4ADBCF7D-60C2C4C2-A01EA958-5BC3FF1F"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\w3optionslistitem.as",
+            "level": 0,
+            "seed": 1,
+            "id": "1AFE2A0D-2DC8CC7D-9C08791B-2973AC81"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\w3proplistitem.as",
+            "level": 0,
+            "seed": 1,
+            "id": "30A3A1CB-8C2AD13F-3CD07843-4E386507"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\w3statisticslistitem.as",
+            "level": 0,
+            "seed": 1,
+            "id": "71681B52-D3D07B7A-2D6CE8BF-9EF1D5BA"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\w3statslistitem.as",
+            "level": 0,
+            "seed": 1,
+            "id": "1462C0EE-0C3A0FF2-104418D5-2E188C5D"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\w3submenulistitemrenderer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "6624A91A-01045AFA-FE709CA3-DD0FBF79"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\w3textareaitemtooltip.as",
+            "level": 0,
+            "seed": 1,
+            "id": "BED7721E-E7AC45BF-79C9AD46-D1D1AF9C"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\w3videoobject.as",
+            "level": 0,
+            "seed": 1,
+            "id": "670EA2CB-EE0B5252-9442540B-A8D22874"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\w3wolfradiallistitem.as",
+            "level": 0,
+            "seed": 1,
+            "id": "CD908A36-5DB8DD5B-DD01515A-ACD3D0DF"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common\\w3wolfradialscrollinglist.as",
+            "level": 0,
+            "seed": 1,
+            "id": "D1BF2381-72FEC142-B71B95DC-6F0485B9"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common_menu\\glossaryinfoitem.as",
+            "level": 0,
+            "seed": 1,
+            "id": "2E05FF87-F83EDA90-F9F28AAB-A4D1DAC9"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common_menu\\itemshistory.as",
+            "level": 0,
+            "seed": 1,
+            "id": "43BEC3B0-B5424685-C2A1EE01-6A523C3D"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common_menu\\menucommon.as",
+            "level": 0,
+            "seed": 1,
+            "id": "9B5654FB-05C1E991-1F8D4734-9879F56C"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common_menu\\menuhub.as",
+            "level": 0,
+            "seed": 1,
+            "id": "FD46C71D-661A457A-333FDA5A-16C72A6B"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common_menu\\menuhubtablistitem.as",
+            "level": 0,
+            "seed": 1,
+            "id": "AFE227AE-70267FD8-26CF2A29-4AE9CA54"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common_menu\\menulevelindicator.as",
+            "level": 0,
+            "seed": 1,
+            "id": "557FF24C-8D80E1E8-FE1C4DBC-3DD1B6BA"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common_menu\\menuplayerstats.as",
+            "level": 0,
+            "seed": 1,
+            "id": "4C2185DA-E7F900FA-D26DD3F9-C07F7286"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common_menu\\menusubtab.as",
+            "level": 0,
+            "seed": 1,
+            "id": "EBE623BE-DDCDB596-2A3B4003-0D9488AB"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common_menu\\menutab.as",
+            "level": 0,
+            "seed": 1,
+            "id": "5BA0238E-9B8CD586-51D0AD49-338C9CD0"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common_menu\\menutabscontainer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "3D71E323-38AE6FD7-5BAF8B91-422809C3"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common_menu\\menutabsubcontainer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "31758395-CD7266FF-AF1DFC66-AD375AB8"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common_menu\\moduleinputfeedback.as",
+            "level": 0,
+            "seed": 1,
+            "id": "17C88032-7A6707B9-22D420D1-CAD4D93C"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common_menu\\newiteminfo.as",
+            "level": 0,
+            "seed": 1,
+            "id": "973A02A4-0FB02300-0791180F-2300D748"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common_menu\\textinfocontainer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "9A4E1D92-DC9D738C-38856824-CE447EFA"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common_menu\\textinfocontainermap.as",
+            "level": 0,
+            "seed": 1,
+            "id": "E3BD77C2-7525D2FE-E9A2CAFD-B771EAA4"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common_menu\\textinfoitem.as",
+            "level": 0,
+            "seed": 1,
+            "id": "ABBA0788-9EE2438A-E8549BCC-F52637EB"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common_menu\\textinfoitemmappin.as",
+            "level": 0,
+            "seed": 1,
+            "id": "34FDB6E2-7BD227E5-F81D1954-B9547A22"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\common_menu\\trackedquestinfo.as",
+            "level": 0,
+            "seed": 1,
+            "id": "32A3DAA0-3E53C7CC-8424AAC5-80812FDA"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\commonbkg\\maincommon.as",
+            "level": 0,
+            "seed": 1,
+            "id": "BFC3FD60-342FF820-D2304774-C2203E7B"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\crafting\\basecraftingmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "6DCA49D1-0F08E1F9-C2C37C99-89BBD298"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\crafting\\craftingmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "DBFA5D9F-BC66B78A-FE6C25AE-60CB3FC1"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\crafting\\craftingsublistmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "E2EFD17B-66029ACC-F6930C5D-90C08AFD"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\crafting\\itemcraftingmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "1EE4406E-D7461848-C0C38B62-3804CEE5"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\death_screen\\deathscreenmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "6E3C2107-E7154372-FA551184-12C4C95F"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\e3mainmenu\\e3mainmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "7EE5B756-901BED2D-979AAEA1-7D35A6B6"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\e3mainmenu\\w3startscreenvideoobject.as",
+            "level": 0,
+            "seed": 1,
+            "id": "6E8B09B5-4A79136D-C0B463EA-C7162A9D"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\endscreen\\endscreenmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "7F15BF18-432A342D-27832A4D-807A7FB5"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\fakehud\\fakehudmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "BA4F8118-D6BDB947-2E4D1782-9493606C"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\glossary\\glossarybestiarymenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "A2F8C8EE-7EA4CA01-87A88C53-039B1148"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\glossary\\glossarybooksmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "F16E8CD9-42832C80-8AA2E558-971B6601"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\glossary\\glossarycharactersmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "A39FBDCC-574561E4-3004F3BE-7734B51A"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\glossary\\glossaryencyclopediamenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "12B2B89A-ADAD0EF9-3CED91D1-666F4AF4"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\glossary\\glossarylistmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "F7ECB730-CC2A8764-574F3E16-C146EF56"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\glossary\\glossarymenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "20F8CFF4-36DF78C3-7E5BF8CD-573A472B"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\glossary\\glossaryplacesmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "73A39BAB-138DE52A-F7000CA6-2B40A0E6"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\glossary\\glossarystorybookmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "11B2CD8B-DE22F061-C334F23C-E8668740"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\glossary\\glossarysublistmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "78900E72-6224B0DE-645B636D-9BF91C79"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\glossary\\glossarytexturesublistmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "C736ED03-8593D860-C17899F5-484B37E0"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\glossary\\glossarytutorialsmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "FEAB6D0F-F7B1E5AD-66104DC5-D117D77F"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\gwint\\aiplayercontroller.as",
+            "level": 0,
+            "seed": 1,
+            "id": "B7085179-126F9709-458E83C3-C81A0EB9"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\gwint\\baseplayercontroller.as",
+            "level": 0,
+            "seed": 1,
+            "id": "C244881F-EBA4D778-56A05C2B-837F2BE8"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\gwint\\cardandcombopoints.as",
+            "level": 0,
+            "seed": 1,
+            "id": "2B0ECA8F-E970FA9A-8BC4E658-863FB63E"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\gwint\\cardeffectmanager.as",
+            "level": 0,
+            "seed": 1,
+            "id": "5C58307E-C72CFC06-0FB782F9-1CC1A11C"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\gwint\\cardfx.as",
+            "level": 0,
+            "seed": 1,
+            "id": "C5258D91-AD2FDB58-B276F60B-7843B8E2"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\gwint\\cardfxmanager.as",
+            "level": 0,
+            "seed": 1,
+            "id": "3D533516-5DF9E950-04A0EE20-E537ECF7"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\gwint\\cardinstance.as",
+            "level": 0,
+            "seed": 1,
+            "id": "E52F3A46-A602E182-13831E0C-0ABF9182"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\gwint\\cardleaderinstance.as",
+            "level": 0,
+            "seed": 1,
+            "id": "67AC0926-C76BBD70-6D1CBC09-ED637615"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\gwint\\cardmanager.as",
+            "level": 0,
+            "seed": 1,
+            "id": "609E47F7-ACAAFEBA-26B196B6-CECE2757"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\gwint\\cardslot.as",
+            "level": 0,
+            "seed": 1,
+            "id": "027F5ADD-2278AEC1-731F1C07-E736E4F9"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\gwint\\cardtemplate.as",
+            "level": 0,
+            "seed": 1,
+            "id": "556DF35F-25ACC42D-8BF37450-D4A3FD85"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\gwint\\cardtransaction.as",
+            "level": 0,
+            "seed": 1,
+            "id": "E2321857-709F0375-04C867BC-2AB702FB"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\gwint\\cardtweenmanager.as",
+            "level": 0,
+            "seed": 1,
+            "id": "57D9712E-6A9872C8-6E5E201C-90D58F60"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\gwint\\deckbuildermenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "F9B7A040-71606458-190592AE-4C519A25"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\gwint\\gwintbasemenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "537A4171-08DCEBAF-F8FB0F49-FD1B2018"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\gwint\\gwintboardrenderer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "856A794D-C5DA61EE-2C5F4311-2D1756E4"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\gwint\\gwintcardgridlist.as",
+            "level": 0,
+            "seed": 1,
+            "id": "17AB5BCC-914A7CD4-35D7616E-3DAEF92A"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\gwint\\gwintcardholder.as",
+            "level": 0,
+            "seed": 1,
+            "id": "47481D6D-8F7A6DE7-CA1428C6-3247C679"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\gwint\\gwintcardvalues.as",
+            "level": 0,
+            "seed": 1,
+            "id": "340A5DEC-A6AF853C-86ADABC6-41705638"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\gwint\\gwintdeck.as",
+            "level": 0,
+            "seed": 1,
+            "id": "2EF333A1-FF0FD2C0-D6A01335-83048481"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\gwint\\gwintdeckctabmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "AB7E50C9-EF319A3F-AA567597-5D4E6D87"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\gwint\\gwintdeckrenderer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "0152F79D-32475B2A-79B38C44-7F258A54"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\gwint\\gwintdeckstatspanel.as",
+            "level": 0,
+            "seed": 1,
+            "id": "67FFC1D9-D50D4A1F-41286040-0F27FF99"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\gwint\\gwintendgamedialog.as",
+            "level": 0,
+            "seed": 1,
+            "id": "04D33C79-C049E065-F69AA4F3-925296B0"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\gwint\\gwintgameflowcontroller.as",
+            "level": 0,
+            "seed": 1,
+            "id": "AA07C25F-0A9CD012-6398AA25-C3DAFD8D"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\gwint\\gwintgamemenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "0910A66B-AECDD2F8-32669732-83E8F6E0"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\gwint\\gwintplayerrenderer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "AC7EE5D6-539D3403-30FB856D-620A6119"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\gwint\\gwintroundresult.as",
+            "level": 0,
+            "seed": 1,
+            "id": "53C784F0-A9C6CECD-FFF61339-0DC7B33A"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\gwint\\gwinttutorial.as",
+            "level": 0,
+            "seed": 1,
+            "id": "BE4ECCC6-CEC5FC5B-94023ED4-8A720D35"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\gwint\\humanplayercontroller.as",
+            "level": 0,
+            "seed": 1,
+            "id": "458DEFAD-73C6B522-890F2C63-C2ABE10F"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\infopopup\\informationpopup.as",
+            "level": 0,
+            "seed": 1,
+            "id": "E62925D2-489A8A1B-4D39B9AD-00F53570"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\infopopup\\informationpopupmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "9B9DBE2F-2A0D79B4-DA814425-B2383E3E"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\inventory\\buttoncontainermodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "965B5F53-798E05A3-E336102A-A171D60C"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\inventory\\inventoryslotoverlay.as",
+            "level": 0,
+            "seed": 1,
+            "id": "879DB48F-77408B10-38B1A2EE-B365E22F"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\inventory_menu\\characterrenderercontroller.as",
+            "level": 0,
+            "seed": 1,
+            "id": "4C04BAAE-F8D1C852-3BA0A68B-362603D6"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\inventory_menu\\gridtabsections.as",
+            "level": 0,
+            "seed": 1,
+            "id": "991ACDEC-A0471DBB-DDFF4FDA-08E63072"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\inventory_menu\\inventorydroparea.as",
+            "level": 0,
+            "seed": 1,
+            "id": "984BD8D3-B1EC475C-76AEC53C-61D1C5B1"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\inventory_menu\\inventorytabbedlistmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "8E3CFDCD-384E8355-A1FB85A9-7202C434"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\inventory_menu\\itemsectiondata.as",
+            "level": 0,
+            "seed": 1,
+            "id": "15BA112C-1056353D-CE18547B-9B38EF0F"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\inventory_menu\\menuinventory.as",
+            "level": 0,
+            "seed": 1,
+            "id": "92DAB20D-E7226887-DBB6BE39-F881B74C"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\inventory_menu\\menusocketsmanagment.as",
+            "level": 0,
+            "seed": 1,
+            "id": "CA75BE0F-CBE9EFC0-309A92DC-BC8CD9FD"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\inventory_menu\\modulecontainer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "0573D329-64967B45-048335F1-6198C964"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\inventory_menu\\modulehorsepaperdoll.as",
+            "level": 0,
+            "seed": 1,
+            "id": "DF4E44CE-EA1AF442-CE3DA5BC-8C46998B"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\inventory_menu\\modulepaperdoll.as",
+            "level": 0,
+            "seed": 1,
+            "id": "9BEF98CB-6489FCEE-E35DD2A4-3B4B9316"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\inventory_menu\\modulepaperdollbase.as",
+            "level": 0,
+            "seed": 1,
+            "id": "76C464FB-164BE64C-B8FB170E-32BD08E7"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\inventory_menu\\moduleplayergrid.as",
+            "level": 0,
+            "seed": 1,
+            "id": "BDA40106-F740D833-28FBC02F-DA31E2C3"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\inventory_menu\\pinnedcraftinginfomodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "4D4F00AA-9DE91151-1FF1FE35-7D1B630C"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\inventory_menu\\pinnedcraftingiteminfo.as",
+            "level": 0,
+            "seed": 1,
+            "id": "16AF28EB-9CB56D76-3BC519FF-46B7EFD5"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\inventory_menu\\playerdetailedstatspanel.as",
+            "level": 0,
+            "seed": 1,
+            "id": "F1EA7671-861C217A-E62741E0-8FB4401F"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\inventory_menu\\playergeneralstatspanel.as",
+            "level": 0,
+            "seed": 1,
+            "id": "32CBCCDB-0E596C99-F1130770-A4490020"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\inventory_menu\\playermainstatspanel.as",
+            "level": 0,
+            "seed": 1,
+            "id": "75C68BBF-2944A9FB-AACB1DE4-6150E155"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\inventory_menu\\playerstatinfo.as",
+            "level": 0,
+            "seed": 1,
+            "id": "FE17F5EC-9723E84E-2D7D0F30-2F40D58D"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\journal\\monsterhuntingimagemodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "6B0F2FA7-FBECF56E-302C078A-D3C79658"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\journal\\monsterhuntingjournalmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "924F690E-2D00E609-73F9C477-D1C53427"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\journal\\monsterhuntingsublistmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "B6E4EFE1-AFE31064-2911B8F5-FEABCA01"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\journal\\monsterquestitemrenderer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "0A8D6E46-3A977538-C849890C-5734B8C4"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\journal\\objectiveitemrenderer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "993287DA-11630447-9557E37E-D02AC9F4"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\journal\\questdropdownlist.as",
+            "level": 0,
+            "seed": 1,
+            "id": "FF1C1532-F02CCA27-FA3EDE54-7B5CA96D"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\journal\\questdropdownmenulistitem.as",
+            "level": 0,
+            "seed": 1,
+            "id": "CBE753B0-AF108392-07668DF9-CB6BDC7E"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\journal\\questitemrenderer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "183BEF4C-3E7336F9-50BE54DC-814125EE"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\journal\\questjournalmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "E54159FA-08C17EEB-A457C4EA-345F4A72"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\journal\\questlistmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "D5A07600-D6C6882A-479584D3-7204EEF8"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\journal\\questsublistmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "9C12E394-76B8C363-06F892B5-7E7B5548"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\journal\\treasurehuntingjournalmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "FBFA9094-49727F62-26100B33-B81B8DAC"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\loading\\loadingmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "AC9337C6-7F24D1F1-144AC6C8-1B0CF63C"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\mainmenu\\autosavewarningmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "56E42697-6F93C56A-79993C1E-F45E948C"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\mainmenu\\commoningamemenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "D8074DFE-406FE6B8-BE8A5543-C86F3AD7"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\mainmenu\\commonmainmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "BFE42E08-7B5A04F9-88D4D1F7-618EE704"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\mainmenu\\commonmainmenuep1.as",
+            "level": 0,
+            "seed": 1,
+            "id": "FCCDDCDD-0583861B-6C83560B-D7148D02"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\mainmenu\\commonmainmenuep2.as",
+            "level": 0,
+            "seed": 1,
+            "id": "D32DEE85-73C32E64-06254E52-2EA900F7"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\mainmenu\\creditsmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "7906DAA0-ED49076B-FE1640B0-AE95CDA2"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\mainmenu\\gamepadmappingmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "6D6D5973-3A326487-2E647867-D11911DB"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\mainmenu\\gammasettingmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "24363E7B-DA19039C-D760B85B-FA54845A"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\mainmenu\\ingamemenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "ADC39456-35AAAD3B-1A5B335B-060719BB"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\mainmenu\\ingamemenuentry.as",
+            "level": 0,
+            "seed": 1,
+            "id": "6D305106-F56C0FF2-20FA4CD6-4E266B3D"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\mainmenu\\installeddlcmitemrenderer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "89D97A1F-80621710-6371F308-B0556005"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\mainmenu\\installeddlcmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "538FF43D-33ADD4C9-04664EEF-DEF785C3"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\mainmenu\\keybinditemrenderer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "39526189-3C971DF5-AFA80183-8CC6AE9E"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\mainmenu\\keybindsoptionmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "16BB1C2F-87069421-0D954988-719C2397"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\mainmenu\\mainachievementssubmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "55F68C37-7B524874-DECF4409-B133968C"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\mainmenu\\mainaudiooptionssubmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "2C97E3BB-15F82186-CC7471D7-F8ADD22B"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\mainmenu\\maincontrolsoptionsmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "1A80C0D0-085005AC-AD4C65B2-950412A8"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\mainmenu\\maindbgstartquestsubmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "4B11EC57-79E20197-DBD95D69-240FF898"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\mainmenu\\mainextrasmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "81373A7D-458D2562-06E4994B-D3105D3C"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\mainmenu\\maingameoptionssubmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "7ED8A1BC-B04D2D17-A71CF3D5-C5260832"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\mainmenu\\mainhudoptionssubmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "92D26EA2-854FA2CD-D5F4BFAF-C601DE16"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\mainmenu\\mainimportmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "AF838BE0-EBF97D5E-A8C8EE55-D8FBD91F"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\mainmenu\\mainimportsavedgamemenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "B1F7CB86-68150CE9-8722ED27-F486A0FC"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\mainmenu\\mainloadsubmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "5ED3D5B2-40EE0930-A2C0A0AC-69295B8D"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\mainmenu\\mainmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "3A6AE1A0-88A92831-8160115A-1B53E76E"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\mainmenu\\mainmenugamma.as",
+            "level": 0,
+            "seed": 1,
+            "id": "9F510CB8-40C28B1A-BA619172-41B2563C"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\mainmenu\\mainmouseoptionssubmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "558F3BD3-D43E0124-F2236699-9DA39F51"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\mainmenu\\mainnewgamemenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "FCCB7CDF-B404F31C-4F4B32E6-BC4E6EE3"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\mainmenu\\mainoptionsmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "6EF17622-7D5238B1-E9F2853E-182929F4"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\mainmenu\\mainpadoptionssubmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "F0B5E866-1DF422C7-E1D530F0-75B4DB56"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\mainmenu\\mainsubmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "A19370E0-AAA41EFA-B9633769-0124ADC2"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\mainmenu\\mainvideooptionssubmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "DB4358EE-00651716-1F968964-ADDF110F"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\mainmenu\\mainvisualsoptionsmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "EEFF3552-F7B217EE-9FA889E6-2C4BED98"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\mainmenu\\optionlistmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "1B1C5BED-A2E5E627-32411CD6-171F64C6"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\mainmenu\\patchnotesinfoblock.as",
+            "level": 0,
+            "seed": 1,
+            "id": "19634E29-40176D71-93096ACC-C1E818DA"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\mainmenu\\patchnotespopup.as",
+            "level": 0,
+            "seed": 1,
+            "id": "F7007DB3-4D8A0E4E-751C0623-D8894601"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\mainmenu\\saveslotitemrenderer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "E158AA6C-4C5E8766-1B89E170-7BCAB97D"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\mainmenu\\saveslotlistmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "87A0A417-EE42FC1E-D60E272D-CBA8C8D1"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\mainmenu\\startupmoviesmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "538FBEED-268BF9BB-0F1A3938-A2328FD4"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\mainmenu\\staticoptionmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "7A766D0F-A9E44B3C-8822D61E-8ECA321A"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\mainmenu\\uirescalemodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "E85911E2-86BB52F0-F86222C8-291FD46A"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\mainmenu\\w3achievementlistitemrenderer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "FE306578-4F004263-80F245F0-BB8054F7"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\mainmenu\\w3menulistitemrenderer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "1548AAD4-57DC9241-01C03C4D-9086E063"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\meditation\\clock.as",
+            "level": 0,
+            "seed": 1,
+            "id": "A2AFB5C0-614C8173-52FC8BF1-5FF7D4A6"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\meditation\\meditationbonusitemrenderer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "BFD3D229-AEF75BE2-BECBBC03-521860C0"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\meditation\\meditationbonuspanel.as",
+            "level": 0,
+            "seed": 1,
+            "id": "A8CD035A-573673B5-45E2B014-88D87C33"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\meditation\\meditationclockmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "871FD3C9-E71D5E9A-5F91ABE7-2983CF33"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\meditation\\meditationlistitem.as",
+            "level": 0,
+            "seed": 1,
+            "id": "4132EAE6-0F1EA74C-EB8476B1-CFBA819A"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\meditation\\meditationmainmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "2D9A9EBE-655407DC-5718D2E8-5C98CD86"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\meditation\\meditationmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "18388A7C-091EE7CD-60436F88-340F5775"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\meditation\\w3meditationscrollinglist.as",
+            "level": 0,
+            "seed": 1,
+            "id": "A7B6D30E-B8781708-8BC053B6-F3407382"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\meditation_menu\\clockindicator.as",
+            "level": 0,
+            "seed": 1,
+            "id": "73228457-2DC56814-2C441BD8-EC326ECB"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\meditation_menu\\dayquarterindicator.as",
+            "level": 0,
+            "seed": 1,
+            "id": "0FECD681-F4C374F4-B2381D18-9F6A3B7D"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\meditation_menu\\meditationclock.as",
+            "level": 0,
+            "seed": 1,
+            "id": "79E77824-0AB95186-9C83AC4E-F0103A61"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\meditation_menu\\menumeditationclock.as",
+            "level": 0,
+            "seed": 1,
+            "id": "621B12B1-ECE294EA-F4559FFB-565A7A1E"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\noticeboard\\noticeboardlistitem.as",
+            "level": 0,
+            "seed": 1,
+            "id": "E8091752-135CE926-4351343F-78CB59B6"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\noticeboard\\noticeboardmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "9EC4298B-5F34B13D-C2E3E684-AAD1FA62"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\overlay\\basepopup.as",
+            "level": 0,
+            "seed": 1,
+            "id": "5B27DE66-EA752834-955ED3A0-8B765756"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\overlay\\bookitemrenderer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "82BB3FB7-6DE363E6-FAB9D69F-EE5AFF74"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\overlay\\bookpopup.as",
+            "level": 0,
+            "seed": 1,
+            "id": "7EE4606B-65919A4D-768BDE77-2EA7A479"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\overlay\\confirmationpopup.as",
+            "level": 0,
+            "seed": 1,
+            "id": "A8922F3A-3A39D61C-5576D92E-DF68130E"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\overlay\\contextmenupopup.as",
+            "level": 0,
+            "seed": 1,
+            "id": "CC11DB69-2978E13B-83D19C07-E5FAE60C"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\overlay\\iteminfopopup.as",
+            "level": 0,
+            "seed": 1,
+            "id": "4EE8D1D9-8F5CDDF1-95514D33-6316A6FD"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\overlay\\itemselectmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "53CF88B1-CC32818E-F3A4AFB2-C5E1B153"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\overlay\\overlaypanel.as",
+            "level": 0,
+            "seed": 1,
+            "id": "D5135D3E-4D28109B-53860479-5826956B"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\overlay\\paintingpopup.as",
+            "level": 0,
+            "seed": 1,
+            "id": "2321621A-42415D0A-31189AA7-297F7C2E"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\overlay\\priceconfirmationpopup.as",
+            "level": 0,
+            "seed": 1,
+            "id": "1C8F72B5-20E6F252-12B3C95A-2DE59B63"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\overlay\\quantitymonsterbarganingpopup.as",
+            "level": 0,
+            "seed": 1,
+            "id": "220ACAD0-F7924566-3193B90A-B47CD69B"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\overlay\\quantitypopup.as",
+            "level": 0,
+            "seed": 1,
+            "id": "4C5A733C-D215EFF7-562E42A7-03D1EFDA"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\overlay\\tutorialblocker.as",
+            "level": 0,
+            "seed": 1,
+            "id": "580370F5-9F807585-EDC30213-337AD4DB"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\overlay\\tutoriallist.as",
+            "level": 0,
+            "seed": 1,
+            "id": "CE681CB9-8C6A4B9D-A837E66A-DE996D9A"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\overlay\\tutorialoverlay.as",
+            "level": 0,
+            "seed": 1,
+            "id": "12FFAB9D-3CE8EBD3-BAF82E8F-E881EB71"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\overlay\\tutorialpopup.as",
+            "level": 0,
+            "seed": 1,
+            "id": "F632461B-8C1837B2-13CF94F1-AB5EB688"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\overlay\\tutorialpopuptitle.as",
+            "level": 0,
+            "seed": 1,
+            "id": "1220E268-3113DEBF-22F16C00-FDF51181"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\perks_menu\\menubookperks.as",
+            "level": 0,
+            "seed": 1,
+            "id": "E5EDEFBA-FF5C42A0-C015803E-2864A459"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\perks_menu\\moduleskilllist.as",
+            "level": 0,
+            "seed": 1,
+            "id": "C9FD83D6-BBC4EB2D-3C78B65A-A343811F"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\photomode\\photomodemenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "1E2B6ED0-0E4DDCC4-B75D7FC6-4ABA13E6"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\photomode\\photomodenotification.as",
+            "level": 0,
+            "seed": 1,
+            "id": "714F7DB0-CFBE2E4B-EBADD72A-38DF03BE"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\photomode\\photomodesliderdatamodel.as",
+            "level": 0,
+            "seed": 1,
+            "id": "1D16E66F-C8D7E59A-10644ED9-2C6A315C"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\photomode\\photomodesliderrenderer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "1B45C75E-C95C10A7-BB1BCFB7-6FBC894A"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\photomode\\photomodetabbedmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "BEFFF695-0664F58E-58B62097-EE3C6BD1"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\photomode\\photomodetabrenderer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "0438B7A6-AD2DA761-DB3BC073-92CD732B"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\poster\\postermenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "B8FD981D-1B79AAC9-0D8421E5-C31C60FB"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\preparation\\preparationmainmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "78E24C92-BCEE4C86-049A672B-B54C624B"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\preparation\\preparationmenubase.as",
+            "level": 0,
+            "seed": 1,
+            "id": "5FE873C0-354FF474-3DF0A9AE-25B04042"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\preparation\\preparationmutagensmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "F9446784-A7E859F4-8BD7CE8A-947C076D"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\preparation\\preparationmutagenssublistmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "7A4E6F1A-EF84DA4B-B4D1CDB0-90AE1C56"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\preparation\\preparationoilsmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "C07B50BC-0610723A-5D89A02F-92E72CDE"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\preparation\\preparationoilssublistmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "ECDED1A1-6B5A5B78-D73D7990-7739DEFA"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\preparation\\preparationpotionandbombssublistmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "92552B14-870D5A59-EA5C617B-001AF5DA"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\preparation\\preparationpotionsandbombsmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "C28F67F4-2FEBEE61-57AF73D4-A9277F8C"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\preparation\\preparationtabsmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "8C6DFC06-042728DC-290B0FAA-71F5CB1F"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\preparation\\preparationtoxicitybarmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "C80FF826-995E7005-2F8FE716-7A54771E"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\preparation_menu\\menupreparation.as",
+            "level": 0,
+            "seed": 1,
+            "id": "B8617407-1533B083-34B589AF-C18B209B"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\preparation_menu\\modulemonstertrack.as",
+            "level": 0,
+            "seed": 1,
+            "id": "2C973A70-80CEBE58-BFEBBA2B-639B9F6B"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\preparation_menu\\modulepreparationslots.as",
+            "level": 0,
+            "seed": 1,
+            "id": "6C5A79F7-D2F7991B-790505A0-6A868382"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\preparation_menu\\preparationdropdownmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "E5C517A9-2DE6E85D-8E8CAF37-AE3A76D1"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\preparation_menu\\preparationdropdownmenulistitem.as",
+            "level": 0,
+            "seed": 1,
+            "id": "0FC3E46F-7FEA8A41-22ECB20F-F47C9573"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\preparation_menu\\preparationtabbedmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "0076ABFB-2771BF36-46C14E41-B82BA5FD"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\preparation_menu\\toxicitybar.as",
+            "level": 0,
+            "seed": 1,
+            "id": "2F327DCC-A87C65AC-4303BB64-1859D6D6"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\preparation_menu\\trackedmonsterheader.as",
+            "level": 0,
+            "seed": 1,
+            "id": "7973C364-B2B9DB70-111F660C-9851C80C"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\preparation_menu\\trackedmonsterinfo.as",
+            "level": 0,
+            "seed": 1,
+            "id": "9A5402C0-5FE73364-D7E3D1F2-FBEC8E93"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\preparation_menu\\trackedmonsterrecommend.as",
+            "level": 0,
+            "seed": 1,
+            "id": "07FAD933-D42A74CC-A03B97F2-92BD0225"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\ryan_alchemy\\alchemypanel.as",
+            "level": 0,
+            "seed": 1,
+            "id": "DCE1A000-3CBEA9C9-0147F42A-130D4F5E"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\ryan_alchemy\\recipelistitem.as",
+            "level": 0,
+            "seed": 1,
+            "id": "2BA80080-915D7C68-A32DD68B-6D98EB63"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\startscreen\\startscreenmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "CAADD43E-42F87300-6000DD4A-CD269094"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\startscreen\\startscreenmenuep1.as",
+            "level": 0,
+            "seed": 1,
+            "id": "14884840-12738170-A1925666-06740B23"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\startscreen\\startscreenmenuep2.as",
+            "level": 0,
+            "seed": 1,
+            "id": "48F23A64-B3AEA029-0E3D858C-CE422244"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\startscreen\\w3startscreenvideoobject.as",
+            "level": 0,
+            "seed": 1,
+            "id": "97355E0E-F03520D7-890FB054-894EDED4"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\startup\\startup1menu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "123D4626-78328CE5-FC4904D9-2B7F4B56"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\testmap\\testmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "800AA2C9-4E991B24-191C198E-694F9A3D"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\uirescale\\uirescalemenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "4304E5B4-575B6907-B9EE9BB6-86DAB49F"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\worldmap\\basemap.as",
+            "level": 0,
+            "seed": 1,
+            "id": "EC483F82-48AE9E7C-0B6353BA-A355D4CC"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\worldmap\\currentquestmaphint.as",
+            "level": 0,
+            "seed": 1,
+            "id": "B481483A-5F44C0DB-E042ACB2-1A258679"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\worldmap\\data\\categorydata.as",
+            "level": 0,
+            "seed": 1,
+            "id": "8EF3D982-9E6A7372-E2739411-E8839E80"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\worldmap\\data\\categorypindata.as",
+            "level": 0,
+            "seed": 1,
+            "id": "09BFE24E-A9D255C0-AA5F2E0C-0EA375D0"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\worldmap\\data\\categorypininstancedata.as",
+            "level": 0,
+            "seed": 1,
+            "id": "55892FC5-3CFAD469-3E33710B-CB1ACAB7"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\worldmap\\filteredpinrenderer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "97AC40BE-AEE73810-6A393DCF-61309E3E"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\worldmap\\hubmap.as",
+            "level": 0,
+            "seed": 1,
+            "id": "7BFB0891-738628CF-57E0D46D-389C3594"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\worldmap\\hubmapcontainer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "A52D5D1C-6A6908CB-7BDAB59A-56A31F7D"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\worldmap\\hubmappincategoryitemrenderer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "87B23774-DC1AFEEA-D3CC56C4-0891CC27"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\worldmap\\hubmappincontainer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "2DACF88D-38EB132C-CD2B3D54-49F66802"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\worldmap\\hubmappinpanel.as",
+            "level": 0,
+            "seed": 1,
+            "id": "66D868BC-049CF285-3E948A83-12DAE4A3"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\worldmap\\hubmappreview.as",
+            "level": 0,
+            "seed": 1,
+            "id": "06527CF1-CFA2E947-8412FC8A-5EE80917"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\worldmap\\hubmappreviewzoomcontainer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "B5874E40-053D7FED-0A4AF0E7-DAEACE08"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\worldmap\\hubmapquesttracker.as",
+            "level": 0,
+            "seed": 1,
+            "id": "60DCDBDE-89EA4BD4-BED74D61-91DCEC45"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\worldmap\\hubmapquesttrackeritemrenderer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "C4F6EB52-F040C331-B44602B2-965B299C"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\worldmap\\hubmaptile.as",
+            "level": 0,
+            "seed": 1,
+            "id": "746704F6-C86D36B8-937CEE1E-676222C2"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\worldmap\\hubmaptileloader.as",
+            "level": 0,
+            "seed": 1,
+            "id": "15CC773F-02B051B4-5CDF9535-D9B1D32B"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\worldmap\\hubmapzoomcontainer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "EC27FBA2-610FEF99-C127A1CE-B4896D16"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\worldmap\\imagecontainer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "CFE20315-A03A8B10-4320B7A7-0F12F1D3"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\worldmap\\interiormap.as",
+            "level": 0,
+            "seed": 1,
+            "id": "6468EA2F-9FB39E78-746D60C5-DEB40FBA"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\worldmap\\lodcontainer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "348D0B6E-4C2B0115-18B435E0-56791805"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\worldmap\\mapcrosshair.as",
+            "level": 0,
+            "seed": 1,
+            "id": "75D1BFCE-3A6D1E73-18D74B45-A0F30E7A"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\worldmap\\mapmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "66EFDC47-9B4D266F-8878BBC9-47F226D5"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\worldmap\\pinpointersmanager.as",
+            "level": 0,
+            "seed": 1,
+            "id": "C5046167-6A631040-719A7777-17DAAD39"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\worldmap\\staticmappindescribed.as",
+            "level": 0,
+            "seed": 1,
+            "id": "D4A015CC-2BB03FCE-C2E96993-221FF82C"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\worldmap\\staticmappinpreviewdescribed.as",
+            "level": 0,
+            "seed": 1,
+            "id": "F44F800D-083638E4-B79B733D-7E6DC76F"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\worldmap\\universearea.as",
+            "level": 0,
+            "seed": 1,
+            "id": "E8ADBFAC-C168DB58-1319E116-9421DD47"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\worldmap\\universemap.as",
+            "level": 0,
+            "seed": 1,
+            "id": "333B5F03-A8A668F4-660BE22C-040AF4B5"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\worldmap\\universemapcontainer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "F7975093-9215DE25-2FF8DA51-F3A619D5"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\worldmap\\userpinitemrenderer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "B3770338-40B257EE-3EA91043-80375462"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\worldmap\\userpinpanel.as",
+            "level": 0,
+            "seed": 1,
+            "id": "DF18F730-9ACBAB12-23FED4B5-7DB1FB96"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\worldmap\\zoomboundary.as",
+            "level": 0,
+            "seed": 1,
+            "id": "C94CBAB3-51F0BE10-EF9117B6-909477CC"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\modules\\collapsabletabbedlistmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "6BF02931-271C99DA-15FE0927-E3F88239"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\modules\\itemtooltipmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "9128DD7A-19573BC9-27E255B7-60FA8BFB"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\modules\\simplelistmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "05879075-C69D2EB0-225F2D93-1DB0E52E"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\modules\\tabbedscrollinglistmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "63298382-84247245-8259C2C9-0D66BDDE"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\popups\\itemselectionpopupmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "97A11215-E32425B4-726CCCBC-F28AFE42"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\popups\\lootpopupmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "1F942185-1A8A417C-5DFCF143-7F4A9144"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\popups\\messagepopupmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "7893135E-969538A6-A0A72B33-DD7248C8"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\popups\\notificationmodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "220F6200-387BDBA6-68C89315-90EC90C2"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\popups\\overlaypopupmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "337FD9AC-F144EE56-4604D013-676BCF88"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\popups\\psopopup.as",
+            "level": 0,
+            "seed": 1,
+            "id": "B3FC0B2C-91C6A50B-E97477BB-9786AE56"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\popups\\systemmessagemodule.as",
+            "level": 0,
+            "seed": 1,
+            "id": "C06C2EFC-1F6B4F09-30E8B724-0F48F13D"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\popups\\test\\test2popup.as",
+            "level": 0,
+            "seed": 1,
+            "id": "460FEEE7-D42BB872-790CCAD6-E995FC21"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\popups\\test\\testpopup.as",
+            "level": 0,
+            "seed": 1,
+            "id": "B64B8984-994565D6-08A5D323-4ECD4A8C"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\popups\\tutorialpopupmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "6BC02C17-A3371B94-D7E93723-82EDD98A"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\slots\\slotbase.as",
+            "level": 0,
+            "seed": 1,
+            "id": "BF7A4BD9-633AAB07-A5522617-D4031039"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\slots\\slotcrafting.as",
+            "level": 0,
+            "seed": 1,
+            "id": "9B162373-D764AAEF-FE588F34-3CF71597"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\slots\\slotdragavatar.as",
+            "level": 0,
+            "seed": 1,
+            "id": "08794334-7A7C2B8A-B74C3CFF-DD794889"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\slots\\slotdummy.as",
+            "level": 0,
+            "seed": 1,
+            "id": "9E774286-427A1FAF-74248958-4334532D"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\slots\\slotinventorygrid.as",
+            "level": 0,
+            "seed": 1,
+            "id": "D04A5003-D00E944D-C892F49F-86C6434D"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\slots\\slotpaperdoll.as",
+            "level": 0,
+            "seed": 1,
+            "id": "290D4079-5557F1F0-00C78DF1-D91C0167"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\slots\\slotskillgrid.as",
+            "level": 0,
+            "seed": 1,
+            "id": "5E42EB67-998EA52E-314EE9DC-F9D65949"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\slots\\slotskillmutagen.as",
+            "level": 0,
+            "seed": 1,
+            "id": "F97F80F1-85673155-E02BE985-135732F8"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\slots\\slotskillsocket.as",
+            "level": 0,
+            "seed": 1,
+            "id": "77D9617F-386C56CA-3FC28754-AB3F6D87"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\slots\\slotslistbase.as",
+            "level": 0,
+            "seed": 1,
+            "id": "688A8120-E17E94D8-6B73D0D2-A91808D8"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\slots\\slotslistcarousel.as",
+            "level": 0,
+            "seed": 1,
+            "id": "30C1C63B-74E80604-6F2572A8-6409CA16"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\slots\\slotslistcategorized.as",
+            "level": 0,
+            "seed": 1,
+            "id": "A9114E4D-1598DD9F-0851DF64-E60F6A70"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\slots\\slotslistgrid.as",
+            "level": 0,
+            "seed": 1,
+            "id": "5BC673F9-9D074C36-CDB2C5D0-BC4214FD"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\slots\\slotslistpaperdoll.as",
+            "level": 0,
+            "seed": 1,
+            "id": "486F9B6B-8BC14D0D-BE7A602B-A9992BC6"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\slots\\slotslistpreset.as",
+            "level": 0,
+            "seed": 1,
+            "id": "63696F9D-C00B7A89-770460BA-5D5D415F"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\slots\\slotslistskillsockets.as",
+            "level": 0,
+            "seed": 1,
+            "id": "23D716A0-98672563-D600C43A-F35CCE9B"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\slots\\slotstate.as",
+            "level": 0,
+            "seed": 1,
+            "id": "FB5630B0-61565574-2C71275D-97182B0A"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\slots\\slotstransfermanager.as",
+            "level": 0,
+            "seed": 1,
+            "id": "8D9CEA97-437B831D-C06B3182-C7425748"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\tooltips\\ingredienttooltip.as",
+            "level": 0,
+            "seed": 1,
+            "id": "B786770F-5374F1DB-51F8E081-DDF62431"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\tooltips\\tooltipbase.as",
+            "level": 0,
+            "seed": 1,
+            "id": "C7F8F88D-BF3F5902-99A924A2-8B959E78"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\tooltips\\tooltipdescription.as",
+            "level": 0,
+            "seed": 1,
+            "id": "8DB6CB07-3F37CA7D-A8F61AFB-C797A183"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\tooltips\\tooltipemptysocket.as",
+            "level": 0,
+            "seed": 1,
+            "id": "5BC7E1A4-53AF3760-3992FE1B-9D3FFD98"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\tooltips\\tooltipgenstatrenderer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "269D84C1-19F8110A-CA1133ED-BD47AC20"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\tooltips\\tooltipinventory.as",
+            "level": 0,
+            "seed": 1,
+            "id": "7BB7A156-D40930C0-997A8284-76E23A32"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\tooltips\\tooltipinventorymouse.as",
+            "level": 0,
+            "seed": 1,
+            "id": "161421D1-EFE38B77-F173BBEE-93762BA6"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\tooltips\\tooltipitem.as",
+            "level": 0,
+            "seed": 1,
+            "id": "581576AA-EB9BA64A-DC34C446-EE370964"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\tooltips\\tooltipmap.as",
+            "level": 0,
+            "seed": 1,
+            "id": "5A5A81E9-33454D43-824466C6-69AA61C3"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\tooltips\\tooltipprimarystat.as",
+            "level": 0,
+            "seed": 1,
+            "id": "20B803CD-BE2CEFEA-2B52523A-665A013F"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\tooltips\\tooltipproprenderer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "86BA710C-1C7C90CE-E9D4ADA5-CBA181D7"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\tooltips\\tooltipproprenderer_craft.as",
+            "level": 0,
+            "seed": 1,
+            "id": "47CDA44C-AAA47D83-E4EB1C7A-A983A496"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\tooltips\\tooltipproprenderer_mouse.as",
+            "level": 0,
+            "seed": 1,
+            "id": "499A559E-BEF3A4DD-2A5AED61-D247A181"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\tooltips\\tooltipschematic.as",
+            "level": 0,
+            "seed": 1,
+            "id": "7E8C51AC-21B45822-AAE5FD75-15704B39"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\tooltips\\tooltipsetstatrenderer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "A7CDD5FF-58463F13-5923A240-EF898377"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\tooltips\\tooltipsimple.as",
+            "level": 0,
+            "seed": 1,
+            "id": "5AE48F97-5CAE1F32-7BDF997E-1E90F7B0"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\tooltips\\tooltipskill.as",
+            "level": 0,
+            "seed": 1,
+            "id": "22F9EAF9-4B9DF585-5BC02B83-3B1A4953"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\tooltips\\tooltipsocketrenderer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "64BD1170-461F6B26-825D6FF9-16201CFC"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\tooltips\\tooltipstatistic.as",
+            "level": 0,
+            "seed": 1,
+            "id": "708494D6-D428AF9E-6FE561C8-CA356B34"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\tooltips\\tooltipstatistic_mouse.as",
+            "level": 0,
+            "seed": 1,
+            "id": "7D345A00-EFBE79FA-08148330-E3ED18DA"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\tooltips\\tooltipstatrenderer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "83F09EAA-1B102E36-F30C1190-1BB22BAA"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\tooltips\\tooltipstatrenderer_ar.as",
+            "level": 0,
+            "seed": 1,
+            "id": "E255A1A1-69CE7136-4592A382-F2E00656"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\tooltips\\tooltipstatrenderer_craft.as",
+            "level": 0,
+            "seed": 1,
+            "id": "D35CF878-4AA4FB88-FEA8140E-9E9A3866"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\tooltips\\tooltiptext.as",
+            "level": 0,
+            "seed": 1,
+            "id": "41061960-1810B678-91CC2863-74E5A282"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\utils\\activeobject.as",
+            "level": 0,
+            "seed": 1,
+            "id": "3433EB9F-DED03018-2DD6AB21-2D5D92C2"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\utils\\commonutils.as",
+            "level": 0,
+            "seed": 1,
+            "id": "67351F0F-F66CB752-2A4A7E07-64927C3C"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\utils\\ctwoframesbutton.as",
+            "level": 0,
+            "seed": 1,
+            "id": "710289E7-A46C1312-5D783243-C98D73F2"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\utils\\currentactiveobject.as",
+            "level": 0,
+            "seed": 1,
+            "id": "5724936B-22BE83E0-4B4A75D4-BA3CCF1E"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\utils\\finitestatemachine.as",
+            "level": 0,
+            "seed": 1,
+            "id": "5BC2B5D5-792862A9-4BFCCC5A-554F7B3B"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\utils\\fsmstate.as",
+            "level": 0,
+            "seed": 1,
+            "id": "D8F1E6B8-C20001C8-301CE5E7-9DEE2C7D"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\utils\\inpututils.as",
+            "level": 0,
+            "seed": 1,
+            "id": "B9851DBD-B872C474-EFEFB984-1D18DB3B"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\utils\\loaderutil.as",
+            "level": 0,
+            "seed": 1,
+            "id": "6A9A8544-C44A1D2C-B8F7ABF9-92B54A42"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\utils\\math2.as",
+            "level": 0,
+            "seed": 1,
+            "id": "09537435-25EF514F-0AFD6BA4-FDA5DEBB"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\utils\\motion\\tweenex.as",
+            "level": 0,
+            "seed": 1,
+            "id": "A780682D-F574B3BF-370CF922-EFF6E777"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\utils\\mydragmanager\\draggeditemvo.as",
+            "level": 0,
+            "seed": 1,
+            "id": "EECFFABB-F2B78290-4EF274AA-9BA6830B"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\utils\\mydragmanager\\mydragmanager.as",
+            "level": 0,
+            "seed": 1,
+            "id": "3D11E47B-6B8832DE-C5483D4D-6106EC70"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\utils\\mydragmanager\\mydragmanagerevent.as",
+            "level": 0,
+            "seed": 1,
+            "id": "A6E84C92-948A2FC0-5805B64C-72C97067"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\utils\\mydragmanager\\slotvo.as",
+            "level": 0,
+            "seed": 1,
+            "id": "3548DF08-89697464-C4E22E7A-7825776E"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\utils\\scrollbar\\scrollbar.as",
+            "level": 0,
+            "seed": 1,
+            "id": "4E9B40D4-B85F4E5B-D92E39CA-72FEE1A5"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\utils\\scrollbar\\scrollbarevent.as",
+            "level": 0,
+            "seed": 1,
+            "id": "926A3B1A-0E7D6481-C9028DAA-2E11428D"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\utils\\scrollbar\\scrollbarwithbuttons.as",
+            "level": 0,
+            "seed": 1,
+            "id": "15050820-761E659E-4852B118-75846813"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\utils\\scrollbar\\scrollbox.as",
+            "level": 0,
+            "seed": 1,
+            "id": "0D774507-D8AF6183-42E6BA7B-C91CDE01"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\constants\\constrainmode.as",
+            "level": 0,
+            "seed": 1,
+            "id": "B406B9F0-6DB917C3-DDE8AC42-0275A13F"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\constants\\controllertype.as",
+            "level": 0,
+            "seed": 1,
+            "id": "C85477BE-9303057B-AE1F29AD-C5551BC9"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\constants\\directionmode.as",
+            "level": 0,
+            "seed": 1,
+            "id": "AED09C44-A539BBA9-D267FD6E-267CC895"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\constants\\focusmode.as",
+            "level": 0,
+            "seed": 1,
+            "id": "E0A19B8A-37A1898B-DB8B2307-14BE4B59"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\constants\\inputvalue.as",
+            "level": 0,
+            "seed": 1,
+            "id": "DF523707-CA8C9D56-C25C232A-38AD1760"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\constants\\invalidationtype.as",
+            "level": 0,
+            "seed": 1,
+            "id": "BF6BB130-2CCDA550-7C49B1CA-8224EB2D"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\constants\\layoutmode.as",
+            "level": 0,
+            "seed": 1,
+            "id": "145065E3-F9905E95-D0EA1369-AA8E4DFA"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\constants\\navigationcode.as",
+            "level": 0,
+            "seed": 1,
+            "id": "849A9D72-6F19A6F7-86BE2A9C-0B217506"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\constants\\scrollbardirection.as",
+            "level": 0,
+            "seed": 1,
+            "id": "263ACAF4-07CF2B9E-839BBEDD-AD7B5790"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\constants\\scrollbartrackmode.as",
+            "level": 0,
+            "seed": 1,
+            "id": "CDEB19B3-DB34298E-C7B3BA6D-815345B5"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\constants\\wrappingmode.as",
+            "level": 0,
+            "seed": 1,
+            "id": "A391EB84-4E09170B-9F5D360D-5968052E"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\controls\\button.as",
+            "level": 0,
+            "seed": 1,
+            "id": "68C727F3-0ADD7F72-D86F21AB-DCF6D4BB"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\controls\\buttonbar.as",
+            "level": 0,
+            "seed": 1,
+            "id": "A119CEE6-646879F1-E5493941-F90B947B"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\controls\\buttongroup.as",
+            "level": 0,
+            "seed": 1,
+            "id": "46496069-C64B64A7-24EBA05E-CC68BE18"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\controls\\checkbox.as",
+            "level": 0,
+            "seed": 1,
+            "id": "A5BFBB68-EE605D03-0C594C5E-AE7D5CC0"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\controls\\corelist.as",
+            "level": 0,
+            "seed": 1,
+            "id": "89C8008E-51661974-C9CDC456-49EF3C3E"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\controls\\dragslot.as",
+            "level": 0,
+            "seed": 1,
+            "id": "FF7B8607-2BA96EDB-D4A0EB81-A7C8CFC1"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\controls\\dropdownmenu.as",
+            "level": 0,
+            "seed": 1,
+            "id": "41A0B894-FD75346D-CE8D7506-40387A28"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\controls\\label.as",
+            "level": 0,
+            "seed": 1,
+            "id": "008466B0-CF32E073-412355B8-67A1A6FF"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\controls\\listitemrenderer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "4EF0ED90-6CF33533-D65B136E-EC0E5FEB"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\controls\\numericstepper.as",
+            "level": 0,
+            "seed": 1,
+            "id": "FFDE2E56-FADECB34-4F461AC9-EE6038EC"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\controls\\optionstepper.as",
+            "level": 0,
+            "seed": 1,
+            "id": "DB542E90-56DA86CB-51654148-DFB9D5E3"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\controls\\radiobutton.as",
+            "level": 0,
+            "seed": 1,
+            "id": "E26C89B7-B1C7A3DD-709DE52E-2F4B43FE"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\controls\\scrollbar.as",
+            "level": 0,
+            "seed": 1,
+            "id": "D229A1F7-7421E699-8BF62ABA-9B66E1A0"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\controls\\scrollindicator.as",
+            "level": 0,
+            "seed": 1,
+            "id": "7B4C9912-EE49B6C1-8A518F66-E8646C60"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\controls\\scrollinglist.as",
+            "level": 0,
+            "seed": 1,
+            "id": "45538058-A02BA440-6FF0BE10-59C208BB"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\controls\\slider.as",
+            "level": 0,
+            "seed": 1,
+            "id": "6E82EB6F-2AC81F87-EB3F90B1-4EF9F350"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\controls\\statusindicator.as",
+            "level": 0,
+            "seed": 1,
+            "id": "46155C01-3FD7555F-80535B15-F2BA6E60"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\controls\\textarea.as",
+            "level": 0,
+            "seed": 1,
+            "id": "A5909E51-C89BB1BF-34F385F0-78C32707"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\controls\\textinput.as",
+            "level": 0,
+            "seed": 1,
+            "id": "423F26B6-34195F8A-B1A04876-3D0CF31F"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\controls\\tilelist.as",
+            "level": 0,
+            "seed": 1,
+            "id": "42C3E2AA-AFDFDFBF-D3F2BDE7-8D7A710E"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\controls\\uiloader.as",
+            "level": 0,
+            "seed": 1,
+            "id": "E9F32F57-2407120F-BACC82EF-14F09A45"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\controls\\window.as",
+            "level": 0,
+            "seed": 1,
+            "id": "1E9974F3-B3ED247E-4D8B9460-7C0EA2C1"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\core\\clik.as",
+            "level": 0,
+            "seed": 1,
+            "id": "ED3432CF-63F0BA85-89879990-B84E219B"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\core\\uicomponent.as",
+            "level": 0,
+            "seed": 1,
+            "id": "4A2D3243-27C112C3-0913AD4C-CF9D351C"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\data\\databinding.as",
+            "level": 0,
+            "seed": 1,
+            "id": "7F36BC35-18F8AED6-BC8AF7AD-4BB86C89"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\data\\dataprovider.as",
+            "level": 0,
+            "seed": 1,
+            "id": "53D19025-81E5C8E1-3B7B3B30-0D5FB2B3"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\data\\listdata.as",
+            "level": 0,
+            "seed": 1,
+            "id": "A7771D5B-E677B517-8C01A2F3-EC231C54"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\events\\buttonbarevent.as",
+            "level": 0,
+            "seed": 1,
+            "id": "25F6FC9F-5713108E-AAF296CC-CFA683C9"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\events\\buttonevent.as",
+            "level": 0,
+            "seed": 1,
+            "id": "26057343-22EB5416-C9E1FC38-ADA3598C"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\events\\componentevent.as",
+            "level": 0,
+            "seed": 1,
+            "id": "E2E530FB-17B78734-457B7577-C0324B62"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\events\\dialogevent.as",
+            "level": 0,
+            "seed": 1,
+            "id": "F03CC8DE-A1FF6C43-F6997D0B-6B666548"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\events\\dragevent.as",
+            "level": 0,
+            "seed": 1,
+            "id": "C29460F3-40A06EDA-DEE8CE6B-921AB3A3"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\events\\focushandlerevent.as",
+            "level": 0,
+            "seed": 1,
+            "id": "262E10E6-3647D8CE-2C15F820-1E16EDA0"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\events\\indexevent.as",
+            "level": 0,
+            "seed": 1,
+            "id": "33E6F0E7-99376AFA-8B8F5715-5D7F0C91"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\events\\inputevent.as",
+            "level": 0,
+            "seed": 1,
+            "id": "8D0DF6D8-56F86C03-2F579D67-36F55BBB"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\events\\listevent.as",
+            "level": 0,
+            "seed": 1,
+            "id": "44DEDBF2-D9203F98-16987141-8AAD292F"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\events\\resizeevent.as",
+            "level": 0,
+            "seed": 1,
+            "id": "7E877150-CC5C3295-9B5679E0-A8906E97"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\events\\sliderevent.as",
+            "level": 0,
+            "seed": 1,
+            "id": "CB0A2873-402AA2B6-A6F77AE4-11809535"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\interfaces\\idataprovider.as",
+            "level": 0,
+            "seed": 1,
+            "id": "DF36DE80-527E1238-6BBDF2E7-6114F3B3"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\interfaces\\idragslot.as",
+            "level": 0,
+            "seed": 1,
+            "id": "985E1503-3902B448-D96EB56B-18B1EDEB"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\interfaces\\ilistitemrenderer.as",
+            "level": 0,
+            "seed": 1,
+            "id": "54DD33B5-8C8FDC27-55CAFEFD-3E7D1827"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\interfaces\\iscrollbar.as",
+            "level": 0,
+            "seed": 1,
+            "id": "FCC8B376-F1E6E371-6E1BAE1D-1DD5F914"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\interfaces\\iuicomponent.as",
+            "level": 0,
+            "seed": 1,
+            "id": "98034ED0-BFB60A8F-B3A4343D-2FFC8912"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\layout\\layout.as",
+            "level": 0,
+            "seed": 1,
+            "id": "8E1C1428-7E961427-F2CE72F1-C0E36545"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\layout\\layoutdata.as",
+            "level": 0,
+            "seed": 1,
+            "id": "F40521C2-82BB2EAD-A04C04A8-D64D86F9"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\managers\\dragmanager.as",
+            "level": 0,
+            "seed": 1,
+            "id": "59DC0FD5-972A2611-ED5AB3F7-114867AC"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\managers\\focushandler.as",
+            "level": 0,
+            "seed": 1,
+            "id": "E57EBC87-303BBD86-6216BE18-AE86D8F3"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\managers\\inputdelegate.as",
+            "level": 0,
+            "seed": 1,
+            "id": "ED8F4D99-C40571F8-995A934B-06F886D9"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\managers\\popupmanager.as",
+            "level": 0,
+            "seed": 1,
+            "id": "B6768F7F-903870A1-7B4644B8-1F7654F3"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\motion\\tween.as",
+            "level": 0,
+            "seed": 1,
+            "id": "CCE13B15-B54D2C77-4BAD62AD-E848668A"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\ui\\inputdetails.as",
+            "level": 0,
+            "seed": 1,
+            "id": "EB7E8158-CBCF9D8E-F300BD95-B8199EDB"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\utils\\constrainedelement.as",
+            "level": 0,
+            "seed": 1,
+            "id": "6B7894E4-06C90329-2CA9A699-3D1C5B2B"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\utils\\constraints.as",
+            "level": 0,
+            "seed": 1,
+            "id": "9FA7075A-A79323A3-44B64FAB-2140837E"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\utils\\gamecenterinterface.as",
+            "level": 0,
+            "seed": 1,
+            "id": "34DE0C68-17F7E40A-472D81BD-1928950F"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\utils\\padding.as",
+            "level": 0,
+            "seed": 1,
+            "id": "AD193EA7-7F3F43BC-881EB21F-88773457"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\clik\\utils\\weakreference.as",
+            "level": 0,
+            "seed": 1,
+            "id": "109F0803-0D185260-60E2C828-293CB1F4"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\gfx\\displayobjectex.as",
+            "level": 0,
+            "seed": 1,
+            "id": "7D811BFF-FAD775C3-1AC1F50E-C0E5E1DA"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\gfx\\extensions.as",
+            "level": 0,
+            "seed": 1,
+            "id": "41DF4897-49685EFA-10B146E8-F3B016C7"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\gfx\\focuseventex.as",
+            "level": 0,
+            "seed": 1,
+            "id": "4EA840AD-DB6FCFB5-50F900D9-78171CF3"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\gfx\\focusmanager.as",
+            "level": 0,
+            "seed": 1,
+            "id": "24E8CA60-59EEBCC0-2C07E96B-CD004227"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\gfx\\gamepad.as",
+            "level": 0,
+            "seed": 1,
+            "id": "3722F2B8-179F292F-2B90291C-4C43E765"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\gfx\\gamepadanalogevent.as",
+            "level": 0,
+            "seed": 1,
+            "id": "E73D0289-B4A46C72-52398EFC-2EBE3CBA"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\gfx\\interactiveobjectex.as",
+            "level": 0,
+            "seed": 1,
+            "id": "030FCCF5-2A07B638-03115209-33539482"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\gfx\\keyboardeventex.as",
+            "level": 0,
+            "seed": 1,
+            "id": "4AF6685D-D7E09ED4-A47368AE-4C39A9C8"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\gfx\\mousecursorevent.as",
+            "level": 0,
+            "seed": 1,
+            "id": "BED10AE4-C8884389-0A58EE79-DE24E8B8"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\gfx\\mouseeventex.as",
+            "level": 0,
+            "seed": 1,
+            "id": "8DFB187E-33A3B918-1B5FA1BF-1DB61C13"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\gfx\\systemex.as",
+            "level": 0,
+            "seed": 1,
+            "id": "13EBDAF7-5BF296A2-537C04E9-8EC7C390"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\gfx\\texteventex.as",
+            "level": 0,
+            "seed": 1,
+            "id": "5D50C33A-39A48E9D-FFD3C3AF-24555607"
+        },
+        {
+            "path": "gameplay\\gui_new\\actionscript\\scaleform\\gfx\\textfieldex.as",
+            "level": 0,
+            "seed": 1,
+            "id": "63C111A6-A2E5563F-0E73B3D6-021AC89F"
+        },
+        {
+            "path": "gameplay\\gui_new\\fla\\witcher3\\menus\\meditation\\panel_meditation_clock.fla",
+            "level": 0,
+            "seed": 1,
+            "id": "83805C3C-667C4CF3-42173F7C-929C8D2B"
+        },
+        {
+            "path": "gameplay\\gui_new\\swf\\meditation\\panel_meditation_clock.redswf",
+            "level": 0,
+            "class": "CSwfResource",
+            "seed": 1,
+            "id": "216A98FD-E3627D91-B7D635EF-E517AB52",
+            "diskSize": 1348701
+        },
+        {
+            "path": "gameplay\\gui_new\\swf\\meditation\\panel_meditation_clock.swf",
+            "level": 0,
+            "seed": 1,
+            "id": "1DD47CA9-8C65132E-B9C41A15-2B278BB1",
+            "diskSize": 450554
+        },
+        {
+            "path": "scripts\\game\\campfire.ws",
+            "level": 0,
+            "seed": 1,
+            "id": "F331EE1F-09FC2E17-8D9D2D7B-90DEE979"
+        },
+        {
+            "path": "scripts\\game\\gui\\menus\\alchemymenu.ws",
+            "level": 0,
+            "seed": 1,
+            "id": "16A43FE9-4D0AB5FB-EA52E452-79E24B18"
+        },
+        {
+            "path": "scripts\\game\\gui\\menus\\commonmenu.ws",
+            "level": 0,
+            "seed": 1,
+            "id": "B64AA371-3A3340DF-EF106106-20144303"
+        },
+        {
+            "path": "scripts\\game\\gui\\menus\\meditationclockmenu.ws",
+            "level": 0,
+            "seed": 1,
+            "id": "5844B52B-A28147E1-97FCD896-27594426"
+        },
+        {
+            "path": "scripts\\game\\player\\playerinput.ws",
+            "level": 0,
+            "seed": 1,
+            "id": "8D86AF87-9FEF1E6D-43F2324D-D2E20D6F"
+        },
+        {
+            "path": "scripts\\game\\player\\playerwitcher.ws",
+            "level": 0,
+            "seed": 1,
+            "id": "5CDE0CF3-4C1409CC-61F25611-B643E1E3"
+        },
+        {
+            "path": "scripts\\game\\player\\states\\meditation\\meditation.ws",
+            "level": 0,
+            "seed": 1,
+            "id": "1C2267DD-CF47338D-527DB7A1-F9C9C5BC"
+        },
+        {
+            "path": "scripts\\game\\player\\states\\meditation\\meditationwaiting.ws",
+            "level": 0,
+            "seed": 1,
+            "id": "2E84AB44-4DBC86A9-B5C18373-58BD61E6"
+        },
+        {
+            "path": "scripts\\game\\r4game.ws",
+            "level": 0,
+            "seed": 1,
+            "id": "62D97724-0F4F374F-6732F7C5-17EBEC9B"
+        }
+    ]
+}
