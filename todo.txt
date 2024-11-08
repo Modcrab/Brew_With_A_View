@@ -1,0 +1,18 @@
+dev:
+- improve camera positioning
+- check corvo bianco bed
+- pull back camera a bit
+- edit menu to include open alchemy menu icon
+- strip code down/simplify code
+- see if we can repurpose the crafting menu warning about needing a blacksmith, for needing meditation
+- disable camera control whilst meditating
+- move code into annotations
+- when exiting rapidly, the campfire visibly desyncs from the animation, not a biggy but nice to improve
+- can we speed up exiting during combat any more
+
+future:
+- check compatibility with SAM
+
+publish:
+- create feature list in read me
+- add SAR as a highly recommended mod
