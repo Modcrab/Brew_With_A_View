@@ -4672,12 +4672,6 @@
             "diskSize": 450554
         },
         {
-            "path": "scripts\\game\\campfire.ws",
-            "level": 0,
-            "seed": 1,
-            "id": "F331EE1F-09FC2E17-8D9D2D7B-90DEE979"
-        },
-        {
             "path": "scripts\\game\\gameplay\\interactive\\witcherbed.ws",
             "level": 0,
             "seed": 1,
@@ -4730,6 +4724,18 @@
             "level": 0,
             "seed": 1,
             "id": "62D97724-0F4F374F-6732F7C5-17EBEC9B"
+        },
+        {
+            "path": "scripts\\modalchemyrequiresmeditationcampfireannotation.ws",
+            "level": 0,
+            "seed": 1,
+            "id": "A921E81C-800934CB-FFD70475-2BC46C07"
+        },
+        {
+            "path": "scripts\\modalchemyrequiresmeditationplayerwitcherannotation.ws",
+            "level": 0,
+            "seed": 1,
+            "id": "BC6D4B2B-1CC3C821-4A226C79-4792D594"
         }
     ]
 }
