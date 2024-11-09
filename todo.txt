@@ -1,6 +1,5 @@
 dev:
 - improve camera positioning
-- check corvo bianco bed
 - edit menu to include open alchemy menu icon
 - strip code down/simplify code
 - see if we can repurpose the crafting menu warning about needing a blacksmith, for needing meditation
