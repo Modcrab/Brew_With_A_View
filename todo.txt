@@ -2,7 +2,6 @@ dev:
 - improve camera positioning
 - edit menu to include open alchemy menu icon
 - strip code down/simplify code
-- red text shouldn't show for quest items
 
 future:
 - check compatibility with SAM
