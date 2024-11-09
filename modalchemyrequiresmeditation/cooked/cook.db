@@ -4678,6 +4678,12 @@
             "id": "F331EE1F-09FC2E17-8D9D2D7B-90DEE979"
         },
         {
+            "path": "scripts\\game\\gameplay\\interactive\\witcherbed.ws",
+            "level": 0,
+            "seed": 1,
+            "id": "C1BF8DB1-06055A58-222A2274-9FABF3F8"
+        },
+        {
             "path": "scripts\\game\\gui\\menus\\alchemymenu.ws",
             "level": 0,
             "seed": 1,
