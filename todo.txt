@@ -6,7 +6,6 @@ dev:
 - move code into annotations
 - when exiting rapidly, the campfire visibly desyncs from the animation, not a biggy but nice to improve
 - can we speed up exiting during combat any more
-- notification should have full stop
 
 future:
 - check compatibility with SAM
