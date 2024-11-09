@@ -3,8 +3,6 @@ dev:
 - edit menu to include open alchemy menu icon
 - strip code down/simplify code
 - move code into annotations
-- when exiting rapidly, the campfire visibly desyncs from the animation, not a biggy but nice to improve
-- can we speed up exiting during combat any more
 
 future:
 - check compatibility with SAM
