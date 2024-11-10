@@ -64,6 +64,7 @@
 		public var mcModAlchemyButton:InputFeedbackButton;
 		public var mcModAlchemyButtonPc:InputFeedbackButton;
 		public var mcModAlchemyDecoration:ModAlchemyDecoration;
+		public var mcModAlchemyDisabledFeedback:ModAlchemyDisabledFeedback;
 		public var _modcrabCanDoAlchemy : Boolean = false;
 		// ----------------------------------------
 		
@@ -179,6 +180,8 @@
 			mcModAlchemyButtonPc.visible = false;
 			
 			mcModAlchemyDecoration.visible = false;
+			
+			mcModAlchemyDisabledFeedback.visible = false;
 			// ----------------------------------------
 		}
 		
@@ -737,6 +740,10 @@
 				mcActivateButtonPc.validateNow();
 				mcActivateButtonPc.x =  CLOCK_CENTER - mcActivateButtonPc.getViewWidth() / 2;
 				
+				// ----- modAlchemyRequiresMeditation -----
+				mcModAlchemyDisabledFeedback.visible = _modcrabCanDoAlchemy;
+				// ----------------------------------------
+				
 				if (InputManager.getInstance().isGamepad())
 				{
 					txtDuration.htmlText = "[[panel_common_cancel]]";
@@ -766,6 +773,10 @@
 				mcActivateButtonPc.setDataFromStage("", KeyCode.E);
 				mcActivateButtonPc.validateNow();
 				mcActivateButtonPc.x =  CLOCK_CENTER - mcActivateButtonPc.getViewWidth() / 2;
+				
+				// ----- modAlchemyRequiresMeditation -----
+				mcModAlchemyDisabledFeedback.visible = false;
+				// ----------------------------------------
 				
 				txtDuration.htmlText = durationText;
 				txtDuration.htmlText = CommonUtils.toUpperCaseSafe(txtDuration.htmlText);
