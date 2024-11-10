@@ -3,6 +3,7 @@ dev:
 
 bugs:
 - rare case of not being able to meditate normally after using bed
+`- when in combat, the red message says action not allowed, but clicking brings up the alchemy requires..., it should not show the notif
 
 future:
 - check compatibility with SAM
@@ -10,6 +11,7 @@ future:
 - playtest ciri
 - test input in corvo bianco
 - test xbox controller
+- check merge with just BIA
 
 publish:
 - create feature list in read me
