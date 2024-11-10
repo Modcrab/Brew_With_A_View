@@ -1,5 +1,5 @@
 dev:
-- 
+- add comment next to AS subscription to event
 
 bugs:
 - rare case of not being able to meditate normally after using bed
