@@ -1,8 +1,12 @@
 dev:
 - hook up meditation to GamePad Y instead of centre button
 
+bug:
+- rare case of not being able to meditate normally after using bed
+
 future:
 - check compatibility with SAM
+- playtest
 
 publish:
 - create feature list in read me
