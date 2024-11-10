@@ -9,6 +9,7 @@ future:
 - playtest
 - playtest ciri
 - test input in corvo bianco
+- test xbox controller
 
 publish:
 - create feature list in read me
