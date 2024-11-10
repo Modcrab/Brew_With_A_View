@@ -60,6 +60,11 @@
 		public var mcActivateButtonPc:InputFeedbackButton;
 		public var mcBackground:MovieClip;
 		
+		// ----- modAlchemyRequiresMeditation -----
+		public var mcAlchemyButton:InputFeedbackButton;
+		public var mcAlchemyButtonPc:InputFeedbackButton;
+		// ----------------------------------------
+		
 		private var _globalCenter:Point;
 		private var _mouseDownOnClock:Boolean;
 		private var _lastClickLocation:Point;
@@ -157,6 +162,19 @@
 			mcActivateButton.visible = false;
 			mcActivateButtonPc.visible = false;
 			// ----------------------------------------
+		
+			// ----- modAlchemyRequiresMeditation -----
+			mcAlchemyButton.visible = false;
+			mcAlchemyButton.setDataFromStage(NavigationCode.GAMEPAD_Y, -1);
+			mcAlchemyButton.clickable = false;
+		
+			mcAlchemyButtonPc.visible = false;
+			mcAlchemyButtonPc.setDataFromStage("", KeyCode.L);
+			mcAlchemyButtonPc.clickable = true;
+			mcAlchemyButtonPc.label = "Alchemy";
+			mcAlchemyButtonPc.validateNow();
+			mcAlchemyButtonPc.x =  CLOCK_CENTER - mcAlchemyButtonPc.getViewWidth() / 2;
+			// ----------------------------------------
 		}
 		
 		
@@ -184,6 +202,12 @@
 			arrowTarget.visible = true;
 			mcActivateButton.visible = true;
 			mcActivateButtonPc.visible = true;
+			// ----------------------------------------
+			
+			// ----- modAlchemyRequiresMeditation -----
+			// reenable the prompts the first time the data is set
+			mcAlchemyButton.visible = true;
+			mcAlchemyButtonPc.visible = true;
 			// ----------------------------------------
 			
 			if (_selectedTime == value)
@@ -299,6 +323,12 @@
 			arrowCurrent.visible = true;
 			mcActivateButton.visible = true;
 			mcActivateButtonPc.visible = true;
+			// ----------------------------------------
+			
+			// ----- modAlchemyRequiresMeditation -----
+			// reenable the prompts the first time the data is set
+			mcAlchemyButton.visible = true;
+			mcAlchemyButtonPc.visible = true;
 			// ----------------------------------------
 			
 			if (_currentTime == value)
