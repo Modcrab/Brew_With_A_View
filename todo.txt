@@ -1,8 +1,6 @@
 dev:
 - improve camera positioning
-- strip code down/simplify code
 - hook up meditation to GamePad Y instead of centre button
-- make corvo bianco look like old menu
 
 future:
 - check compatibility with SAM
