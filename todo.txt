@@ -1,5 +1,4 @@
 dev:
-- improve camera positioning
 - hook up meditation to GamePad Y instead of centre button
 
 future:
