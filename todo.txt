@@ -2,6 +2,10 @@ dev:
 - improve camera positioning
 - edit menu to include open alchemy menu icon
 - strip code down/simplify code
+- remove push meditation screen notif
+- fix menu hotkeys exiting alchemy
+- hook up meditation to GamePad Y instead of centre button
+- make corvo bianco look like old menu
 
 future:
 - check compatibility with SAM
@@ -9,3 +13,6 @@ future:
 publish:
 - create feature list in read me
 - add SAR as a highly recommended mod
+
+
+- clean meditation clock flicker fix
