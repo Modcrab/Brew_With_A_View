@@ -1,12 +1,14 @@
 dev:
-- hook up meditation to GamePad Y instead of centre button
+- 
 
-bug:
+bugs:
 - rare case of not being able to meditate normally after using bed
 
 future:
 - check compatibility with SAM
 - playtest
+- playtest ciri
+- test input in corvo bianco
 
 publish:
 - create feature list in read me
