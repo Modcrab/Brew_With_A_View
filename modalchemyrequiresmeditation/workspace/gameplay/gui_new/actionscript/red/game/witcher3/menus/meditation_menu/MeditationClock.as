@@ -63,6 +63,8 @@
 		// ----- modAlchemyRequiresMeditation -----
 		public var mcAlchemyButton:InputFeedbackButton;
 		public var mcAlchemyButtonPc:InputFeedbackButton;
+		public var mcModAlchemyDecoration:ModAlchemyDecoration;
+		public var _modcrabCanDoAlchemy : Boolean = false;
 		// ----------------------------------------
 		
 		private var _globalCenter:Point;
@@ -123,6 +125,7 @@
 			dispatchEvent( new GameEvent(GameEvent.REGISTER, 'meditation.clock.minutes', [setCurrentMin]));
 			dispatchEvent( new GameEvent(GameEvent.REGISTER, 'meditation.clock.hours.update', [updateCurrentHours]));
 			dispatchEvent( new GameEvent(GameEvent.REGISTER, 'meditation.clock.blocked', [blockClock]));
+			dispatchEvent( new GameEvent(GameEvent.REGISTER, 'meditation.clock.alchemy', [setCanDoAlchemy]));
 
 			stage.addEventListener(MouseEvent.MOUSE_DOWN, handleMouseDown, false, 0, true);
 			stage.addEventListener(MouseEvent.MOUSE_UP, handleMouseUp, false, 0, true);
@@ -164,16 +167,18 @@
 			// ----------------------------------------
 		
 			// ----- modAlchemyRequiresMeditation -----
-			mcAlchemyButton.visible = false;
 			mcAlchemyButton.setDataFromStage(NavigationCode.GAMEPAD_Y, -1);
 			mcAlchemyButton.clickable = false;
+			mcAlchemyButton.visible = false;
 		
-			mcAlchemyButtonPc.visible = false;
 			mcAlchemyButtonPc.setDataFromStage("", KeyCode.L);
 			mcAlchemyButtonPc.clickable = true;
 			mcAlchemyButtonPc.label = "Alchemy";
 			mcAlchemyButtonPc.validateNow();
 			mcAlchemyButtonPc.x =  CLOCK_CENTER - mcAlchemyButtonPc.getViewWidth() / 2;
+			mcAlchemyButtonPc.visible = false;
+			
+			mcModAlchemyDecoration.visible = false;
 			// ----------------------------------------
 		}
 		
@@ -205,9 +210,10 @@
 			// ----------------------------------------
 			
 			// ----- modAlchemyRequiresMeditation -----
-			// reenable the prompts the first time the data is set
-			mcAlchemyButton.visible = true;
-			mcAlchemyButtonPc.visible = true;
+			// reenable the prompt the first time the data is set
+			mcAlchemyButton.visible = _modcrabCanDoAlchemy;
+			mcAlchemyButtonPc.visible = _modcrabCanDoAlchemy;
+			mcModAlchemyDecoration.visible = _modcrabCanDoAlchemy;
 			// ----------------------------------------
 			
 			if (_selectedTime == value)
@@ -326,9 +332,10 @@
 			// ----------------------------------------
 			
 			// ----- modAlchemyRequiresMeditation -----
-			// reenable the prompts the first time the data is set
-			mcAlchemyButton.visible = true;
-			mcAlchemyButtonPc.visible = true;
+			// reenable the prompt the first time the data is set
+			mcAlchemyButton.visible = _modcrabCanDoAlchemy;
+			mcAlchemyButtonPc.visible = _modcrabCanDoAlchemy;
+			mcModAlchemyDecoration.visible = _modcrabCanDoAlchemy;
 			// ----------------------------------------
 			
 			if (_currentTime == value)
@@ -910,6 +917,11 @@
 		public function Set24HRFormat( value : Boolean )
 		{
 			_timeFormat24HR = value;
+		}
+	
+		protected function setCanDoAlchemy( value : Boolean ) : void
+		{
+			_modcrabCanDoAlchemy = value;
 		}
 	}
 }
