@@ -3,7 +3,6 @@ dev:
 
 bugs:
 - rare case of not being able to meditate normally after using bed
-- horse message is the same as generic message
 
 future:
 - check compatibility with SAM
@@ -13,6 +12,7 @@ future:
 - test xbox controller
 - check merge with just BIA
 - check alchemists again
+- horse message is the same as generic message
 
 publish:
 - create feature list in read me
