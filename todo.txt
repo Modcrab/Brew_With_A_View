@@ -3,7 +3,6 @@ dev:
 
 bugs:
 - rare case of not being able to meditate normally after using bed
-- meditation option shouldn't be available when mounted etc.
 - horse message is the same as generic message
 
 future:
