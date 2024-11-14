@@ -3,7 +3,8 @@ dev:
 
 bugs:
 - rare case of not being able to meditate normally after using bed
-`- when in combat, the red message says action not allowed, but clicking brings up the alchemy requires..., it should not show the notif
+- meditation option shouldn't be available when mounted etc.
+- horse message is the same as generic message
 
 future:
 - check compatibility with SAM
