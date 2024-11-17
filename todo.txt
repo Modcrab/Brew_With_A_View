@@ -1,10 +1,11 @@
 dev:
 - add comment next to AS subscription to event
 - make AS strings come from WS code
-- redesign UI
-- make triangle not confusing for alchemy
 - fix camera snap when starting meditation
 - fix ugly camera movement when leaving meditation
+- fix vertical line on the right of meditation menu
+- check works with bed again
+- check diffs
 
 bugs:
 - rare case of not being able to meditate normally after using bed
