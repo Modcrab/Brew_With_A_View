@@ -63,8 +63,6 @@
 		// ----- modAlchemyRequiresMeditation -----
 		public var mcModAlchemyButton:InputFeedbackButton;
 		public var mcModAlchemyButtonPc:InputFeedbackButton;
-		public var mcModAlchemyDecoration:ModAlchemyDecoration;
-		public var mcModAlchemyDisabledFeedback:ModAlchemyDisabledFeedback;
 		public var _modcrabCanDoAlchemy : Boolean = false;
 		// ----------------------------------------
 		
@@ -170,31 +168,29 @@
 			// ----- modAlchemyRequiresMeditation -----
 			mcModAlchemyButton.setDataFromStage(NavigationCode.GAMEPAD_Y, -1);
 			mcModAlchemyButton.clickable = false;
+			
 			mcModAlchemyButton.visible = false;
 		
 			mcModAlchemyButtonPc.setDataFromStage("", KeyCode.L);
 			mcModAlchemyButtonPc.clickable = true;
-			mcModAlchemyButtonPc.label = "Alchemy";
+
 			mcModAlchemyButtonPc.validateNow();
-			mcModAlchemyButtonPc.x =  CLOCK_CENTER - mcModAlchemyButtonPc.getViewWidth() / 2;
 			mcModAlchemyButtonPc.visible = false;
-			
-			mcModAlchemyDecoration.visible = false;
-			
-			mcModAlchemyDisabledFeedback.visible = false;
+
+			mcActivateButton.label = _labelActivateButton;
 			// ----------------------------------------
 		}
 		
 		
 		public function setLabels(btnLabel:String, txtLabel:String):void
 		{
-			_labelActivateButton = btnLabel;
+			//_labelActivateButton = btnLabel; // modcrab
 			_labelMeditateUntil = txtLabel;
 			
-			mcActivateButtonPc.label = _labelActivateButton;
+			//mcActivateButtonPc.label = _labelActivateButton; // modcrab
 			mcActivateButtonPc.updateDataFromStage();
 			mcActivateButtonPc.validateNow();
-			mcActivateButtonPc.x =  CLOCK_CENTER - mcActivateButtonPc.getViewWidth() / 2;
+			//mcActivateButtonPc.x =  CLOCK_CENTER - mcActivateButtonPc.getViewWidth() / 2; modcrab
 			
 			updateTimeMeditateText();
 		}
@@ -216,7 +212,7 @@
 			// reenable the prompts the first time the data is set
 			mcModAlchemyButton.visible = _modcrabCanDoAlchemy;
 			mcModAlchemyButtonPc.visible = _modcrabCanDoAlchemy;
-			mcModAlchemyDecoration.visible = _modcrabCanDoAlchemy;
+			ModcrabUpdateButtonPrompts();
 			// ----------------------------------------
 			
 			if (_selectedTime == value)
@@ -319,7 +315,9 @@
 			txtDuration.visible = true;
 			// ----------------------------------------
 		
-			txtDuration.text = _labelMeditateUntil;
+			//txtDuration.text = _labelMeditateUntil;
+			//txtDuration.appendText(" " + formattedTime);
+			txtDuration.text = "SELECTED TIME";
 			txtDuration.appendText(" " + formattedTime);
 			txtDuration.htmlText = CommonUtils.toUpperCaseSafe(txtDuration.htmlText);
 		}
@@ -338,7 +336,7 @@
 			// reenable the prompts the first time the data is set
 			mcModAlchemyButton.visible = _modcrabCanDoAlchemy;
 			mcModAlchemyButtonPc.visible = _modcrabCanDoAlchemy;
-			mcModAlchemyDecoration.visible = _modcrabCanDoAlchemy;
+			ModcrabUpdateButtonPrompts();
 			// ----------------------------------------
 			
 			if (_currentTime == value)
@@ -421,13 +419,14 @@
 
 		protected function handleControllerChange( event:ControllerChangeEvent ):void
 		{
-			if (_isMeditating)
-			{
-				txtDuration.htmlText = event.isGamepad ? "[[panel_common_cancel]]" : "";
-				txtDuration.htmlText = CommonUtils.toUpperCaseSafe(txtDuration.htmlText);
-			}
+			// modcrab
+			//if (_isMeditating)
+			//{
+			//	txtDuration.htmlText = event.isGamepad ? "[[panel_common_cancel]]" : "";
+			//	txtDuration.htmlText = CommonUtils.toUpperCaseSafe(txtDuration.htmlText);
+			//}
 			
-			mcActivateButtonPc.x =  CLOCK_CENTER - mcActivateButtonPc.getViewWidth() / 2;
+			//mcActivateButtonPc.x =  CLOCK_CENTER - mcActivateButtonPc.getViewWidth() / 2; // modcrab
 			
 			//mcActivateButton.visible = event.isGamepad; /// wtf
 		}
@@ -735,19 +734,20 @@
 
 				mcActivateButton.setDataFromStage(NavigationCode.GAMEPAD_B, -1);
 				
-				mcActivateButtonPc.label = "[[panel_common_cancel]]";
+				//mcActivateButtonPc.label = "[[panel_common_cancel]]"; modcrab
 				mcActivateButtonPc.setDataFromStage("", KeyCode.ESCAPE);
 				mcActivateButtonPc.validateNow();
-				mcActivateButtonPc.x =  CLOCK_CENTER - mcActivateButtonPc.getViewWidth() / 2;
+				//mcActivateButtonPc.x =  CLOCK_CENTER - mcActivateButtonPc.getViewWidth() / 2; // modcrab
 				
 				// ----- modAlchemyRequiresMeditation -----
-				mcModAlchemyDisabledFeedback.visible = _modcrabCanDoAlchemy;
+				ModcrabUpdateButtonPrompts();
 				// ----------------------------------------
 				
 				if (InputManager.getInstance().isGamepad())
 				{
-					txtDuration.htmlText = "[[panel_common_cancel]]";
-					txtDuration.htmlText = CommonUtils.toUpperCaseSafe(txtDuration.htmlText);
+					// modcrab
+					//txtDuration.htmlText = "[[panel_common_cancel]]";
+					//txtDuration.htmlText = CommonUtils.toUpperCaseSafe(txtDuration.htmlText);
 				
 					
 				}
@@ -769,17 +769,14 @@
             {
 				mcActivateButton.setDataFromStage(NavigationCode.GAMEPAD_A, -1);
 				
-				mcActivateButtonPc.label = _labelActivateButton;
+				// mcActivateButtonPc.label = _labelActivateButton; // ----- modAlchemyRequiresMeditation -----
 				mcActivateButtonPc.setDataFromStage("", KeyCode.E);
 				mcActivateButtonPc.validateNow();
-				mcActivateButtonPc.x =  CLOCK_CENTER - mcActivateButtonPc.getViewWidth() / 2;
+				//mcActivateButtonPc.x =  CLOCK_CENTER - mcActivateButtonPc.getViewWidth() / 2; // ----- modAlchemyRequiresMeditation -----
 				
-				// ----- modAlchemyRequiresMeditation -----
-				mcModAlchemyDisabledFeedback.visible = false;
-				// ----------------------------------------
-				
-				txtDuration.htmlText = durationText;
-				txtDuration.htmlText = CommonUtils.toUpperCaseSafe(txtDuration.htmlText);
+				// modcrab
+				//txtDuration.htmlText = durationText;
+				//txtDuration.htmlText = CommonUtils.toUpperCaseSafe(txtDuration.htmlText);
 
                 trace("GFX - Made call to stop meditation");
                 dispatchEvent( new GameEvent(GameEvent.CALL, 'OnStopMeditate') );
@@ -883,15 +880,17 @@
 				
 				stopMeditation();
                 _isMeditating = false;
+				ModcrabUpdateButtonPrompts(); // mod
 				mcActivateButton.setDataFromStage(NavigationCode.GAMEPAD_A, -1);
 				
-				mcActivateButtonPc.label = _labelActivateButton;
+				// mcActivateButtonPc.label = _labelActivateButton; // ----- modAlchemyRequiresMeditation -----
 				mcActivateButtonPc.setDataFromStage("", KeyCode.E);
 				mcActivateButtonPc.validateNow();
-				mcActivateButtonPc.x =  CLOCK_CENTER - mcActivateButtonPc.getViewWidth() / 2;
+				//mcActivateButtonPc.x =  CLOCK_CENTER - mcActivateButtonPc.getViewWidth() / 2; // ----- modAlchemyRequiresMeditation -----
 				
-				txtDuration.text = durationText;
-				txtDuration.htmlText = CommonUtils.toUpperCaseSafe(txtDuration.htmlText);
+				// modcrab
+				//txtDuration.text = durationText;
+				//txtDuration.htmlText = CommonUtils.toUpperCaseSafe(txtDuration.htmlText);
 				
 				//txtDuration.text = "[[panel_meditationclock_med_hours]]";
 				//meditationTimeLeft = selectedTime - currentTime;
@@ -934,6 +933,43 @@
 		protected function setCanDoAlchemy( value : Boolean ) : void
 		{
 			_modcrabCanDoAlchemy = value;
+		}
+		// ----------------------------------------
+	
+		// ----- modAlchemyRequiresMeditation -----
+		protected function ModcrabUpdateButtonPrompts( ) : void
+		{
+			var disabledColor:Number = 0x666666;
+			var enabledColor:Number = 0xFFFFFF; //0xB68E49; <- was hard to read without a bg
+			var extent:Number = 150;
+			var pinch:Number = 0;
+			var rightExtent:Number = CLOCK_CENTER + extent - pinch;
+			var leftExtent:Number = CLOCK_CENTER - extent + pinch;
+
+			// hack: change the text and change it back, to force it to refresh the color
+			mcActivateButton.label = "HACK";
+			mcActivateButtonPc.label = "HACK";
+			mcModAlchemyButton.label = "HACK";
+			mcModAlchemyButtonPc.label = "HACK";
+
+			_labelActivateButton = _isMeditating ? "Cancel" : "Meditate"
+
+			mcActivateButton.label = _labelActivateButton;
+			mcActivateButtonPc.label = _labelActivateButton;
+			mcModAlchemyButton.label = "Alchemy";
+			mcModAlchemyButtonPc.label = "Alchemy";
+
+			mcActivateButton.overrideTextColor = enabledColor;
+			mcActivateButtonPc.overrideTextColor = enabledColor;
+
+			mcModAlchemyButton.overrideTextColor = _isMeditating ? disabledColor : enabledColor;
+			mcModAlchemyButtonPc.overrideTextColor = _isMeditating ? disabledColor : enabledColor;
+
+			mcModAlchemyButtonPc.x = rightExtent - mcModAlchemyButtonPc.getViewWidth();
+			mcActivateButtonPc.x = leftExtent;
+
+			mcModAlchemyButton.x = rightExtent - 135;// hack can't get this to read right mcModAlchemyButton.getViewWidth();
+			mcActivateButton.x = leftExtent;
 		}
 		// ----------------------------------------
 	}
