@@ -1,10 +1,6 @@
 dev:
-- add comment next to AS subscription to event
-- make AS strings come from WS code
-- fix camera snap when starting meditation
 - fix ugly camera movement when leaving meditation
 - fix vertical line on the right of meditation menu
-- check works with bed again
 - check diffs
 
 bugs:
@@ -19,6 +15,7 @@ future:
 - check merge with just BIA
 - check alchemists again
 - horse message is the same as generic message
+- mention URW Din Light compat
 
 publish:
 - create feature list in read me
