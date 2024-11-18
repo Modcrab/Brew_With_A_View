@@ -1,6 +1,5 @@
 dev:
 - fix ugly camera movement when leaving meditation
-- fix vertical line on the right of meditation menu
 - check diffs
 
 bugs:
