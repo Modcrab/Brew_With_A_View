@@ -37,7 +37,7 @@ class CR4MeditationClockMenu extends CR4MenuBase
 		m_flashValueStorage.SetFlashString( "meditation.clock.sleep.prompt.label", "Rest" );
 		m_flashValueStorage.SetFlashNumber( "meditation.clock.sleep.prompt.gamepad.width", 95 );
 		m_flashValueStorage.SetFlashString( "meditation.clock.cancel.prompt.label", "Cancel" );
-		// todo set selection time script in AS
+		m_flashValueStorage.SetFlashString( "meditation.clock.duration.text.prefix", "SELECTED TIME" );
 		// -----
 		
 		GetWitcherPlayer().MeditationClockStart(this);

@@ -75,6 +75,8 @@
 		public var _modSleepButtonPromptGamepadWidth :Number = 0;
 
 		public var _modCancelButtonPromptLabel :String = "";
+
+		public var _modDurationTextPrefix :String = "";
 		// ----------------------------------------
 		
 		private var _globalCenter:Point;
@@ -144,6 +146,7 @@
 			dispatchEvent( new GameEvent(GameEvent.REGISTER, 'meditation.clock.sleep.prompt.label',      		 [setSleepButtonPromptLabel]));
 			dispatchEvent( new GameEvent(GameEvent.REGISTER, 'meditation.clock.sleep.prompt.gamepad.width',      [setSleepButtonPromptGamepadWidth]));
 			dispatchEvent( new GameEvent(GameEvent.REGISTER, 'meditation.clock.cancel.prompt.label',             [setCancelButtonPromptLabel]));
+			dispatchEvent( new GameEvent(GameEvent.REGISTER, 'meditation.clock.duration.text.prefix',			 [setDurationTextPrefix]))
 			// ----------------------------------------
 
 			stage.addEventListener(MouseEvent.MOUSE_DOWN, handleMouseDown, false, 0, true);
@@ -333,7 +336,7 @@
 			// ----- modAlchemyRequiresMeditation -----
 			//txtDuration.text = _labelMeditateUntil;
 			//txtDuration.appendText(" " + formattedTime);
-			txtDuration.text = "SELECTED TIME";
+			txtDuration.text = _modDurationTextPrefix;
 			txtDuration.appendText(" " + formattedTime);
 			// ----------------------------------------
 			txtDuration.htmlText = CommonUtils.toUpperCaseSafe(txtDuration.htmlText);
@@ -1032,6 +1035,10 @@
 		protected function setCancelButtonPromptLabel( value : String ) : void
 		{
 			_modCancelButtonPromptLabel = value;
+		}
+		protected function setDurationTextPrefix( value : String ) : void
+		{
+			_modDurationTextPrefix = value;
 		}
 		// ----------------------------------------
 	}
