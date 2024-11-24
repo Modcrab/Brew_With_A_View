@@ -17,7 +17,7 @@
 - Compatible with Simple Alchemy Refill (recommended).
 - Compatible with Brothers In Arms (recommended).
 - Incompatible with UI replaces (E3 Hud, Vladimir UI etc.)
-- Compatible with font replacers, though I can't guarantee the meditation clock menu will still look nice.
+- Compatible with font replacers.
 
 ## Installation
 - Install like any other mod.
