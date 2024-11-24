@@ -986,6 +986,11 @@
 			mcModAlchemyButton.overrideTextColor = _isMeditating ? disabledColor : enabledColor;
 			mcModAlchemyButtonPc.overrideTextColor = _isMeditating ? disabledColor : enabledColor;
 
+			// these seem to force an update, making the getViewWidth calls accurate this frame
+			// without this, they will be incorrect for a frame
+			mcActivateButtonPc.validateNow();
+			mcModAlchemyButtonPc.validateNow();
+
 			if (_modIsSleeping)
 			{
 				mcModAlchemyButton.visible = false;
