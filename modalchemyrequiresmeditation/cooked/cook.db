@@ -4668,14 +4668,14 @@
             "class": "CSwfResource",
             "seed": 1,
             "id": "216A98FD-E3627D91-B7D635EF-E517AB52",
-            "diskSize": 1135616
+            "diskSize": 1135728
         },
         {
             "path": "gameplay\\gui_new\\swf\\meditation\\panel_meditation_clock.swf",
             "level": 0,
             "seed": 1,
             "id": "1DD47CA9-8C65132E-B9C41A15-2B278BB1",
-            "diskSize": 436079
+            "diskSize": 437081
         },
         {
             "path": "scripts\\game\\gameplay\\interactive\\witcherbed.ws",
