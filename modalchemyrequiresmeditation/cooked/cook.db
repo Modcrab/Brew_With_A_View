@@ -4668,14 +4668,14 @@
             "class": "CSwfResource",
             "seed": 1,
             "id": "216A98FD-E3627D91-B7D635EF-E517AB52",
-            "diskSize": 1135026
+            "diskSize": 1135616
         },
         {
             "path": "gameplay\\gui_new\\swf\\meditation\\panel_meditation_clock.swf",
             "level": 0,
             "seed": 1,
             "id": "1DD47CA9-8C65132E-B9C41A15-2B278BB1",
-            "diskSize": 436447
+            "diskSize": 436079
         },
         {
             "path": "scripts\\game\\gameplay\\interactive\\witcherbed.ws",
@@ -4718,6 +4718,12 @@
             "level": 0,
             "seed": 1,
             "id": "1C2267DD-CF47338D-527DB7A1-F9C9C5BC"
+        },
+        {
+            "path": "scripts\\game\\player\\states\\meditation\\meditationbase.ws",
+            "level": 0,
+            "seed": 1,
+            "id": "034C5FE9-CA9F8FAB-5E927BCA-40674B86"
         },
         {
             "path": "scripts\\game\\player\\states\\meditation\\meditationwaiting.ws",

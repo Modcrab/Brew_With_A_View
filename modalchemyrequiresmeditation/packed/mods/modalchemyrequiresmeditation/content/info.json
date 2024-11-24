@@ -1,7 +1,7 @@
 {
     "name": "modalchemyrequiresmeditation",
     "modName": "Alchemy Requires Meditation",
-    "version": "0.7",
+    "version": "0.8",
     "gameVersion": "",
     "description": "Meditate in realtime.\nPause during meditation to do alchemy.\nAlchemy is prohibited outside of meditation or a herbalist, though you can still access the menu.\nCrafting an alchemy item advances the game time by 15 minutes.\nQuest items can always be crafted, even outside of meditation/herbalist, and do not advance time.\nCorvo Bianco bed functionality remains unchanged.\nIncludes meditation clock UI fixes.\nMeditation UI is extended to include a prompt to open the alchemy menu. The prompt is greyed out whilst advacing time. The prompt doesn't show when sleeping in Corvo Bianco.",
     "author": "",
