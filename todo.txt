@@ -17,8 +17,7 @@ future:
 - mention URW Din Light compat
 - test boat and shallow water
 - check close camera
-- if able to press meditation button, but not able to meditate, provide some feedback (edge case)
-- clean up meditation camera diffs
+- clean up meditation.ws camera diffs
 
 publish:
 - create feature list in read me
