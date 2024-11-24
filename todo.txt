@@ -1,5 +1,5 @@
 dev:
--
+- (Normal) Redesign current time panel in meditation clock UI
 
 bugs:
 - (Minor) rare case of not being able to meditate normally after using bed
