@@ -5,12 +5,10 @@ bugs:
 - (Minor) rare case of not being able to meditate normally after using bed
 - (Minor) if you sprint and start meditation, the campfire will spawn under geralt and damage him during meditation
 - (Minor) (Keyboard) alchemy button prompt starts in wrong position
+- (Minor) (Keyboard) rest button prompt starts in wrong position
 
 future:
 - check compatibility with SAM
-- playtest
-- playtest ciri
-- test input in corvo bianco
 - test xbox controller
 - check merge with just BIA
 - check alchemists again
