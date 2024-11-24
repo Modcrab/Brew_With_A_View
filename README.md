@@ -9,6 +9,8 @@
 - Quest items can always be crafted, even outside of meditation or a herbalist, and do not advance time.
 - Full support for the Corvo Bianco bed, with minor UI tweaks and unchanged functionality.
 - Includes several meditation clock UI fixes.
+- Supports both gamepad and keyboard.
+- Supports both Default and Close exploration camera settings.
 
 ## Compatibility
 - Incompatible with other meditation mods, including Friendly Meditation and Immersive Meditation.
@@ -16,3 +18,7 @@
 - Compatible with Brothers In Arms (recommended).
 - Incompatible with UI replaces (E3 Hud, Vladimir UI etc.)
 - Compatible with font replacers, though I can't guarantee the meditation clock menu will still look nice.
+
+## Installation
+- Install like any other mod.
+- Run Script Merger to ensure this mod's changes aren't overwritten.
