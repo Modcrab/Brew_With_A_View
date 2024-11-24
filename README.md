@@ -1,10 +1,18 @@
 # Alchemy Requires Meditation
- 
-- Meditate in realtime.
-- Pause during meditation to do alchemy.
+
+## Features
+- Meditate whilst seeing the world around you.
+- The meditation UI has been extended to include a prompt to open the alchemy menu.
 - Alchemy is prohibited outside of meditation or a herbalist, though you can still access the menu at any time.
+- Open the alchemy menu during meditation brew potions, oils etc.
 - Crafting an alchemy item advances the game time by 15 minutes.
 - Quest items can always be crafted, even outside of meditation or a herbalist, and do not advance time.
-- Corvo Bianco bed functionality remains unchanged.
-- Includes meditation clock UI fixes.
-- Meditation UI is extended to include a prompt to open the alchemy menu. The prompt is greyed out whilst advacing time. The prompt doesn't show when sleeping in Corvo Bianco.
+- Full support for the Corvo Bianco bed, with minor UI tweaks and unchanged functionality.
+- Includes several meditation clock UI fixes.
+
+## Compatibility
+- Incompatible with other meditation mods, including Friendly Meditation and Immersive Meditation.
+- Compatible with Simple Alchemy Refill (recommended).
+- Compatible with Brothers In Arms (recommended).
+- Incompatible with UI replaces (E3 Hud, Vladimir UI etc.)
+- Compatible with font replacers, though I can't guarantee the meditation clock menu will still look nice.
