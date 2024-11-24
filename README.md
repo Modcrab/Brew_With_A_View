@@ -4,7 +4,7 @@
 - Meditate whilst seeing the world around you.
 - The meditation UI has been extended to include a prompt to open the alchemy menu.
 - Alchemy is prohibited outside of meditation or a herbalist, though you can still access the menu at any time.
-- Open the alchemy menu during meditation brew potions, oils etc.
+- Open the alchemy menu during meditation to brew potions, oils etc.
 - Crafting an alchemy item advances the game time by 15 minutes.
 - Quest items can always be crafted, even outside of meditation or a herbalist, and do not advance time.
 - Full support for the Corvo Bianco bed, with minor UI tweaks and unchanged functionality.
