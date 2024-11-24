@@ -1,9 +1,9 @@
 dev:
-- fix ugly camera movement when leaving meditation
-- check diffs
+-
 
 bugs:
 - rare case of not being able to meditate normally after using bed
+- if you sprint and start meditation, the campfire will spawn under geralt and damage him during meditation
 
 future:
 - check compatibility with SAM
@@ -15,6 +15,10 @@ future:
 - check alchemists again
 - horse message is the same as generic message
 - mention URW Din Light compat
+- test boat and shallow water
+- check close camera
+- if able to press meditation button, but not able to meditate, provide some feedback (edge case)
+- clean up meditation camera diffs
 
 publish:
 - create feature list in read me
