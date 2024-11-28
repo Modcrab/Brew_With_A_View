@@ -12,7 +12,6 @@ future:
 - clean up meditation.ws camera diffs
 
 tests:
-- check alchemists again
 - test xbox controller
 
 
