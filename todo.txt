@@ -1,10 +1,9 @@
 dev:
-- 
+- can we make the campfire completely un-interactable and not damage Geralt?
 
 bugs:
 - (Minor) rare case of not being able to meditate normally after using bed
-- (Minor) if you sprint and start meditation, the campfire will spawn under geralt and damage him during meditation
-- (Minor) you can meditate in shallow water!
+- (Minor) if you sprint and start meditation, the camera will pop when exiting meditation
 
 future:
 - check compatibility with SAM
