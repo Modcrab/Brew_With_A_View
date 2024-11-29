@@ -17,7 +17,7 @@
 - Incompatible with other meditation mods, including Friendly Meditation and Immersive Meditation.
 - Compatible with Simple Alchemy Refill (recommended).
 - Compatible with Brothers In Arms (recommended).
-- Incompatible with UI replaces (E3 Hud, Vladimir UI etc.)
+- Incompatible with UI replaces (E3 UI & Hud, Vladimir UI etc.)
 - Compatible with font replacers.
 
 ## Installation
