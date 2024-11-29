@@ -5,7 +5,7 @@ bugs:
 - (Minor) rare case of not being able to meditate normally after using bed
 
 polish:
-- (Minor) if you meditate whilst camera is over the shoulder, it would be nice if the cam returned to that
+- if you meditate whilst camera is over the shoulder, it would be nice if the cam returned to that
 
 future:
 - check compatibility with SAM
