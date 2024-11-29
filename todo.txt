@@ -16,9 +16,5 @@ future:
 tests:
 - test xbox controller
 
-
 publish:
 - add SAR as a highly recommended mod
-
-
-- clean meditation clock flicker fix
