@@ -9,6 +9,7 @@
 - Quest items can always be crafted, even outside of meditation or a herbalist, and do not advance time.
 - Full support for the Corvo Bianco bed, with minor UI tweaks and unchanged functionality.
 - Includes several meditation clock UI fixes.
+- When in the wilderness Geralt will light a campfire when starting meditating, and put it out when stopping.
 - Supports both gamepad and keyboard.
 - Supports both Default and Close exploration camera settings.
 
