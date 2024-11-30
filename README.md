@@ -20,6 +20,9 @@
 - Incompatible with UI replaces (E3 UI & Hud, Vladimir UI etc.)
 - Compatible with font replacers.
 
-## Installation
+### Installation
 - Install like any other mod.
 - Run Script Merger to ensure this mod's changes aren't overwritten.
+
+### Technical
+- The mod was formerly known as Alchemy Requires Meditation, the REDkit project retains this name.
