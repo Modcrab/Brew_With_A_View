@@ -1,4 +1,4 @@
-# Alchemy Requires Meditation
+# Brew With A View - Enhanced Meditation & Alchemy
 
 ## Features
 - Meditate whilst seeing the world around you.
