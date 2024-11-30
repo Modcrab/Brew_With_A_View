@@ -1,6 +1,7 @@
-# Brew With A View - Enhanced Meditation & Alchemy
+# Brew With A View
+## Enhanced Meditation & Alchemy
 
-## Features
+### Features
 - Meditate whilst seeing the world around you.
 - The meditation UI has been extended to include a prompt to open the alchemy menu.
 - Alchemy is prohibited outside of meditation or a herbalist, though you can still access the menu at any time.
@@ -13,7 +14,7 @@
 - Supports both gamepad and keyboard.
 - Supports both Default and Close exploration camera settings.
 
-## Compatibility
+### Compatibility
 - Incompatible with other meditation mods, including Friendly Meditation and Immersive Meditation.
 - Compatible with Simple Alchemy Refill (recommended).
 - Compatible with Brothers In Arms (recommended).
