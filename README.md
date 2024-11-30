@@ -1,6 +1,8 @@
 # Brew With A View
 ## Enhanced Meditation & Alchemy
 
+![thumbnail](https://github.com/user-attachments/assets/1de3414e-160d-4e22-b70e-a69483d138d0)
+
 ### Features
 - Meditate whilst seeing the world around you.
 - The meditation UI has been extended to include a prompt to open the alchemy menu.
