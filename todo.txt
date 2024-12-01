@@ -3,10 +3,10 @@ dev:
 - see if there is a better way to manage the alchemy menu input
 
 bugs:
-- (Minor) rare case of not being able to meditate normally after using bed
+- 
 
 polish:
-- if you meditate whilst camera is over the shoulder, it would be nice if the cam returned to that
+- 
 
 future:
 - check compatibility with SAM
