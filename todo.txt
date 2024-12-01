@@ -1,5 +1,5 @@
 dev:
-- make localization support easier, see if it's possible to remove the manual width adjustments from code
+- see if it's possible to remove the manual width adjustments from code
 - see if there is a better way to manage the alchemy menu input
 
 bugs:
