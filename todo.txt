@@ -10,7 +10,6 @@ polish:
 
 future:
 - check compatibility with SAM
-- check merge with just BIA
 - horse message is the same as generic message
 
 tests:
