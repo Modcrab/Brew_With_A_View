@@ -4678,6 +4678,12 @@
             "id": "C1BF8DB1-06055A58-222A2274-9FABF3F8"
         },
         {
+            "path": "scripts\\game\\gui\\hud\\modules\\hudmoduleradialmenu.ws",
+            "level": 0,
+            "seed": 1,
+            "id": "D137426E-A209F792-80DA31E3-C3D1D492"
+        },
+        {
             "path": "scripts\\game\\gui\\menus\\alchemymenu.ws",
             "level": 0,
             "seed": 1,
