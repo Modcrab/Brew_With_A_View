@@ -64,19 +64,12 @@
 		public var mcModAlchemyButton:InputFeedbackButton;
 		public var mcModAlchemyButtonPc:InputFeedbackButton;
 		public var mcModCurrentTimeBackground:MovieClip;
-		public var _modIsSleeping : Boolean = false;
-
-		public var _modAlchemyButtonPromptLabel :String = "";
-		public var _modAlchemyButtonPromptGamepadWidth :Number = 0;
-		
-		public var _modMeditateButtonPromptLabel :String = "";
-
-		public var _modSleepButtonPromptLabel :String = "";
-		public var _modSleepButtonPromptGamepadWidth :Number = 0;
-
-		public var _modCancelButtonPromptLabel :String = "";
-
-		public var _modDurationTextPrefix :String = "";
+		private var _modIsSleeping : Boolean = false;
+		private var _modAlchemyButtonPromptLabel :String = "";
+		private var _modMeditateButtonPromptLabel :String = "";
+		private var _modSleepButtonPromptLabel :String = "";
+		private var _modCancelButtonPromptLabel :String = "";
+		private var _modDurationTextPrefix :String = "";
 		// ----------------------------------------
 		
 		private var _globalCenter:Point;
@@ -141,10 +134,8 @@
 			// ----- modAlchemyRequiresMeditation -----
 			dispatchEvent( new GameEvent(GameEvent.REGISTER, 'meditation.clock.sleeping',                		 [setIsSleeping]));
 			dispatchEvent( new GameEvent(GameEvent.REGISTER, 'meditation.clock.alchemy.prompt.label',    		 [setAlchemyButtonPromptLabel]));
-			dispatchEvent( new GameEvent(GameEvent.REGISTER, 'meditation.clock.alchemy.prompt.gamepad.width',    [setAlchemyButtonPromptGamepadWidth]));
 			dispatchEvent( new GameEvent(GameEvent.REGISTER, 'meditation.clock.meditate.prompt.label',   		 [setMeditateButtonPromptLabel]));
 			dispatchEvent( new GameEvent(GameEvent.REGISTER, 'meditation.clock.sleep.prompt.label',      		 [setSleepButtonPromptLabel]));
-			dispatchEvent( new GameEvent(GameEvent.REGISTER, 'meditation.clock.sleep.prompt.gamepad.width',      [setSleepButtonPromptGamepadWidth]));
 			dispatchEvent( new GameEvent(GameEvent.REGISTER, 'meditation.clock.cancel.prompt.label',             [setCancelButtonPromptLabel]));
 			dispatchEvent( new GameEvent(GameEvent.REGISTER, 'meditation.clock.duration.text.prefix',			 [setDurationTextPrefix]))
 			// ----------------------------------------
@@ -958,6 +949,9 @@
 			var rightExtent:Number = CLOCK_CENTER + extent;
 			var leftExtent:Number = CLOCK_CENTER - extent;
 
+			mcModAlchemyButton.setDataFromStage(NavigationCode.GAMEPAD_Y, -1);
+			mcModAlchemyButtonPc.setDataFromStage("", KeyCode.L);
+
 			mcModCurrentTimeBackground.visible = !_modIsSleeping;
 
 			// hack: change the text before we change it back later to force the color to update
@@ -988,15 +982,19 @@
 
 			// these seem to force an update, making the getViewWidth calls accurate this frame
 			// without this, they will be incorrect for a frame
-			mcActivateButtonPc.validateNow();
+			mcModAlchemyButton.validateNow();
+			mcModAlchemyButton.displayGamepadIcon();
 			mcModAlchemyButtonPc.validateNow();
+			mcActivateButton.validateNow();
+			mcActivateButton.displayGamepadIcon();
+			mcActivateButtonPc.validateNow();
 
 			if (_modIsSleeping)
 			{
 				mcModAlchemyButton.visible = false;
 				mcModAlchemyButtonPc.visible = false;
 
-				mcActivateButton.x = CLOCK_CENTER - _modSleepButtonPromptGamepadWidth / 2; // hack: it doesn't seem to read properly using mcActivateButton.getViewWidth() so we hard code it
+				mcActivateButton.x = CLOCK_CENTER - (mcActivateButton.getViewWidth() * mcActivateButton.scaleX) / 2;
 				mcActivateButtonPc.x = CLOCK_CENTER - mcActivateButtonPc.getViewWidth() / 2;
 			}
 			else
@@ -1007,7 +1005,7 @@
 				mcActivateButton.x = leftExtent;
 				mcActivateButtonPc.x = leftExtent;
 
-				mcModAlchemyButton.x = rightExtent - _modAlchemyButtonPromptGamepadWidth; // hack: it doesn't seem to read properly using mcModAlchemyButton.getViewWidth() so we hard code it
+				mcModAlchemyButton.x = rightExtent - (mcModAlchemyButton.getViewWidth() * mcModAlchemyButton.scaleX) + 3; // add 3 as it seems to be slightly off				
 				mcModAlchemyButtonPc.x = rightExtent - mcModAlchemyButtonPc.getViewWidth();
 			}
 		}
@@ -1021,10 +1019,6 @@
 		{
 			_modAlchemyButtonPromptLabel = value;
 		}
-		protected function setAlchemyButtonPromptGamepadWidth ( value : Number ) : void
-		{
-			_modAlchemyButtonPromptGamepadWidth = value;
-		}
 		protected function setMeditateButtonPromptLabel( value : String ) : void
 		{
 			_modMeditateButtonPromptLabel = value;
@@ -1032,10 +1026,6 @@
 		protected function setSleepButtonPromptLabel( value : String ) : void
 		{
 			_modSleepButtonPromptLabel = value;
-		}
-		protected function setSleepButtonPromptGamepadWidth ( value : Number ) : void
-		{
-			_modSleepButtonPromptGamepadWidth = value;
 		}
 		protected function setCancelButtonPromptLabel( value : String ) : void
 		{
