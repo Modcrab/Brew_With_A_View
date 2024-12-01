@@ -14,7 +14,7 @@ future:
 - horse message is the same as generic message
 
 tests:
-- test xbox controller
+- 
 
 publish:
 - add SAR as a highly recommended mod
