@@ -13,6 +13,7 @@
 - Full support for the Corvo Bianco bed, with minor UI tweaks and unchanged functionality.
 - Includes several meditation clock UI fixes.
 - When in the wilderness Geralt will light a campfire when starting meditating, and put it out when stopping.
+- Seamless camera transitions from exploration to meditation and back.
 - Supports both gamepad and keyboard.
 - Supports both Default and Close exploration camera settings.
 
@@ -29,3 +30,11 @@
 
 ### Technical
 - The mod was formerly known as Alchemy Requires Meditation, the REDkit project retains this name.
+
+### Permissions
+- MIT Licence. Feel free to do whatever you like, I only ask that you credit me as the original author.
+
+### Credits
+- A huge thank you to wghost81 and ksolberg for their mods Friendly Meditation, Preparations and Immersive Meditation, which served as a source of inspiration for this mod as well as a great reference point for how to achieve certain things.
+- Thank you to Aeltoth, Spontan and Focusnoot on the Wolven Workshop Discord for helping me troubleshoot various issues I had throughout the development of this mod.
+- Thank you to CDPR for making such an awesome game and giving us the tools to mod it.
