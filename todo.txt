@@ -3,18 +3,18 @@ dev:
 - see if there is a better way to manage the alchemy menu input
 
 bugs:
-- 
+- (Major) you can save during meditation, this should be prevented to reduce bugs
 
 polish:
 - 
 
 future:
-- 
+- use more annotations for better merging
+- improve feet sliding on stand up animation
+- fix geralt sometimes standing bolt upright when exiting meditation
 
 tests:
 - check compatibility with SAM
-- check localized rest string
-- test save lock
 
 publish:
 - 
