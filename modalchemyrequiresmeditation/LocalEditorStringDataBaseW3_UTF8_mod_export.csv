@@ -5,6 +5,6 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 13425897;CUSTOM;All;;mod_meditation_clock_meditate_prompt_label;;;;;;;;Meditare;Mediter;;;;Meditate;;Meditar;;
 13425898;CUSTOM;All;;mod_meditation_clock_sleep_prompt_label;;;;;;;;Riposare;Reposer;;;;Rest;;Descansar;;
 13425899;CUSTOM;All;;mod_meditation_clock_cancel_prompt_label;;;;;;;;Annullare;Annuler;;;;Cancel;;Cancelar;;
-13425900;CUSTOM;All;;mod_meditation_clock_duration_text_prefix;;;;;;;;ORA SCELTA;HEURRE SELECTIONNEE;;;;SELECTED TIME;;HORA SELECCIONADA;;
+13425900;CUSTOM;All;;mod_meditation_clock_duration_text_prefix;;;;;;;;ORA SCELTA;HEURRE SELECTIONNEE;;;;SELECTED TIME;;HORA SELECCIONADA -;;
 13425901;CUSTOM;All;;mod_prevent_alchemy_feedback;;;;;;;;Alchimia richiede meditazione o un'erborista.;L'alchimie necessite de la meditation ou un herboriste.;;;;Alchemy requires meditiation or a herbalist.;;El alquimia necesita la meditacion o un herborista.;;
 13425902;CUSTOM;All;;;;;;;;;;;;;;;;;;;
