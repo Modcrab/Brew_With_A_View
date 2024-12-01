@@ -13,6 +13,7 @@ future:
 
 tests:
 - check compatibility with SAM
+- check localized rest string
 
 publish:
 - 
