@@ -17,4 +17,4 @@ tests:
 - 
 
 publish:
-- add SAR as a highly recommended mod
+- 
