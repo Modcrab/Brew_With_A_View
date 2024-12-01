@@ -1,5 +1,6 @@
 dev:
 - make localization support easier, see if it's possible to remove the manual width adjustments from code
+- see if there is a better way to manage the alchemy menu input
 
 bugs:
 - (Minor) rare case of not being able to meditate normally after using bed
@@ -11,7 +12,6 @@ future:
 - check compatibility with SAM
 - check merge with just BIA
 - horse message is the same as generic message
-- clean up meditation.ws camera diffs
 
 tests:
 - test xbox controller
