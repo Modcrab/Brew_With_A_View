@@ -3,7 +3,7 @@ dev:
 - see if there is a better way to manage the alchemy menu input
 
 bugs:
-- (Major) you can save during meditation, this should be prevented to reduce bugs
+- 
 
 polish:
 - 
