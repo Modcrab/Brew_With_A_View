@@ -3,17 +3,16 @@ dev:
 - see if there is a better way to manage the alchemy menu input
 
 bugs:
-- 
+- (Minor) if you try and meditate from the radial menu whilst mounted, you get an unnecessary notif saying you cannot do that now
 
 polish:
 - 
 
 future:
-- check compatibility with SAM
-- horse message is the same as generic message
+- 
 
 tests:
-- 
+- check compatibility with SAM
 
 publish:
 - 
