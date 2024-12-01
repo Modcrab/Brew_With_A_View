@@ -30,6 +30,7 @@
 
 ### Technical
 - The mod was formerly known as Alchemy Requires Meditation, the REDkit project retains this name.
+- Mod ID Space: 13425894
 
 ### Permissions
 - MIT Licence. Feel free to do whatever you like, I only ask that you credit me as the original author.
