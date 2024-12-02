@@ -1,9 +1,9 @@
 dev:
-- check to wrap methods
+- 
 
 bugs:
-- (Critical) opening the meditation menu with pc controls shows gamepad nav behind
 - (Minor) can't meditate feedback notif doesn't play if you are in combat
+- (Major) you should be able to click the alchemy prompt on pc to open the alchemy menu
 
 polish:
 - 
@@ -16,7 +16,7 @@ future:
 
 tests:
 - check compatibility with SAM
-- check diffs
+- test all nav on all platforms
 
 publish:
 - 
