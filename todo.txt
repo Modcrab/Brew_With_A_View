@@ -3,6 +3,7 @@ dev:
 
 bugs:
 - (Critical) opening the meditation menu with pc controls shows gamepad nav behind
+- (Minor) can't meditate feedback notif doesn't play if you are in combat
 
 polish:
 - 
