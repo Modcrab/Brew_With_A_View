@@ -952,8 +952,6 @@
 			mcModAlchemyButton.setDataFromStage(NavigationCode.GAMEPAD_Y, -1);
 			mcModAlchemyButtonPc.setDataFromStage("", KeyCode.L);
 
-			mcModCurrentTimeBackground.visible = !_modIsSleeping;
-
 			// hack: change the text before we change it back later to force the color to update
 			mcActivateButton.label = "HACK";
 			mcActivateButtonPc.label = "HACK";
@@ -983,30 +981,40 @@
 			// these seem to force an update, making the getViewWidth calls accurate this frame
 			// without this, they will be incorrect for a frame
 			mcModAlchemyButton.validateNow();
-			mcModAlchemyButton.displayGamepadIcon();
 			mcModAlchemyButtonPc.validateNow();
+			mcModAlchemyButton.displayGamepadIcon(); // hack part 1: seems to force getViewWidth to be correct when switching from PC to gamepad nav
 			mcActivateButton.validateNow();
-			mcActivateButton.displayGamepadIcon();
 			mcActivateButtonPc.validateNow();
 
 			if (_modIsSleeping)
 			{
-				mcModAlchemyButton.visible = false;
-				mcModAlchemyButtonPc.visible = false;
-
 				mcActivateButton.x = CLOCK_CENTER - (mcActivateButton.getViewWidth() * mcActivateButton.scaleX) / 2;
 				mcActivateButtonPc.x = CLOCK_CENTER - mcActivateButtonPc.getViewWidth() / 2;
 			}
 			else
 			{
-				mcModAlchemyButton.visible = true;
-				mcModAlchemyButtonPc.visible = true;
-
 				mcActivateButton.x = leftExtent;
 				mcActivateButtonPc.x = leftExtent;
 
 				mcModAlchemyButton.x = rightExtent - (mcModAlchemyButton.getViewWidth() * mcModAlchemyButton.scaleX) + 3; // add 3 as it seems to be slightly off				
 				mcModAlchemyButtonPc.x = rightExtent - mcModAlchemyButtonPc.getViewWidth();
+			}
+
+			// hack part 2: I think this undoes forcing the gamepad icon to be displayed
+			mcModAlchemyButton.updateDataFromStage();
+			mcModAlchemyButtonPc.updateDataFromStage();
+
+			mcModCurrentTimeBackground.visible = !_modIsSleeping;
+
+			if (_modIsSleeping)
+			{
+				mcModAlchemyButton.visible = false;
+				mcModAlchemyButtonPc.visible = false;
+			}
+			else
+			{
+				mcModAlchemyButton.visible = true;
+				mcModAlchemyButtonPc.visible = true;
 			}
 		}
 
