@@ -2,7 +2,7 @@ dev:
 - see if there is a better way to manage the alchemy menu input
 
 bugs:
-- 
+- (Critical) opening the meditation menu with pc controls shows gamepad nav behind
 
 polish:
 - 
