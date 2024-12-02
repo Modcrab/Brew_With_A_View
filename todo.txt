@@ -1,5 +1,5 @@
 dev:
-- see if there is a better way to manage the alchemy menu input
+- 
 
 bugs:
 - (Critical) opening the meditation menu with pc controls shows gamepad nav behind
@@ -11,9 +11,11 @@ future:
 - use more annotations for better merging
 - improve feet sliding on stand up animation
 - fix geralt sometimes standing bolt upright when exiting meditation
+- see if there is a better way to manage the alchemy menu input
 
 tests:
 - check compatibility with SAM
+- check diffs
 
 publish:
 - 
