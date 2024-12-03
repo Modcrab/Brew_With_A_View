@@ -2,7 +2,7 @@ dev:
 - 
 
 bugs:
-- (Minor) can't meditate feedback notif doesn't play if you are in combat
+-
 
 polish:
 - 
@@ -16,6 +16,7 @@ future:
 tests:
 - check compatibility with SAM
 - test all nav on all platforms
+- playtest
 
 publish:
 - 
