@@ -2,7 +2,9 @@ dev:
 - 
 
 bugs:
--
+- (Normal) (Gamepad) you can't open the fast menu whilst meditating
+- (Critical) (Keyboard) softlock if you press Enter whilst meditating
+- (Minor) (PS5 Gamepad) pressing R2 during meditation triggers continuous controller rumble
 
 polish:
 - 
