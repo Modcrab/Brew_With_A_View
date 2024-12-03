@@ -65,6 +65,8 @@
 		public var mcModAlchemyButtonPc:InputFeedbackButton;
 		public var mcModCurrentTimeBackground:MovieClip;
 		private var _modIsSleeping : Boolean = false;
+		private var _modAlchemyButtonPromptLabelSet : Boolean = false;
+		private var _modAlchemyButtonPromptPCPositioned : Boolean = false;
 		private var _modAlchemyButtonPromptLabel :String = "";
 		private var _modMeditateButtonPromptLabel :String = "";
 		private var _modSleepButtonPromptLabel :String = "";
@@ -186,6 +188,7 @@
 		
 			mcModAlchemyButtonPc.setDataFromStage("", KeyCode.L);
 			mcModAlchemyButtonPc.clickable = true;
+			mcModAlchemyButtonPc.addEventListener(ButtonEvent.PRESS, modcrabHandleAlchemyButtonPress, false, 0, true);
 			mcModAlchemyButtonPc.validateNow();
 			mcModAlchemyButtonPc.visible = false;
 
@@ -977,6 +980,7 @@
 
 			mcModAlchemyButton.overrideTextColor = _isMeditating ? disabledColor : enabledColor;
 			mcModAlchemyButtonPc.overrideTextColor = _isMeditating ? disabledColor : enabledColor;
+			mcModAlchemyButtonPc.clickable = !_isMeditating;
 
 			// these seem to force an update, making the getViewWidth calls accurate this frame
 			// without this, they will be incorrect for a frame
@@ -997,7 +1001,11 @@
 				mcActivateButtonPc.x = leftExtent;
 
 				mcModAlchemyButton.x = rightExtent - (mcModAlchemyButton.getViewWidth() * mcModAlchemyButton.scaleX) + 3; // add 3 as it seems to be slightly off				
-				mcModAlchemyButtonPc.x = rightExtent - mcModAlchemyButtonPc.getViewWidth();
+				if (_modAlchemyButtonPromptPCPositioned == false) // hack: only do this once to stop it jumping around when pressing the meditation prompt
+				{
+					mcModAlchemyButtonPc.x = rightExtent - mcModAlchemyButtonPc.getViewWidth();
+					_modAlchemyButtonPromptPCPositioned = true;
+				}
 			}
 
 			// hack part 2: I think this undoes forcing the gamepad icon to be displayed
@@ -1018,6 +1026,18 @@
 			}
 		}
 
+		protected function modcrabHandleAlchemyButtonPress( event : ButtonEvent ) : void
+		{
+			if (_isMeditating)
+			{
+				// shouldn't be clicked
+			}
+			else
+			{
+				dispatchEvent( new GameEvent(GameEvent.CALL, 'OnModcrabOnAlchemyPressed' ));
+			}
+		}
+
 		// these functions get called from the witcher script code MeditationClockMenu.ws
 		protected function setIsSleeping( value : Boolean ) : void
 		{
@@ -1026,6 +1046,7 @@
 		protected function setAlchemyButtonPromptLabel( value : String ) : void
 		{
 			_modAlchemyButtonPromptLabel = value;
+			_modAlchemyButtonPromptLabelSet = true;
 		}
 		protected function setMeditateButtonPromptLabel( value : String ) : void
 		{
