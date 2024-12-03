@@ -8,15 +8,13 @@ polish:
 - 
 
 future:
-- use more annotations for better merging
 - improve feet sliding on stand up animation
 - fix geralt sometimes standing bolt upright when exiting meditation
 - see if there is a better way to manage the alchemy menu input
 
 tests:
 - check compatibility with SAM
-- test all nav on all platforms
-- playtest
+- playtest, test all nav on all platforms
 
 publish:
 - 
