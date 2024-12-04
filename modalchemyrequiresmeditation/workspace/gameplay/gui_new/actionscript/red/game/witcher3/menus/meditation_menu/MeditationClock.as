@@ -986,9 +986,12 @@
 			// without this, they will be incorrect for a frame
 			mcModAlchemyButton.validateNow();
 			mcModAlchemyButtonPc.validateNow();
-			mcModAlchemyButton.displayGamepadIcon(); // hack part 1: seems to force getViewWidth to be correct when switching from PC to gamepad nav
 			mcActivateButton.validateNow();
 			mcActivateButtonPc.validateNow();
+
+			// hack part 1: seems to force getViewWidth to be correct when switching from PC to gamepad nav
+			mcModAlchemyButton.displayGamepadIcon();
+			mcActivateButton.displayGamepadIcon();
 
 			if (_modIsSleeping)
 			{
@@ -1011,6 +1014,8 @@
 			// hack part 2: I think this undoes forcing the gamepad icon to be displayed
 			mcModAlchemyButton.updateDataFromStage();
 			mcModAlchemyButtonPc.updateDataFromStage();
+			mcActivateButton.updateDataFromStage();
+			mcActivateButtonPc.updateDataFromStage();
 
 			mcModCurrentTimeBackground.visible = !_modIsSleeping;
 
