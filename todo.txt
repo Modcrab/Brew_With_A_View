@@ -1,5 +1,5 @@
 dev:
-- 
+- check diffs clockmenu, playerinput, meditation, meditationwaiting
 
 bugs:
 - (Normal) (Gamepad) you can't open the fast menu whilst meditating, and shouldn't be able to open it whilst skipping time or whilst exiting meditation
