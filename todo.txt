@@ -2,7 +2,6 @@ dev:
 - check diffs clockmenu, playerinput, meditation, meditationwaiting
 
 bugs:
-- (Minor) (PS5 Gamepad) pressing R2 during meditation triggers continuous controller rumble
 - (Minor) when skipping time stops, button prompt changes at a different time to the label
 
 polish:
