@@ -2,14 +2,13 @@ dev:
 - 
 
 bugs:
-- (Normal) (Gamepad) you can't open the fast menu whilst meditating
-- (Critical) (Keyboard) softlock if you press Enter whilst meditating
+- (Normal) (Gamepad) you can't open the fast menu whilst meditating, and shouldn't be able to open it whilst skipping time
 - (Minor) (PS5 Gamepad) pressing R2 during meditation triggers continuous controller rumble
-- (Normal) rest prompt moves around during meditation
-- (Normal) rest prompt appears in wrong position for one frame
+- (Minor) when skipping time stops, button prompt changes at a different time to the label
 
 polish:
-- 
+- tuck in pc prompts
+- disable meditation when not possible?
 
 future:
 - improve feet sliding on stand up animation
