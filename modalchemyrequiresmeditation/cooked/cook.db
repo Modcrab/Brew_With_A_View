@@ -4657,25 +4657,19 @@
             "id": "83805C3C-667C4CF3-42173F7C-929C8D2B"
         },
         {
-            "path": "gameplay\\gui_new\\fla\\witcher3\\menus\\meditation\\recover_panel_meditation_clock.fla",
-            "level": 0,
-            "seed": 1,
-            "id": "B8C7D84E-1A23C102-9069D636-A4B4BF3F"
-        },
-        {
             "path": "gameplay\\gui_new\\swf\\meditation\\panel_meditation_clock.redswf",
             "level": 0,
             "class": "CSwfResource",
             "seed": 1,
             "id": "216A98FD-E3627D91-B7D635EF-E517AB52",
-            "diskSize": 1135836
+            "diskSize": 1135993
         },
         {
             "path": "gameplay\\gui_new\\swf\\meditation\\panel_meditation_clock.swf",
             "level": 0,
             "seed": 1,
             "id": "1DD47CA9-8C65132E-B9C41A15-2B278BB1",
-            "diskSize": 437050
+            "diskSize": 437170
         },
         {
             "path": "scripts\\game\\gameplay\\interactive\\witcherbed.ws",
@@ -4694,12 +4688,6 @@
             "level": 0,
             "seed": 1,
             "id": "16A43FE9-4D0AB5FB-EA52E452-79E24B18"
-        },
-        {
-            "path": "scripts\\game\\gui\\menus\\commonmenu.ws",
-            "level": 0,
-            "seed": 1,
-            "id": "B64AA371-3A3340DF-EF106106-20144303"
         },
         {
             "path": "scripts\\game\\gui\\menus\\meditationclockmenu.ws",
@@ -4750,16 +4738,28 @@
             "id": "A921E81C-800934CB-FFD70475-2BC46C07"
         },
         {
+            "path": "scripts\\modalchemyrequiresmeditationcommonmenuannotation.ws",
+            "level": 0,
+            "seed": 1,
+            "id": "FDC5268A-0BCC129C-5C47D2AE-705A3934"
+        },
+        {
+            "path": "scripts\\modalchemyrequiresmeditationplayerannotation.ws",
+            "level": 0,
+            "seed": 1,
+            "id": "771D528D-EC4C7BCB-C63DCFB8-A6A329E2"
+        },
+        {
+            "path": "scripts\\modalchemyrequiresmeditationplayerinputannotation.ws",
+            "level": 0,
+            "seed": 1,
+            "id": "BA91E056-5CAC94A6-722FE997-0DD407F6"
+        },
+        {
             "path": "scripts\\modalchemyrequiresmeditationplayerwitcherannotation.ws",
             "level": 0,
             "seed": 1,
             "id": "BC6D4B2B-1CC3C821-4A226C79-4792D594"
-        },
-        {
-            "path": "scripts\\modalchemyrequiresplayerannotation.ws",
-            "level": 0,
-            "seed": 1,
-            "id": "55B24391-78A4092B-27184287-A70245EF"
         }
     ]
 }
