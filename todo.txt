@@ -2,13 +2,13 @@ dev:
 - 
 
 bugs:
-- (Normal) (Gamepad) you can't open the fast menu whilst meditating, and shouldn't be able to open it whilst skipping time
+- (Normal) (Gamepad) you can't open the fast menu whilst meditating, and shouldn't be able to open it whilst skipping time or whilst exiting meditation
 - (Minor) (PS5 Gamepad) pressing R2 during meditation triggers continuous controller rumble
 - (Minor) when skipping time stops, button prompt changes at a different time to the label
 
 polish:
 - tuck in pc prompts
-- disable meditation when not possible?
+- disable meditation in common menu when CanMeditateHere will fail?
 
 future:
 - improve feet sliding on stand up animation
@@ -19,6 +19,7 @@ tests:
 - check compatibility with SAM
 - test meditation tutorial
 - test alchemy tutorial
+- check opening gwent menu (H) during meditation
 
 smoke test:
 - meditate from radial menu, N and fast menu
