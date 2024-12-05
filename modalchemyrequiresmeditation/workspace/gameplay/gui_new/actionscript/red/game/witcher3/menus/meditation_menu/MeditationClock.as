@@ -29,6 +29,13 @@
 	import red.game.witcher3.utils.CommonUtils;
 	import scaleform.gfx.MouseEventEx;
 
+	// modcrab
+	import fl.transitions.Tween;
+	import fl.transitions.easing.Strong;
+	import flash.events.Event;
+	// -----
+	
+
 	/**
 	 * Time selection in the meditation menu
 	 * @author Yaroslav Getsevich
@@ -72,6 +79,9 @@
 		private var _modSleepButtonPromptLabel :String = "";
 		private var _modCancelButtonPromptLabel :String = "";
 		private var _modDurationTextPrefix :String = "";
+		private var _modcrabEntranceAnimationTargetY :Number;
+		private var _modcrabEntranceAnimationStarted :Boolean = false;
+		private var _modcrabEntranceAnimationStopped :Boolean = false;
 		// ----------------------------------------
 		
 		private var _globalCenter:Point;
@@ -139,7 +149,9 @@
 			dispatchEvent( new GameEvent(GameEvent.REGISTER, 'meditation.clock.meditate.prompt.label',   		 [setMeditateButtonPromptLabel]));
 			dispatchEvent( new GameEvent(GameEvent.REGISTER, 'meditation.clock.sleep.prompt.label',      		 [setSleepButtonPromptLabel]));
 			dispatchEvent( new GameEvent(GameEvent.REGISTER, 'meditation.clock.cancel.prompt.label',             [setCancelButtonPromptLabel]));
-			dispatchEvent( new GameEvent(GameEvent.REGISTER, 'meditation.clock.duration.text.prefix',			 [setDurationTextPrefix]))
+			dispatchEvent( new GameEvent(GameEvent.REGISTER, 'meditation.clock.duration.text.prefix',			 [setDurationTextPrefix]));
+			dispatchEvent( new GameEvent(GameEvent.REGISTER, 'meditation.clock.entrance',                		 [modcrabDoEntranceAnimation]));
+			dispatchEvent( new GameEvent(GameEvent.REGISTER, 'meditation.clock.entrance.stop',                   [modcrabStopEntranceAnimation]));
 			// ----------------------------------------
 
 			stage.addEventListener(MouseEvent.MOUSE_DOWN, handleMouseDown, false, 0, true);
@@ -193,6 +205,11 @@
 			mcModAlchemyButtonPc.visible = false;
 
 			mcModCurrentTimeBackground.visible = false;
+
+			this.alpha = 0;
+			this.visible = true;
+			_modcrabEntranceAnimationTargetY = this.y;
+			this.y = _modcrabEntranceAnimationTargetY + 700;
 			// ----------------------------------------
 		}
 		
@@ -951,6 +968,7 @@
 			var extent:Number = 150;
 			var rightExtent:Number = CLOCK_CENTER + extent;
 			var leftExtent:Number = CLOCK_CENTER - extent;
+			var pcNavPinch:Number = 10;
 
 			mcModAlchemyButton.setDataFromStage(NavigationCode.GAMEPAD_Y, -1);
 			mcModAlchemyButtonPc.setDataFromStage("", KeyCode.L);
@@ -1001,12 +1019,12 @@
 			else
 			{
 				mcActivateButton.x = leftExtent;
-				mcActivateButtonPc.x = leftExtent;
+				mcActivateButtonPc.x = leftExtent + pcNavPinch;
 
 				mcModAlchemyButton.x = rightExtent - (mcModAlchemyButton.getViewWidth() * mcModAlchemyButton.scaleX) + 3; // add 3 as it seems to be slightly off				
 				if (_modAlchemyButtonPromptPCPositioned == false) // hack: only do this once to stop it jumping around when pressing the meditation prompt
 				{
-					mcModAlchemyButtonPc.x = rightExtent - mcModAlchemyButtonPc.getViewWidth();
+					mcModAlchemyButtonPc.x = rightExtent - mcModAlchemyButtonPc.getViewWidth() - pcNavPinch;
 					_modAlchemyButtonPromptPCPositioned = true;
 				}
 			}
@@ -1040,6 +1058,62 @@
 			else
 			{
 				dispatchEvent( new GameEvent(GameEvent.CALL, 'OnModcrabOnAlchemyPressed' ));
+			}
+		}
+
+		public function modcrabDoEntranceAnimation( doEntranceAnimation : Boolean ) : void
+		{
+			_modcrabEntranceAnimationStarted = true;
+			if( doEntranceAnimation )
+			{
+				addEventListener(Event.ENTER_FRAME, modcrabEntranceAnimationTick);
+			}
+			else
+			{
+				modcrabStopEntranceAnimation( true );
+			}
+		}
+		public function modcrabStopEntranceAnimation( skipToEnd : Boolean ) : void
+		{
+			if (!_modcrabEntranceAnimationStarted)
+				return;
+
+			if (_modcrabEntranceAnimationStopped)
+				return;
+
+			if (skipToEnd)
+			{
+				this.alpha = 1;
+				this.y = _modcrabEntranceAnimationTargetY;
+			}
+
+			removeEventListener(Event.ENTER_FRAME, modcrabEntranceAnimationTick);
+
+			_modcrabEntranceAnimationStopped = true;
+		}
+		function modcrabEntranceAnimationTick(e : Event) : void
+		{
+			var alphaDone : Boolean = false;
+			var positionDone : Boolean = false;
+
+			this.alpha += 0.03;
+			if (this.alpha >= 1)
+			{
+				this.alpha = 1;
+				alphaDone = true;
+			}
+
+			var difference:Number = _modcrabEntranceAnimationTargetY - this.y;
+    		this.y += difference * 0.12;
+			if (Math.abs(difference) < 1)
+			{
+				this.y = _modcrabEntranceAnimationTargetY;
+				positionDone = true;
+			}
+
+			if (alphaDone && positionDone)
+			{
+				modcrabStopEntranceAnimation( true );
 			}
 		}
 
