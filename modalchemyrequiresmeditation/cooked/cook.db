@@ -4657,12 +4657,6 @@
             "id": "83805C3C-667C4CF3-42173F7C-929C8D2B"
         },
         {
-            "path": "gameplay\\gui_new\\fla\\witcher3\\menus\\meditation\\recover_panel_meditation_clock.fla",
-            "level": 0,
-            "seed": 1,
-            "id": "B8C7D84E-1A23C102-9069D636-A4B4BF3F"
-        },
-        {
             "path": "gameplay\\gui_new\\swf\\meditation\\panel_meditation_clock.redswf",
             "level": 0,
             "class": "CSwfResource",
