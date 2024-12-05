@@ -6,6 +6,7 @@ bugs:
 
 polish:
 - tuck in pc prompts
+- add entrance animation to menu
 - disable meditation in common menu when CanMeditateHere will fail?
 
 future:
