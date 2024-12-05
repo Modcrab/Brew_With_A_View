@@ -3,7 +3,7 @@ dev:
 
 bugs:
 - (Minor) when skipping time stops, button prompt changes at a different time to the label
-- (Critical) if you meditate on PC with N, the next time you press Enter, it puts you into meditation mode that exits immediately
+- (Minor) if you run, release the key and quickly meditate, the campfire can end up under Geralt
 
 polish:
 - disable meditation in common menu when CanMeditateHere will fail?
