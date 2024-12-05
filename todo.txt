@@ -5,8 +5,6 @@ bugs:
 - (Minor) when skipping time stops, button prompt changes at a different time to the label
 
 polish:
-- tuck in pc prompts
-- add entrance animation to menu
 - disable meditation in common menu when CanMeditateHere will fail?
 
 future:
