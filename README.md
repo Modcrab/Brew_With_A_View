@@ -45,5 +45,6 @@
 - Thank you to Aeltoth, Spontan and Focusnoot on the Wolven Workshop Discord for helping me troubleshoot various issues I had throughout the development of this mod.
 - Thank you to lupo_bianco89 for their save file Game plus DLC HOS and BaW Complete for NG plus, and Kromanjon for their save file Main story and Hearts of stone done, which were of great help in testing the mod.
 - Thank you to my friend Lily for help translating the mod to French, Italian and Spanish.
+- Thank you to my friend Charlie for help with the mod page.
 - Thank you to JoannaVu for the brilliant thewitcher font.
 - Thank you to CDPR for making such an awesome game and giving us the tools to mod it!
