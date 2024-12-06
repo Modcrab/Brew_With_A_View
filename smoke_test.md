@@ -1,5 +1,7 @@
 # Smoke Test
 
+This procedure covers most of the features in the mod, providing a solid assessment of whether the mod is stable. It should be repeated with every major release.
+
 ## Repeat the following for PS5, Xbox and Keyboard controls
 
 ### Basic Meditation
