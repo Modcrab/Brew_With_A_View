@@ -13,6 +13,7 @@ future:
 
 tests:
 - test alchemy tutorial
+- double check bed bonuses with SAR
 
 publish:
 - 
