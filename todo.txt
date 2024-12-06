@@ -13,39 +13,5 @@ future:
 tests:
 - test alchemy tutorial
 
-smoke test:
-- meditate from radial menu, N and fast menu
-- cancel meditation on gamepad and keyboard
-- meditate on gamepad and keyboard
-- press all gamepad buttons during meditation
-- open alchemy from meditation on gamepad and keyboard
-- testing clicking button prompts in meditation menu on keyboard
-- test other menu hotkeys during meditation on gamepad and keyboard
-- test button prompt swapping during meditation
-- rest with gamepad and keyboard
-- test other menu hotkeys during rest on gamepad and keyboard
-- test button prompt swapping during rest
-- test clicking button prompts in rest on keyboard
-- press all gamepad buttons during rest
-- try and open meditation when swinging your sword via radial menu, N and fast menu
-- try and open meditation when on roach via radial menu, N and fast menu
-- try and open meditation in combat via radial menu, N and fast travel
-- check camera transitions in exterior and default camera
-- check camera transitions in exterior and close camera
-- check camera transitions in interior and default camera
-- check camera transitions in interior and close camera
-- check camera transitions on boat and default camera
-- check camera transitions on boat and close camera
-- check campfire doesn't spawn in interiors, boat, settlements or very far below geralt
-- check campfire spawn position when meditating whilst running
-- check campfire spawn position when meditating whilst sprinting
-- check meditation is interrupted by combat
-- check you can't save during meditation
-- check you can't craft alchemy items outside of meditation
-- check you can craft alchemy items during meditation or at a herbalist
-- check you can craft quest items inside and outside meditation and at a herbalist
-- check non-quest items advance time when crafted
-- check quest items don't advance time when crafted
-
 publish:
 - 
