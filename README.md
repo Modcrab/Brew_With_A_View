@@ -34,7 +34,7 @@
 
 ### Technical
 - The mod was formerly known as Alchemy Requires Meditation, the REDkit project retains this name and is frequently referenced in the project files.
-- If you are looking for my changes inside .ws or .as files, search for "modAlchemyRequiresMeditation", "modcrab" or "modMeditationClockFlickerFix".
+- If you are looking for my changes inside .ws or .as files, search for "modcrab".
 - Mod ID Space: 13425894
 
 ### Permissions
