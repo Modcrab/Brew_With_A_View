@@ -73,8 +73,8 @@
 		public var mcModCurrentTimeBackground:MovieClip;
 		private var _modIsSleeping : Boolean = false;
 		private var _modShowAlchemyPrompt : Boolean = false;
-		private var _modAlchemyButtonPromptLabelSet : Boolean = false;
-		private var _modAlchemyButtonPromptPCPositioned : Boolean = false;
+		private var _modActivateButtonPromptPositioned : Boolean = false;
+		private var _modAlchemyButtonPromptPositioned : Boolean = false;
 		private var _modAlchemyButtonPromptLabel :String = "";
 		private var _modMeditateButtonPromptLabel :String = "";
 		private var _modSleepButtonPromptLabel :String = "";
@@ -1015,20 +1015,30 @@
 
 			if (_modShowAlchemyPrompt)
 			{
-				mcActivateButton.x = leftExtent;
-				mcActivateButtonPc.x = leftExtent + pcNavPinch;
-
-				mcModAlchemyButton.x = rightExtent - (mcModAlchemyButton.getViewWidth() * mcModAlchemyButton.scaleX) + 3; // add 3 as it seems to be slightly off				
-				if (_modAlchemyButtonPromptPCPositioned == false) // hack: only do this once to stop it jumping around when pressing the meditation prompt
+				if (_modActivateButtonPromptPositioned == false)
 				{
+					mcActivateButton.x = leftExtent;
+					mcActivateButtonPc.x = leftExtent + pcNavPinch;
+					_modActivateButtonPromptPositioned = true;
+				}
+
+				if (_modAlchemyButtonPromptPositioned == false)
+				{
+					mcModAlchemyButton.x = rightExtent - (mcModAlchemyButton.getViewWidth() * mcModAlchemyButton.scaleX) + 3; // add 3 as it seems to be slightly off				
 					mcModAlchemyButtonPc.x = rightExtent - mcModAlchemyButtonPc.getViewWidth() - pcNavPinch;
-					_modAlchemyButtonPromptPCPositioned = true;
+					if (_modAlchemyButtonPromptLabel != "") // ensure getViewWidth was accurate
+						_modAlchemyButtonPromptPositioned = true;
 				}
 			}
 			else
 			{
-				mcActivateButton.x = CLOCK_CENTER - (mcActivateButton.getViewWidth() * mcActivateButton.scaleX) / 2;
-				mcActivateButtonPc.x = CLOCK_CENTER - mcActivateButtonPc.getViewWidth() / 2;
+				if (_modActivateButtonPromptPositioned == false)
+				{
+					mcActivateButton.x = CLOCK_CENTER - (mcActivateButton.getViewWidth() * mcActivateButton.scaleX) / 2;
+					mcActivateButtonPc.x = CLOCK_CENTER - mcActivateButtonPc.getViewWidth() / 2;
+					if (_labelActivateButton != "") // ensure getViewWidth was accurate
+						_modActivateButtonPromptPositioned = true;
+				}
 			}
 
 			// hack part 2: I think this undoes forcing the gamepad icon to be displayed
@@ -1123,7 +1133,6 @@
 		protected function setAlchemyButtonPromptLabel( value : String ) : void
 		{
 			_modAlchemyButtonPromptLabel = value;
-			_modAlchemyButtonPromptLabelSet = true;
 		}
 		protected function setMeditateButtonPromptLabel( value : String ) : void
 		{
