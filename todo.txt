@@ -1,8 +1,9 @@
 dev:
 - check diffs clockmenu, playerinput, meditation, meditationwaiting
+- update readme
 
 bugs:
-- (Minor) when skipping time stops, button prompt changes at a different time to the label
+- 
 
 polish:
 - disable meditation in common menu when CanMeditateHere will fail?
