@@ -2,7 +2,8 @@ dev:
 -
 
 bugs:
-- 
+- (Minor) holding R2 during rest menu will trigger continuous controller vibration
+- (Minor) swapping between keyboard and gamepad nav during rest, the prompts jump around a bit
 
 future:
 - improve feet sliding on stand up animation
