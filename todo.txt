@@ -13,7 +13,6 @@ future:
 - see if there is a better way to manage the alchemy menu input
 
 tests:
-- test meditation tutorial
 - test alchemy tutorial
 
 smoke test:
