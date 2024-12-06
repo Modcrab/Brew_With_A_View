@@ -72,6 +72,7 @@
 		public var mcModAlchemyButtonPc:InputFeedbackButton;
 		public var mcModCurrentTimeBackground:MovieClip;
 		private var _modIsSleeping : Boolean = false;
+		private var _modShowAlchemyPrompt : Boolean = false;
 		private var _modAlchemyButtonPromptLabelSet : Boolean = false;
 		private var _modAlchemyButtonPromptPCPositioned : Boolean = false;
 		private var _modAlchemyButtonPromptLabel :String = "";
@@ -145,6 +146,7 @@
 
 			// ----- modAlchemyRequiresMeditation -----
 			dispatchEvent( new GameEvent(GameEvent.REGISTER, 'meditation.clock.sleeping',                		 [setIsSleeping]));
+			dispatchEvent( new GameEvent(GameEvent.REGISTER, 'meditation.clock.alchemy.prompt.show',    		 [setShowAlchemyPrompt]));
 			dispatchEvent( new GameEvent(GameEvent.REGISTER, 'meditation.clock.alchemy.prompt.label',    		 [setAlchemyButtonPromptLabel]));
 			dispatchEvent( new GameEvent(GameEvent.REGISTER, 'meditation.clock.meditate.prompt.label',   		 [setMeditateButtonPromptLabel]));
 			dispatchEvent( new GameEvent(GameEvent.REGISTER, 'meditation.clock.sleep.prompt.label',      		 [setSleepButtonPromptLabel]));
@@ -998,7 +1000,7 @@
 
 			mcModAlchemyButton.overrideTextColor = _isMeditating ? disabledColor : enabledColor;
 			mcModAlchemyButtonPc.overrideTextColor = _isMeditating ? disabledColor : enabledColor;
-			mcModAlchemyButtonPc.clickable = !_isMeditating;
+			mcModAlchemyButtonPc.clickable = !_isMeditating && _modShowAlchemyPrompt;
 
 			// these seem to force an update, making the getViewWidth calls accurate this frame
 			// without this, they will be incorrect for a frame
@@ -1011,12 +1013,7 @@
 			mcModAlchemyButton.displayGamepadIcon();
 			mcActivateButton.displayGamepadIcon();
 
-			if (_modIsSleeping)
-			{
-				mcActivateButton.x = CLOCK_CENTER - (mcActivateButton.getViewWidth() * mcActivateButton.scaleX) / 2;
-				mcActivateButtonPc.x = CLOCK_CENTER - mcActivateButtonPc.getViewWidth() / 2;
-			}
-			else
+			if (_modShowAlchemyPrompt)
 			{
 				mcActivateButton.x = leftExtent;
 				mcActivateButtonPc.x = leftExtent + pcNavPinch;
@@ -1028,6 +1025,11 @@
 					_modAlchemyButtonPromptPCPositioned = true;
 				}
 			}
+			else
+			{
+				mcActivateButton.x = CLOCK_CENTER - (mcActivateButton.getViewWidth() * mcActivateButton.scaleX) / 2;
+				mcActivateButtonPc.x = CLOCK_CENTER - mcActivateButtonPc.getViewWidth() / 2;
+			}
 
 			// hack part 2: I think this undoes forcing the gamepad icon to be displayed
 			mcModAlchemyButton.updateDataFromStage();
@@ -1037,16 +1039,8 @@
 
 			mcModCurrentTimeBackground.visible = !_modIsSleeping;
 
-			if (_modIsSleeping)
-			{
-				mcModAlchemyButton.visible = false;
-				mcModAlchemyButtonPc.visible = false;
-			}
-			else
-			{
-				mcModAlchemyButton.visible = true;
-				mcModAlchemyButtonPc.visible = true;
-			}
+			mcModAlchemyButton.visible = _modShowAlchemyPrompt;
+			mcModAlchemyButtonPc.visible = _modShowAlchemyPrompt;
 		}
 
 		protected function modcrabHandleAlchemyButtonPress( event : ButtonEvent ) : void
@@ -1121,6 +1115,10 @@
 		protected function setIsSleeping( value : Boolean ) : void
 		{
 			_modIsSleeping = value;
+		}
+		protected function setShowAlchemyPrompt( value : Boolean ) : void
+		{
+			_modShowAlchemyPrompt = value;
 		}
 		protected function setAlchemyButtonPromptLabel( value : String ) : void
 		{
