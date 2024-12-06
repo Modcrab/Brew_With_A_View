@@ -798,14 +798,14 @@
         {
             if (_isMeditating)
             {
-				mcActivateButton.setDataFromStage(NavigationCode.GAMEPAD_A, -1);
-				
-				//mcActivateButtonPc.label = _labelActivateButton; // ----- modAlchemyRequiresMeditation -----
-				mcActivateButtonPc.setDataFromStage("", KeyCode.E);
-				mcActivateButtonPc.validateNow();
-				//mcActivateButtonPc.x =  CLOCK_CENTER - mcActivateButtonPc.getViewWidth() / 2; // ----- modAlchemyRequiresMeditation -----
-				
 				// ----- modAlchemyRequiresMeditation -----
+				//mcActivateButton.setDataFromStage(NavigationCode.GAMEPAD_A, -1);
+				
+				//mcActivateButtonPc.label = _labelActivateButton;
+				//mcActivateButtonPc.setDataFromStage("", KeyCode.E);
+				//mcActivateButtonPc.validateNow();
+				//mcActivateButtonPc.x =  CLOCK_CENTER - mcActivateButtonPc.getViewWidth() / 2;
+				
 				//txtDuration.htmlText = durationText;
 				//txtDuration.htmlText = CommonUtils.toUpperCaseSafe(txtDuration.htmlText);
 				// ----------------------------------------
@@ -912,7 +912,6 @@
 				
 				stopMeditation();
                 _isMeditating = false;
-				ModcrabUpdateButtonPrompts(); // mod
 				mcActivateButton.setDataFromStage(NavigationCode.GAMEPAD_A, -1);
 				
 				// mcActivateButtonPc.label = _labelActivateButton; // ----- modAlchemyRequiresMeditation -----
@@ -923,6 +922,7 @@
 				// ----- modAlchemyRequiresMeditation -----
 				//txtDuration.text = durationText;
 				//txtDuration.htmlText = CommonUtils.toUpperCaseSafe(txtDuration.htmlText);
+				ModcrabUpdateButtonPrompts();
 				// ----------------------------------------
 				
 				//txtDuration.text = "[[panel_meditationclock_med_hours]]";
