@@ -4,13 +4,11 @@ dev:
 bugs:
 - 
 
-polish:
-- disable meditation in common menu when CanMeditateHere will fail?
-
 future:
 - improve feet sliding on stand up animation
 - fix geralt sometimes standing bolt upright when exiting meditation
 - see if there is a better way to manage the alchemy menu input
+- disable meditation in common menu when CanMeditateHere will fail?
 
 tests:
 - test alchemy tutorial
