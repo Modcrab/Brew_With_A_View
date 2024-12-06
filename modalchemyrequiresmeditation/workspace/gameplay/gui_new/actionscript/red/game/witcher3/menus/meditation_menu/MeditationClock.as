@@ -221,10 +221,12 @@
 			//_labelActivateButton = btnLabel; // ----- modAlchemyRequiresMeditation -----
 			_labelMeditateUntil = txtLabel;
 			
-			//mcActivateButtonPc.label = _labelActivateButton; // ----- modAlchemyRequiresMeditation -----
-			mcActivateButtonPc.updateDataFromStage();
-			mcActivateButtonPc.validateNow();
-			//mcActivateButtonPc.x =  CLOCK_CENTER - mcActivateButtonPc.getViewWidth() / 2; ----- modAlchemyRequiresMeditation -----
+			// ----- modAlchemyRequiresMeditation -----
+			//mcActivateButtonPc.label = _labelActivateButton; 
+			//mcActivateButtonPc.updateDataFromStage();
+			//mcActivateButtonPc.validateNow();
+			//mcActivateButtonPc.x =  CLOCK_CENTER - mcActivateButtonPc.getViewWidth() / 2;
+			// ----------------------------------------
 			
 			updateTimeMeditateText();
 		}
@@ -457,6 +459,7 @@
 			//}
 			
 			//mcActivateButtonPc.x =  CLOCK_CENTER - mcActivateButtonPc.getViewWidth() / 2;
+			ModcrabUpdateButtonPrompts();
 			// ----------------------------------------
 
 			//mcActivateButton.visible = event.isGamepad; /// wtf
@@ -763,14 +766,14 @@
 				
 				trace("GFX - trying to apply selected timem currentTime: " + _currentTime.toString() + ", targetTime:" + selectedTime.toString());
 
-				mcActivateButton.setDataFromStage(NavigationCode.GAMEPAD_B, -1);
-				
-				//mcActivateButtonPc.label = "[[panel_common_cancel]]"; // ----- modAlchemyRequiresMeditation -----
-				mcActivateButtonPc.setDataFromStage("", KeyCode.ESCAPE);
-				mcActivateButtonPc.validateNow();
-				//mcActivateButtonPc.x =  CLOCK_CENTER - mcActivateButtonPc.getViewWidth() / 2; // ----- modAlchemyRequiresMeditation -----
-				
 				// ----- modAlchemyRequiresMeditation -----
+				//mcActivateButton.setDataFromStage(NavigationCode.GAMEPAD_B, -1);
+				
+				//mcActivateButtonPc.label = "[[panel_common_cancel]]";
+				//mcActivateButtonPc.setDataFromStage("", KeyCode.ESCAPE);
+				//mcActivateButtonPc.validateNow();
+				//mcActivateButtonPc.x =  CLOCK_CENTER - mcActivateButtonPc.getViewWidth() / 2;
+				
 				ModcrabUpdateButtonPrompts();
 				// ----------------------------------------
 				
@@ -912,14 +915,14 @@
 				
 				stopMeditation();
                 _isMeditating = false;
-				mcActivateButton.setDataFromStage(NavigationCode.GAMEPAD_A, -1);
-				
-				// mcActivateButtonPc.label = _labelActivateButton; // ----- modAlchemyRequiresMeditation -----
-				mcActivateButtonPc.setDataFromStage("", KeyCode.E);
-				mcActivateButtonPc.validateNow();
-				//mcActivateButtonPc.x =  CLOCK_CENTER - mcActivateButtonPc.getViewWidth() / 2; // ----- modAlchemyRequiresMeditation -----
-				
 				// ----- modAlchemyRequiresMeditation -----
+				//mcActivateButton.setDataFromStage(NavigationCode.GAMEPAD_A, -1);
+				
+				//mcActivateButtonPc.label = _labelActivateButton;
+				//mcActivateButtonPc.setDataFromStage("", KeyCode.E);
+				//mcActivateButtonPc.validateNow();
+				//mcActivateButtonPc.x =  CLOCK_CENTER - mcActivateButtonPc.getViewWidth() / 2;
+				
 				//txtDuration.text = durationText;
 				//txtDuration.htmlText = CommonUtils.toUpperCaseSafe(txtDuration.htmlText);
 				ModcrabUpdateButtonPrompts();
@@ -971,6 +974,17 @@
 			var rightExtent:Number = CLOCK_CENTER + extent;
 			var leftExtent:Number = CLOCK_CENTER - extent;
 			var pcNavPinch:Number = 10;
+
+			if (_isMeditating)
+			{
+				mcActivateButton.setDataFromStage(NavigationCode.GAMEPAD_B, -1);
+				mcActivateButtonPc.setDataFromStage("", KeyCode.ESCAPE);
+			}
+			else
+			{
+				mcActivateButton.setDataFromStage(NavigationCode.GAMEPAD_A, -1);
+				mcActivateButtonPc.setDataFromStage("", KeyCode.E);
+			}
 
 			mcModAlchemyButton.setDataFromStage(NavigationCode.GAMEPAD_Y, -1);
 			mcModAlchemyButtonPc.setDataFromStage("", KeyCode.L);
@@ -1032,13 +1046,16 @@
 			}
 			else
 			{
-				if (_modActivateButtonPromptPositioned == false)
+				//if (_modActivateButtonPromptPositioned == false)
+				//{
+				if (_labelActivateButton != "")
 				{
 					mcActivateButton.x = CLOCK_CENTER - (mcActivateButton.getViewWidth() * mcActivateButton.scaleX) / 2;
 					mcActivateButtonPc.x = CLOCK_CENTER - mcActivateButtonPc.getViewWidth() / 2;
 					if (_labelActivateButton != "") // ensure getViewWidth was accurate
 						_modActivateButtonPromptPositioned = true;
 				}
+				//}
 			}
 
 			// hack part 2: I think this undoes forcing the gamepad icon to be displayed
