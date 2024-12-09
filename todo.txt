@@ -2,7 +2,7 @@ dev:
 -
 
 bugs:
-- 
+- (Critical) if you double press close menu whilst skipping time, you are softlocked
 
 future:
 - improve feet sliding on stand up animation
