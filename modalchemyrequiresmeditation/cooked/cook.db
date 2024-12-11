@@ -4744,6 +4744,12 @@
             "id": "FDC5268A-0BCC129C-5C47D2AE-705A3934"
         },
         {
+            "path": "scripts\\modalchemyrequiresmeditationconfig.ws",
+            "level": 0,
+            "seed": 1,
+            "id": "4670E28F-B47EFE5A-F1EA0EE2-94791929"
+        },
+        {
             "path": "scripts\\modalchemyrequiresmeditationplayerannotation.ws",
             "level": 0,
             "seed": 1,
