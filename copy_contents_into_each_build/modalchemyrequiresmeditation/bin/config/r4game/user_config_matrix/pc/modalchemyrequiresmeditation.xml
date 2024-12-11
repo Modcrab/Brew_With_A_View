@@ -5,6 +5,7 @@
 			<VisibleVars>
 				<Var id="modAlchemyRequiresMeditationAlchemyRestrictions" displayName="mod_config_alchemy_restrictions" displayType="TOGGLE"/>
 				<Var id="modAlchemyRequiresMeditationAlchemyTakesTime" displayName="mod_config_alchemy_takes_time" displayType="TOGGLE"/>
+				<Var id="modAlchemyRequiresMeditationAlchemyPrompt" displayName="mod_config_alchemy_prompt" displayType="TOGGLE"/>
 				<Var id="modAlchemyRequiresMeditationSpawnCampfire" displayName="mod_config_meditation_spawn_campfire" displayType="TOGGLE"/>
 			</VisibleVars>
 		</Group>

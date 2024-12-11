@@ -1,6 +1,7 @@
 [modAlchemyRequiresMeditation]
 modAlchemyRequiresMeditationAlchemyRestrictions=true
 modAlchemyRequiresMeditationAlchemyTakesTime=true
+modAlchemyRequiresMeditationAlchemyPrompt=true
 modAlchemyRequiresMeditationSpawnCampfire=true
 
 
