@@ -1,8 +1,8 @@
 dev:
-- improve alchemy requires meditation menu name
+- 
 
 bugs:
-- (Normal) if Geralt doesn't put out the campfire when exiting meditation, the camera doesn't fully return to rest
+- 
 
 future:
 - improve feet sliding on stand up animation
