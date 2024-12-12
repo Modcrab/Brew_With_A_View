@@ -9,7 +9,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 13425901;CUSTOM;All;;mod_prevent_alchemy_feedback;;;;;;;;Alchimia richiede meditazione o un'erborista.;L'alchimie necessite de la meditation ou un herboriste.;;;;Alchemy requires meditiation or a herbalist.;;El alquimia necesita la meditacion o un herborista.;;
 13425902;CUSTOM;All;;;;;;;;;;;;;;;;;;;
 13425903;CUSTOM;All;;panel_mod_config_display_name;;;;;;;;;;;;;Brew With A View;;;;
-13425904;CUSTOM;All;;option_mod_config_alchemy_restrictions;;;;;;;;;;;;;Alchemy Requires Meditation;;;;
+13425904;CUSTOM;All;;option_mod_config_alchemy_restrictions;;;;;;;;;;;;;Alchemy Requires Meditation Or A Herbalist;;;;
 13425905;CUSTOM;All;;option_mod_config_alchemy_takes_time;;;;;;;;;;;;;Alchemy Advances Time (15 Minutes);;;;
 13425906;CUSTOM;All;;option_mod_config_meditation_spawn_campfire;;;;;;;;;;;;;Use Campfire In Wilderness;;;;
 13425907;CUSTOM;All;;option_mod_config_alchemy_prompt;;;;;;;;;;;;;Show Alchemy Prompt During Meditation;;;;
