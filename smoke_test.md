@@ -25,12 +25,13 @@ This procedure covers most of the features in the mod, providing a solid assessm
 - (keyboard only) open meditation via hotkey (N)
 - (keyboard only) testing clicking button prompts in meditation menu
 
-### Corvo Bianco Bed Resting
+### Corvo Bianco
 - check you can rest
 - test other menu hotkeys don't function during rest
 - test button prompt swapping
 - press all buttons
 - press all buttons whilst advancing time
+- check the Alchemy Table functions as usual
 - (keyboard only) test clicking button prompts in rest on keyboard
 
 ## Do the following only once
