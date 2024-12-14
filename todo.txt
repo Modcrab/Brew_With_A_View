@@ -1,6 +1,7 @@
 dev:
 - add Russian translation from Arkwulf
 - add Hungarian translation from Gergo900410
+- add camera presets (default, immersive camera style)
 
 bugs:
 - (Minor) the alchemy tutorial is not completable if you open alchemy outside of meditation
