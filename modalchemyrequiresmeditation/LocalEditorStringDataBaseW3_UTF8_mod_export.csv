@@ -13,3 +13,5 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 13425905;CUSTOM;All;;option_mod_config_alchemy_takes_time;;;;;;;;;;;;;Alchemy Advances Time (15 Minutes);;;;
 13425906;CUSTOM;All;;option_mod_config_meditation_spawn_campfire;;;;;;;;;;;;;Use Campfire In Wilderness;;;;
 13425907;CUSTOM;All;;option_mod_config_alchemy_prompt;;;;;;;;;;;;;Show Alchemy Prompt During Meditation;;;;
+13425908;CUSTOM;All;;;;;;;;;;;;;;;;;;;
+13425909;CUSTOM;All;;panel_Mods;;;;;;;;;;;;;Mods;;;;
