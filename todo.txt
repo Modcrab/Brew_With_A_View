@@ -3,7 +3,6 @@ dev:
 
 bugs:
 - (Minor) the alchemy tutorial is not completable if you open alchemy outside of meditation
-- (Minor) if you hold start on an xbox gamepad during meditiation, a menu opens and then instantly closes
 
 future:
 - improve feet sliding on stand up animation
