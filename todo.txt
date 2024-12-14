@@ -1,8 +1,10 @@
 dev:
-- 
+- add Russian translation from Arkwulf
+- add Hungarian translation from Gergo900410
 
 bugs:
 - (Minor) the alchemy tutorial is not completable if you open alchemy outside of meditation
+- (Minor) the alchemy prompt loses the square braces: "the alchemy prompt hotkey will lose its [] bracket after meditation. It's a keyboard thing. So when entering the meditation menu initially, the hotkey of alchemy is like this: [L] Alchemy, but after a meditation, it becomes this: L Alchemy."
 
 future:
 - improve feet sliding on stand up animation
@@ -11,9 +13,8 @@ future:
 - disable meditation in common menu when CanMeditateHere will fail?
 
 tests:
-- double check bed bonuses with SAR
-- test DX11
+- 
 
 publish:
 - ensure bin file has been added
-- ensure mod has been cleanly installed and tested
+- archive bundle without intermediary folder, e.g. "Bin" and "Mods" should be at the top level under the archive
