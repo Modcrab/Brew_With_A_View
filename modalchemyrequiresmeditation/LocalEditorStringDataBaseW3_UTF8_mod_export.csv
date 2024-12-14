@@ -8,10 +8,10 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 13425900;CUSTOM;All;;mod_meditation_clock_duration_text_prefix;;;;;;;;ORA SCELTA;HEURRE SELECTIONNEE;;;;SELECTED TIME;;HORA SELECCIONADA -;;
 13425901;CUSTOM;All;;mod_prevent_alchemy_feedback;;;;;;;;Alchimia richiede meditazione o un'erborista.;L'alchimie necessite de la meditation ou un herboriste.;;;;Alchemy requires meditiation or a herbalist.;;El alquimia necesita la meditacion o un herborista.;;
 13425902;CUSTOM;All;;;;;;;;;;;;;;;;;;;
-13425903;CUSTOM;All;;panel_mod_config_display_name;;;;;;;;;;;;;Brew With A View;;;;
-13425904;CUSTOM;All;;option_mod_config_alchemy_restrictions;;;;;;;;;;;;;Alchemy Requires Meditation Or A Herbalist;;;;
-13425905;CUSTOM;All;;option_mod_config_alchemy_takes_time;;;;;;;;;;;;;Alchemy Advances Time (15 Minutes);;;;
-13425906;CUSTOM;All;;option_mod_config_meditation_spawn_campfire;;;;;;;;;;;;;Use Campfire In Wilderness;;;;
-13425907;CUSTOM;All;;option_mod_config_alchemy_prompt;;;;;;;;;;;;;Show Alchemy Prompt During Meditation;;;;
+13425903;CUSTOM;All;;panel_mod_config_display_name;;;;;;;;Brew With A View;Brew With A View;;;;Brew With A View;;Brew With A View;;
+13425904;CUSTOM;All;;option_mod_config_alchemy_restrictions;;;;;;;;Alchimia Richiede Meditazione o un'Erborista;L'Alchimie Necessite de la Meditation ou un Herboriste;;;;Alchemy Requires Meditation Or A Herbalist;;El Alquimia Necesita la Meditacion o un Herborista;;
+13425905;CUSTOM;All;;option_mod_config_alchemy_takes_time;;;;;;;;L'Alchimia Fa Avanzare il Tempo (15 Minuti);L'Alchimie Fait Avancer le Temps (15 Minutes);;;;Alchemy Advances Time (15 Minutes);;El Alquimia Hace Avanzar el Tiempo (15 Minutos);;
+13425906;CUSTOM;All;;option_mod_config_meditation_spawn_campfire;;;;;;;;Utilizzare Fuoco di Campo nella Natura;Utiliser un Feu de Camp dans la Nature;;;;Use Campfire In Wilderness;;Usar Fuego de Campamento en la Natura;;
+13425907;CUSTOM;All;;option_mod_config_alchemy_prompt;;;;;;;;Mostrare il Prompt dell'Alchimia nella Meditazione;Afficher l'Invite a l'Alchimie Pendant la Meditation;;;;Show Alchemy Prompt During Meditation;;Mostrar Consulta de Alquimia Durante la Meditacion;;
 13425908;CUSTOM;All;;;;;;;;;;;;;;;;;;;
-13425909;CUSTOM;All;;panel_Mods;;;;;;;;;;;;;Mods;;;;
+13425909;CUSTOM;All;;panel_Mods;;;;;;;;Mods;Mods;;;;Mods;;Mods;;
