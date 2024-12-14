@@ -2,7 +2,7 @@ dev:
 - 
 
 bugs:
-- (Major) the Mods menu has no text if the mod is installed on its own
+- (Minor) the alchemy tutorial is not completable if you open alchemy outside of meditation
 
 future:
 - improve feet sliding on stand up animation
@@ -11,9 +11,7 @@ future:
 - disable meditation in common menu when CanMeditateHere will fail?
 
 tests:
-- test alchemy tutorial
 - double check bed bonuses with SAR
-- test without SAR
 - test DX11
 
 publish:
