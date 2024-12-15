@@ -2,10 +2,13 @@ dev:
 - add Russian translation from Arkwulf
 - add Hungarian translation from Gergo900410
 - add camera presets (default, immersive camera style)
+- replace unlocalized languages with English to avoid empty text
+- pressing N during meditation could bring you out of meditation mode
 
 bugs:
 - (Minor) the alchemy tutorial is not completable if you open alchemy outside of meditation
 - (Minor) the alchemy prompt loses the square braces: "the alchemy prompt hotkey will lose its [] bracket after meditation. It's a keyboard thing. So when entering the meditation menu initially, the hotkey of alchemy is like this: [L] Alchemy, but after a meditation, it becomes this: L Alchemy."
+- (Normal) opening the inventory during meditation with "I", and switching tabs, sooner or later will enter meditation and close the menu
 
 future:
 - improve feet sliding on stand up animation
