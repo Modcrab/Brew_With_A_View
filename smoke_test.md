@@ -21,7 +21,7 @@ This procedure covers most of the features in the mod, providing a solid assessm
 - try and open meditation when swinging your sword
 - try and open meditation when on roach
 - try and open meditation in combat
-- check meditation is interrupted by combat
+- (PS5) check that sign R2 haptics are removed during meditation and restored after
 - (keyboard only) open meditation via hotkey (N)
 - (keyboard only) testing clicking button prompts in meditation menu
 
@@ -44,8 +44,10 @@ This procedure covers most of the features in the mod, providing a solid assessm
 - check campfire doesn't spawn very far below geralt
 - check campfire doesn't spawn if it would be in shallow water
 - check campfire doesn't spawn if Geralt is in shallow water
-- check campfire spawn position when meditating whilst running
+- check campfire spawn position when meditating whilst jogging
+- check campfire spawn position when meditating after just releasing jogging
 - check campfire spawn position when meditating whilst sprinting
+- check campfire spawn position when meditating after just releasing sprinting
 
 ### Config
 - check alchemy requires meditation toggle works
@@ -64,9 +66,22 @@ This procedure covers most of the features in the mod, providing a solid assessm
 - check campfire doesn't spawn in interiors
 - check campfire doesn't spawn in settlement
 
+### Meditation
+- check that meditation refills potions
+- check that meditation refills health on lower difficulties
+- check meditation is interrupted by combat
+- check advancing time is interrupted by combat
+
 ### Alchemy
 - check you can't craft alchemy items outside of meditation
-- check you can craft alchemy items during meditation or at a herbalist
-- check you can craft quest items inside and outside meditation and at a herbalist
+- check you can craft alchemy items during meditation
+- check you can craft alchemy items at a herbalist
+- check you can craft quest items inside meditation
+- check you can craft quest items outside meditation
+- check you can craft quest items at a herbalist
 - check non-quest items advance time when crafted
 - check quest items don't advance time when crafted
+- check non-quest items give the correct warning inside meditation
+- check non-quest items give the correct warning outside meditation
+- check quest items give the correct warning inside meditation
+- check quest items give the correct warning outside meditation
