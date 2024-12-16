@@ -1,6 +1,7 @@
 dev:
 - add camera presets (default, immersive camera style)
 - pressing N during meditation could bring you out of meditation mode
+- prevent HUD reappearing between radial menu and clock menu, and between common menu and clock menu
 
 bugs:
 - (Minor) the alchemy tutorial is not completable if you open alchemy outside of meditation
