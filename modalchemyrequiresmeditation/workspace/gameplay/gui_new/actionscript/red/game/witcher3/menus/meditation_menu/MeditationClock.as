@@ -974,6 +974,12 @@
 			var rightExtent:Number = CLOCK_CENTER + extent;
 			var leftExtent:Number = CLOCK_CENTER - extent;
 			var pcNavPinch:Number = 10;
+			var activatePromptWidth:Number;
+			var activatePromptWidthPC:Number;
+			var alchemyPromptWidth:Number;
+			var alchemyPromptWidthPC:Number;
+			var promptSpill:Number;
+			var promptSpillPC:Number;
 
 			if (_isMeditating)
 			{
@@ -1029,18 +1035,33 @@
 
 			if (_modShowAlchemyPrompt)
 			{
+				activatePromptWidth = (mcActivateButton.getViewWidth() * mcActivateButton.scaleX) + 3; // add 3 as it seems to be slightly off
+				activatePromptWidthPC = mcActivateButtonPc.getViewWidth();
+
+				alchemyPromptWidth = (mcModAlchemyButton.getViewWidth() * mcModAlchemyButton.scaleX) + 3; // add 3 as it seems to be slightly off
+				alchemyPromptWidthPC = mcModAlchemyButtonPc.getViewWidth();
+
+				promptSpill = 0;
+				if (activatePromptWidth + alchemyPromptWidth > 2 * extent)
+					promptSpill = activatePromptWidth + alchemyPromptWidth - (2 * extent);
+
+				promptSpillPC = 0;
+				if (activatePromptWidthPC + alchemyPromptWidthPC > 2 * (extent - pcNavPinch))
+					promptSpill = activatePromptWidthPC + alchemyPromptWidthPC - (2 * (extent - pcNavPinch));
+
 				if (_modActivateButtonPromptPositioned == false)
 				{
-					mcActivateButton.x = leftExtent;
-					mcActivateButtonPc.x = leftExtent + pcNavPinch;
-					_modActivateButtonPromptPositioned = true;
+					mcActivateButton.x = leftExtent - promptSpill / 2;
+					mcActivateButtonPc.x = leftExtent + pcNavPinch - promptSpillPC / 2;
+					if (_labelActivateButton != "" && _modAlchemyButtonPromptLabel != "") // ensure getViewWidth was accurate
+						_modActivateButtonPromptPositioned = true;
 				}
 
 				if (_modAlchemyButtonPromptPositioned == false)
 				{
-					mcModAlchemyButton.x = rightExtent - (mcModAlchemyButton.getViewWidth() * mcModAlchemyButton.scaleX) + 3; // add 3 as it seems to be slightly off				
-					mcModAlchemyButtonPc.x = rightExtent - mcModAlchemyButtonPc.getViewWidth() - pcNavPinch;
-					if (_modAlchemyButtonPromptLabel != "") // ensure getViewWidth was accurate
+					mcModAlchemyButton.x = rightExtent - alchemyPromptWidth + promptSpill / 2;				
+					mcModAlchemyButtonPc.x = rightExtent - alchemyPromptWidthPC - pcNavPinch + promptSpillPC / 2;
+					if (_labelActivateButton != "" && _modAlchemyButtonPromptLabel != "") // ensure getViewWidth was accurate
 						_modAlchemyButtonPromptPositioned = true;
 				}
 			}
