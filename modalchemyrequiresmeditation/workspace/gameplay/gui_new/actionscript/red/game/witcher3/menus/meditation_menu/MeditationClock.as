@@ -1043,24 +1043,30 @@
 
 				promptSpill = 0;
 				if (activatePromptWidth + alchemyPromptWidth > 2 * extent)
+				{
 					promptSpill = activatePromptWidth + alchemyPromptWidth - (2 * extent);
+					promptSpill = 0.5 * promptSpill;
+				}
 
 				promptSpillPC = 0;
 				if (activatePromptWidthPC + alchemyPromptWidthPC > 2 * (extent - pcNavPinch))
-					promptSpill = activatePromptWidthPC + alchemyPromptWidthPC - (2 * (extent - pcNavPinch));
+				{
+					promptSpillPC = activatePromptWidthPC + alchemyPromptWidthPC - (2 * (extent - pcNavPinch));
+					promptSpillPC = 0.5 * promptSpillPC;
+				}
 
 				if (_modActivateButtonPromptPositioned == false)
 				{
-					mcActivateButton.x = leftExtent - promptSpill / 2;
-					mcActivateButtonPc.x = leftExtent + pcNavPinch - promptSpillPC / 2;
+					mcActivateButton.x = leftExtent - promptSpill;
+					mcActivateButtonPc.x = leftExtent + pcNavPinch - promptSpillPC;
 					if (_labelActivateButton != "" && _modAlchemyButtonPromptLabel != "") // ensure getViewWidth was accurate
 						_modActivateButtonPromptPositioned = true;
 				}
 
 				if (_modAlchemyButtonPromptPositioned == false)
 				{
-					mcModAlchemyButton.x = rightExtent - alchemyPromptWidth + promptSpill / 2;				
-					mcModAlchemyButtonPc.x = rightExtent - alchemyPromptWidthPC - pcNavPinch + promptSpillPC / 2;
+					mcModAlchemyButton.x = rightExtent + promptSpill - alchemyPromptWidth;				
+					mcModAlchemyButtonPc.x = rightExtent - pcNavPinch + promptSpillPC - alchemyPromptWidthPC;
 					if (_labelActivateButton != "" && _modAlchemyButtonPromptLabel != "") // ensure getViewWidth was accurate
 						_modAlchemyButtonPromptPositioned = true;
 				}
