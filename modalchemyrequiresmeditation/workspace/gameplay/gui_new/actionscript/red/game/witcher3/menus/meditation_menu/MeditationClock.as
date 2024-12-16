@@ -1035,10 +1035,10 @@
 
 			if (_modShowAlchemyPrompt)
 			{
-				activatePromptWidth = (mcActivateButton.getViewWidth() * mcActivateButton.scaleX) + 3; // add 3 as it seems to be slightly off
+				activatePromptWidth = (mcActivateButton.getViewWidth() * mcActivateButton.scaleX);
 				activatePromptWidthPC = mcActivateButtonPc.getViewWidth();
 
-				alchemyPromptWidth = (mcModAlchemyButton.getViewWidth() * mcModAlchemyButton.scaleX) + 3; // add 3 as it seems to be slightly off
+				alchemyPromptWidth = (mcModAlchemyButton.getViewWidth() * mcModAlchemyButton.scaleX);
 				alchemyPromptWidthPC = mcModAlchemyButtonPc.getViewWidth();
 
 				promptSpill = 0;
@@ -1065,7 +1065,7 @@
 
 				if (_modAlchemyButtonPromptPositioned == false)
 				{
-					mcModAlchemyButton.x = rightExtent + promptSpill - alchemyPromptWidth;				
+					mcModAlchemyButton.x = rightExtent + (promptSpill > 0 ? promptSpill : 3) - alchemyPromptWidth; // add 3 in case of no overspill as it seems to be slightly off				
 					mcModAlchemyButtonPc.x = rightExtent - pcNavPinch + promptSpillPC - alchemyPromptWidthPC;
 					if (_labelActivateButton != "" && _modAlchemyButtonPromptLabel != "") // ensure getViewWidth was accurate
 						_modAlchemyButtonPromptPositioned = true;
