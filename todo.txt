@@ -1,8 +1,5 @@
 dev:
-- add Russian translation from Arkwulf
-- add Hungarian translation from Gergo900410
 - add camera presets (default, immersive camera style)
-- replace unlocalized languages with English to avoid empty text
 - pressing N during meditation could bring you out of meditation mode
 
 bugs:
