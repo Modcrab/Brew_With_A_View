@@ -1,5 +1,6 @@
 dev:
 - add camera presets (default, immersive camera style)
+- add Arabic localization from sha6er1980
 
 bugs:
 - (Minor) the alchemy tutorial is not completable if you open alchemy outside of meditation
