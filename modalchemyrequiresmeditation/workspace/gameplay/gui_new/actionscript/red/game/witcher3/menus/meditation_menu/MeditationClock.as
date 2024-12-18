@@ -30,8 +30,6 @@
 	import scaleform.gfx.MouseEventEx;
 
 	// modcrab
-	import fl.transitions.Tween;
-	import fl.transitions.easing.Strong;
 	import flash.events.Event;
 	// -----
 	
@@ -1193,6 +1191,17 @@
 		protected function setDurationTextPrefix( value : String ) : void
 		{
 			_modDurationTextPrefix = value;
+		}
+		public function ModcrabHandleInput( value : String ) : void
+		{
+			if (value == "N" && ModcrabIsTimePassing())
+			{
+				stopMeditation();
+			}
+		}
+		public function ModcrabIsTimePassing() : Boolean
+		{
+			return _isMeditating;
 		}
 		// ----------------------------------------
 	}

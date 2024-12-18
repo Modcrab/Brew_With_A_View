@@ -118,5 +118,20 @@ package red.game.witcher3.menus.meditation {
 		{
 			meditationClock.Set24HRFormat( value );
 		}
+
+		public function ModcrabHandleInput( value : String )
+		{
+			if (value == "N")
+			{
+				if (meditationClock.ModcrabIsTimePassing())
+				{
+					meditationClock.ModcrabHandleInput( value );
+				}
+				else
+				{
+					hideAnimation();
+				}
+			}
+		}
 	}
 }
