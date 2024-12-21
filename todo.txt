@@ -1,6 +1,13 @@
 dev:
 - add camera presets (default, immersive camera style)
 - add Arabic localization from sha6er1980
+- Hungarian loc tweaks from blupatrik
+- Polish loc from PLKaratusPL and shogo87
+- add Portuguese Brazilian loc from Sakatsuky
+- patch for Refill Alchemy Items Without Meditation for user AeronightV
+- patch for Preparations
+- check diffs
+
 
 bugs:
 - (Minor) the alchemy tutorial is not completable if you open alchemy outside of meditation
