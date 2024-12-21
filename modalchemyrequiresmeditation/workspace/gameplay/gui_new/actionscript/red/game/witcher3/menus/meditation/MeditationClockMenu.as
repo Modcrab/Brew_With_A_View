@@ -33,17 +33,27 @@ package red.game.witcher3.menus.meditation {
 
         private var _navBlocked:Boolean;
 		private var _bonusMeditationTime:int;
+
+		// modcrab
+		private var _confirmIntentionMode:Boolean = false;
+		public var mcModGeraltImage:MovieClip;
+		// -----
 		
 		public function MeditationClockMenu()
 		{
 			_disableShowAnimation = true;
 			upToCloseEnabled = false;
+
 			
 			super();
 		}
 		
 		override protected function configUI():void
 		{
+			// modcrab
+			mcGeraltImage.visible = false;
+			// -----
+
 			super.configUI();
 			
 			dispatchEvent( new GameEvent( GameEvent.CALL, "OnConfigUI" ) );
@@ -132,6 +142,15 @@ package red.game.witcher3.menus.meditation {
 					hideAnimation();
 				}
 			}
+		}
+
+
+
+		public function ModcrabInitInConfirmIntentionMode()
+		{
+			_confirmIntentionMode = true;
+			meditationClock.visible = false;
+			mcGeraltImage.visible = true;
 		}
 	}
 }
