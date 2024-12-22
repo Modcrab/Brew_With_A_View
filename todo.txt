@@ -7,7 +7,7 @@ dev:
 - patch for Refill Alchemy Items Without Meditation for user AeronightV
 - patch for Preparations
 - check diffs
-
+- sfx for new confirm intent
 
 bugs:
 - (Minor) the alchemy tutorial is not completable if you open alchemy outside of meditation
