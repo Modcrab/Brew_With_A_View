@@ -81,6 +81,7 @@
 		private var _modcrabEntranceAnimationTargetY :Number;
 		private var _modcrabEntranceAnimationStarted :Boolean = false;
 		private var _modcrabEntranceAnimationStopped :Boolean = false;
+		private var _modcrabConfirmIntentMode:Boolean = false;
 		// ----------------------------------------
 		
 		private var _globalCenter:Point;
@@ -480,6 +481,11 @@
 			{
 				return;
 			}
+
+			// modcrab
+			if (_modcrabConfirmIntentMode)
+				return;
+			// -----
 			
 			var details : InputDetails = event.details;
 			
@@ -575,6 +581,11 @@
 		
 		protected function handleMouseWheel(event:MouseEvent):void
 		{
+			// modcrab
+			if (_modcrabConfirmIntentMode)
+				return;
+			// -----
+
 			if (_isMeditating || bMeditationBlocked)
 				return;
 				
@@ -595,6 +606,11 @@
 		
 		protected function handleMouseDown(event:MouseEvent):void
 		{
+			// modcrab
+			if (_modcrabConfirmIntentMode)
+				return;
+			// -----
+
 			if (_isMeditating || bMeditationBlocked)
 				return;
 
@@ -616,6 +632,11 @@
 
 		protected function handleMouseMove(event:MouseEvent):void
 		{
+			// modcrab
+			if (_modcrabConfirmIntentMode)
+				return;
+			// -----
+
 			if (_isMeditating || bMeditationBlocked )
 			{
 				_mouseDownOnClock = false;
@@ -634,11 +655,21 @@
 
 		protected function handleMouseUp(event:MouseEvent):void
 		{
+			// modcrab
+			if (_modcrabConfirmIntentMode)
+				return;
+			// -----
+
 			_mouseDownOnClock = false;
 		}
 
 		protected function handleClick(event:MouseEvent):void
 		{
+			// modcrab
+			if (_modcrabConfirmIntentMode)
+				return;
+			// -----
+
 			var superMouseEvent:MouseEventEx = event as MouseEventEx;
 			if (superMouseEvent.buttonIdx == MouseEventEx.LEFT_BUTTON)
 			{
@@ -824,6 +855,11 @@
 		
 		protected function handleActionButtonPress( event : ButtonEvent ) : void
 		{
+			// modcrab
+			if (_modcrabConfirmIntentMode)
+				return;
+			// -----
+
 			if (_isMeditating)
 			{
 				stopMeditation();
@@ -1097,6 +1133,11 @@
 
 		protected function modcrabHandleAlchemyButtonPress( event : ButtonEvent ) : void
 		{
+			// modcrab
+			if (_modcrabConfirmIntentMode)
+				return;
+			// -----
+
 			if (_isMeditating)
 			{
 				// shouldn't be clicked
@@ -1192,16 +1233,18 @@
 		{
 			_modDurationTextPrefix = value;
 		}
-		public function ModcrabHandleInput( value : String ) : void
+		public function ModcrabStopMeditation( ) : void
 		{
-			if (value == "N" && ModcrabIsTimePassing())
-			{
-				stopMeditation();
-			}
+			stopMeditation();
 		}
-		public function ModcrabIsTimePassing() : Boolean
+		public function ModcrabSetIsInConfirmIntentMode(value : Boolean) : void
 		{
-			return _isMeditating;
+			_modcrabConfirmIntentMode = value;
+			visible = !value;
+		}
+		public function ModcrabCleanup():void
+		{
+
 		}
 		// ----------------------------------------
 	}

@@ -35,8 +35,8 @@ package red.game.witcher3.menus.meditation {
 		private var _bonusMeditationTime:int;
 
 		// modcrab
-		private var _confirmIntentionMode:Boolean = false;
-		public var mcModGeraltImage:MovieClip;
+		private var _modcrabConfirmIntentMode:Boolean = false;
+		public var mcModConfirmIntentPanel:ModConfirmIntentPanel;
 		// -----
 		
 		public function MeditationClockMenu()
@@ -51,7 +51,10 @@ package red.game.witcher3.menus.meditation {
 		override protected function configUI():void
 		{
 			// modcrab
-			mcGeraltImage.visible = false;
+			if (mcGeraltImage)
+			{
+				mcGeraltImage.visible = false;
+			}
 			// -----
 
 			super.configUI();
@@ -129,28 +132,38 @@ package red.game.witcher3.menus.meditation {
 			meditationClock.Set24HRFormat( value );
 		}
 
-		public function ModcrabHandleInput( value : String )
+		// modcrab
+		public function ModcrabOnMeditationHotkeyPressed():void
 		{
-			if (value == "N")
+			if (_modcrabConfirmIntentMode)
 			{
-				if (meditationClock.ModcrabIsTimePassing())
-				{
-					meditationClock.ModcrabHandleInput( value );
-				}
-				else
-				{
-					hideAnimation();
-				}
+				mcModConfirmIntentPanel.ConfirmedIntent();
+			}
+			else if (meditationClock.isMeditating)
+			{
+				meditationClock.ModcrabStopMeditation();
+			}
+			else
+			{
+			 	hideAnimation();
 			}
 		}
 
-
-
-		public function ModcrabInitInConfirmIntentionMode()
+		public function ModcrabSetIsInConfirmIntentMode(value:Boolean, panelText:String, buttonPromptLabel:String)
 		{
-			_confirmIntentionMode = true;
-			meditationClock.visible = false;
-			mcGeraltImage.visible = true;
+			_modcrabConfirmIntentMode = value;
+			if (mcGeraltImage)
+			{
+				mcGeraltImage.visible = value;
+			}
+			meditationClock.ModcrabSetIsInConfirmIntentMode(value);
+			mcModConfirmIntentPanel.ModcrabSetIsInConfirmIntentMode(value, panelText, buttonPromptLabel);
 		}
+		public function ModcrabCleanup()
+		{
+			meditationClock.ModcrabCleanup();
+			mcModConfirmIntentPanel.ModcrabCleanup();
+		}
+		// -----
 	}
 }
