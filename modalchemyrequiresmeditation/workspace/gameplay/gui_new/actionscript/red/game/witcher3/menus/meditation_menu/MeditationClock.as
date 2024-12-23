@@ -1056,6 +1056,13 @@
 			mcModAlchemyButtonPc.overrideTextColor = _isMeditating ? disabledColor : enabledColor;
 			mcModAlchemyButtonPc.clickable = !_isMeditating && _modShowAlchemyPrompt;
 
+			// bug: when mcModAlchemyButtonPc is made unclickable, InputFeedbackButton.as will make the movie clip mcKeyboardIcon visible, which displays the L key without square braces
+			// however, when mcModAlchemyButtonPc is made clickable again, InputFeedbackButton.as does not make mcKeyboardIcon invisible, so it persists on top of the button prompt, and makes it look like the [L] has lost the [ ]
+			// in actual fact, there is just another copy of an L on top of the [L], obscuring it
+			// fix: we manually turn it invisible here to correct this behaviour
+			if (mcModAlchemyButtonPc.clickable && mcModAlchemyButtonPc.mcKeyboardIcon)
+				mcModAlchemyButtonPc.mcKeyboardIcon.visible = false;
+
 			// these seem to force an update, making the getViewWidth calls accurate this frame
 			// without this, they will be incorrect for a frame
 			mcModAlchemyButton.validateNow();
