@@ -91,6 +91,12 @@
 			mcActivateButton.label = _buttonPromptLabel;
 			mcActivateButtonPc.label = _buttonPromptLabel;
 
+			var keyboardPromptsVerticalNudge:Number = -14.5;
+
+			// nudge the key icon and text up a bit in code to centre them
+			mcActivateButtonPc.tfKeyLabel.y = keyboardPromptsVerticalNudge;
+			mcActivateButtonPc.textField.y = keyboardPromptsVerticalNudge;
+
 			mcActivateButton.displayGamepadIcon();
 
 			mcActivateButton.validateNow();

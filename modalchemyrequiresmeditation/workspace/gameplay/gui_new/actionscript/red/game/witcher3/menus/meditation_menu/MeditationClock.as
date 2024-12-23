@@ -1063,6 +1063,14 @@
 			if (mcModAlchemyButtonPc.clickable && mcModAlchemyButtonPc.mcKeyboardIcon)
 				mcModAlchemyButtonPc.mcKeyboardIcon.visible = false;
 
+			var keyboardPromptsVerticalNudge:Number = -14.5;
+
+			// nudge the key icon and text up a bit in code to centre them
+			mcActivateButtonPc.tfKeyLabel.y = keyboardPromptsVerticalNudge;
+			mcActivateButtonPc.textField.y = keyboardPromptsVerticalNudge;
+			mcModAlchemyButtonPc.tfKeyLabel.y = keyboardPromptsVerticalNudge;
+			mcModAlchemyButtonPc.textField.y = keyboardPromptsVerticalNudge;
+
 			// these seem to force an update, making the getViewWidth calls accurate this frame
 			// without this, they will be incorrect for a frame
 			mcModAlchemyButton.validateNow();
