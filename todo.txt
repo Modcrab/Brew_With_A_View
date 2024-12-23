@@ -9,13 +9,11 @@ dev:
 - check diffs
 - sfx for new confirm intent
 - update smoke test for new features
-- check entering meditation state is working assumed
+- check cursor
 
 bugs:
 - (Minor) the alchemy tutorial is not completable if you open alchemy outside of meditation
 - (Minor) the alchemy prompt loses the square braces: "the alchemy prompt hotkey will lose its [] bracket after meditation. It's a keyboard thing. So when entering the meditation menu initially, the hotkey of alchemy is like this: [L] Alchemy, but after a meditation, it becomes this: L Alchemy."
-- (Normal) opening the inventory during meditation with "I", and switching tabs, sooner or later will enter meditation and close the menu
-- (Critical) you are stuck after using Corvo Bianco bed, likely due to common menu meditation mode removal
 
 future:
 - improve feet sliding on stand up animation
