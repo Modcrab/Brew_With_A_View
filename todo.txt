@@ -1,14 +1,9 @@
 dev 1.3:
-- add camera presets (default, immersive camera style)
 - check diffs
-- sfx for new confirm intent
 - update smoke test for new features
-- check cursor
-- option to allow the camera to move during meditation
-- change camera mode to camera style
-- implement confirm intent setting
-- (Minor) the alchemy prompt loses the square braces: "the alchemy prompt hotkey will lose its [] bracket after meditation. It's a keyboard thing. So when entering the meditation menu initially, the hotkey of alchemy is like this: [L] Alchemy, but after a meditation, it becomes this: L Alchemy."
-- removes todos and hacks
+- (Major) cursor remains after you click the confirm intent popup
+- (Minor) keyboard prompts could be centered (confirm intent too), like other menus
+- (Normal) if you move the mouse whilst it's invisible, the mouse snaps when entering meditation
 
 dev 1.4:
 - add Arabic localization from sha6er1980
@@ -19,6 +14,7 @@ dev 1.4:
 dev 1.5:
 - patch for Preparations
 - (Minor) the alchemy tutorial is not completable if you open alchemy outside of meditation
+- (Minor) if you press N + M, or N + I, at the same time, the map opens, with no bg menu, and when you close it, you are meditating
 
 future:
 - improve feet sliding on stand up animation
