@@ -37,6 +37,20 @@
 - If you are looking for my changes inside .ws or .as files, search for "modcrab".
 - Mod ID Space: 13425894
 
+### Changelog
+#### 1.1
+- Hotfix to improve folder structure. Thank you to ElementaryLewis for pointing this out.
+#### 1.2
+- Added Russian translation. Thank you to Arkwulf for this.
+- Added Hungarian translation. Thank you to Gergo900410 for this.
+- Default to English for unlocalized languages in order to fix empty button prompts. Thank you to RovanFrost for pointing this out.
+#### 1.3
+- Prevented the HUD reappearing between the Radial Menu/Alchemy/other menus closing, and the overlayed Meditation menu opening.
+- Pressing N during meditation will now function like pressing Escape.
+- Added a confirmation screen when switching tabs in the menu, before starting meditation. This prevents accidently starting meditation and it kicking you out of the menu.
+- Fixed the mouse cursor snapping to the centre of the screen when opening another menu during meditation.
+- Fixed the game not properly pausing whilst resting in Corvo Bianco.
+
 ### Permissions
 - MIT Licence. Feel free to do whatever you like, I only ask that you credit me as the original author.
 
