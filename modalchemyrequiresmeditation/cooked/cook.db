@@ -3193,6 +3193,12 @@
             "id": "621B12B1-ECE294EA-F4559FFB-565A7A1E"
         },
         {
+            "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\meditation_menu\\modconfirmintentpanel.as",
+            "level": 0,
+            "seed": 1,
+            "id": "937A20D8-162AE053-B81D6086-A4156D35"
+        },
+        {
             "path": "gameplay\\gui_new\\actionscript\\red\\game\\witcher3\\menus\\noticeboard\\noticeboardlistitem.as",
             "level": 0,
             "seed": 1,
@@ -4662,20 +4668,26 @@
             "class": "CSwfResource",
             "seed": 1,
             "id": "216A98FD-E3627D91-B7D635EF-E517AB52",
-            "diskSize": 1136474
+            "diskSize": 2416609
         },
         {
             "path": "gameplay\\gui_new\\swf\\meditation\\panel_meditation_clock.swf",
             "level": 0,
             "seed": 1,
             "id": "1DD47CA9-8C65132E-B9C41A15-2B278BB1",
-            "diskSize": 437631
+            "diskSize": 1084197
         },
         {
             "path": "scripts\\game\\gameplay\\interactive\\witcherbed.ws",
             "level": 0,
             "seed": 1,
             "id": "C1BF8DB1-06055A58-222A2274-9FABF3F8"
+        },
+        {
+            "path": "scripts\\game\\gui\\hud\\hud.ws",
+            "level": 0,
+            "seed": 1,
+            "id": "B4CB30D8-302E588E-31D4A3FB-A79859CE"
         },
         {
             "path": "scripts\\game\\gui\\hud\\modules\\hudmoduleradialmenu.ws",
@@ -4688,6 +4700,12 @@
             "level": 0,
             "seed": 1,
             "id": "16A43FE9-4D0AB5FB-EA52E452-79E24B18"
+        },
+        {
+            "path": "scripts\\game\\gui\\menus\\commonmenu.ws",
+            "level": 0,
+            "seed": 1,
+            "id": "B64AA371-3A3340DF-EF106106-20144303"
         },
         {
             "path": "scripts\\game\\gui\\menus\\meditationclockmenu.ws",
@@ -4748,6 +4766,12 @@
             "level": 0,
             "seed": 1,
             "id": "4670E28F-B47EFE5A-F1EA0EE2-94791929"
+        },
+        {
+            "path": "scripts\\modalchemyrequiresmeditationglobal.ws",
+            "level": 0,
+            "seed": 1,
+            "id": "7184BCA8-CCBAFD5B-560E1ABA-D10B7123"
         },
         {
             "path": "scripts\\modalchemyrequiresmeditationplayerannotation.ws",
