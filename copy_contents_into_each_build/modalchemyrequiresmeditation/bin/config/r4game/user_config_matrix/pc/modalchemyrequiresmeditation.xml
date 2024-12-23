@@ -7,6 +7,18 @@
 				<Var id="modAlchemyRequiresMeditationAlchemyTakesTime" displayName="mod_config_alchemy_takes_time" displayType="TOGGLE"/>
 				<Var id="modAlchemyRequiresMeditationAlchemyPrompt" displayName="mod_config_alchemy_prompt" displayType="TOGGLE"/>
 				<Var id="modAlchemyRequiresMeditationSpawnCampfire" displayName="mod_config_meditation_spawn_campfire" displayType="TOGGLE"/>
+				<Var id="modAlchemyRequiresMeditationConfirmIntent" displayName="mod_config_meditation_confirm_intent" displayType="TOGGLE"/>
+				<Var id="modAlchemyRequiresMeditationCameraControl" displayName="mod_config_meditation_camera_control" displayType="TOGGLE"/>
+				<Var id="Virtual_modAlchemyRequiresMeditationCameraStyle" displayName="mod_config_meditation_camera_style" displayType="OPTIONS">
+					<OptionsArray>
+						<Option id="0" displayName="mod_config_meditation_camera_style_default">
+							<Entry varId="modAlchemyRequiresMeditationCameraStyle" value="0"/>
+						</Option>
+						<Option id="1" displayName="mod_config_meditation_camera_style_close">
+							<Entry varId="modAlchemyRequiresMeditationCameraStyle" value="1"/>
+						</Option>
+					</OptionsArray>
+				</Var>
 			</VisibleVars>
 		</Group>
 </UserConfig>
