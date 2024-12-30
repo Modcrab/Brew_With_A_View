@@ -4,8 +4,6 @@ dev 1.3:
 - check changes to meditation are required with new confirm intent mode
 - add new English strings as defaults for all languages
 - see if we can repurpose existing close and default strings
-- (Major) camera transitions don't work with 'Auto camera centering' option
-- see if there is a better way to manage the alchemy menu input
 
 dev 1.4:
 - add Arabic localization from sha6er1980
