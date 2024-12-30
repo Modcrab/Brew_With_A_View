@@ -1,5 +1,5 @@
 dev 1.3:
-- check diffs
+- update changelog
 - update smoke test for new features
 - localize new strings in French, Spanish and Italian via Lily
 - localize new strings in Russian via Arkwulf
@@ -28,6 +28,7 @@ future:
 - improve feet sliding on stand up animation
 - fix geralt sometimes standing bolt upright when exiting meditation
 - disable meditation in common menu when CanMeditateHere will fail?
+- see if we can make HUD fade back in not snap
 
 tests:
 - 
