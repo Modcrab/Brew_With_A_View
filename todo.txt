@@ -1,8 +1,12 @@
 dev 1.3:
 - check diffs
 - update smoke test for new features
-- see if we can repurpose existing close and default strings
-- see if we can fix new settings and loc in existing translations
+
+new strings in 1.3:
+- Begin Meditation
+- Manual Camera Control
+- Camera Style
+- Confirm Starting Meditation When Switching Tabs
 
 dev 1.4:
 - add Arabic localization from sha6er1980
