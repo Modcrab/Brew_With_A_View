@@ -10,6 +10,7 @@ dev 1.4:
 - Hungarian loc tweaks from blupatrik
 - Polish loc from PLKaratusPL and shogo87
 - add Portuguese Brazilian loc from Sakatsuky
+- add German translation from optkm
 
 dev 1.5:
 - patch for Preparations
