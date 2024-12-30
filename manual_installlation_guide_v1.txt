@@ -1,0 +1,21 @@
+after you've downloaded the mod
+- extract the .7z using 7Zip or WinRAR or whatever
+-open the folder
+- navigate to "[your game installation file path]\The Witcher 3 Wild Hunt GOTY"
+- you should be able to see two folders 'bin' and 'mods' (or 'Mods'). If you don't have a 'Mods' folder, go ahead and create one there (jsut an empty folder called Mods)
+- go back to your extracted copy of the mods folder and select the 'bin' and 'mods' folder, and drag them into your Witcher 3 install, into the folder "[your game installation file path]\The Witcher 3 Wild Hunt GOTY"
+- if you've done this correctly you should have new files at "[your game installation file path]\The Witcher 3 Wild Hunt GOTY\Mods\modalchemyrequiresmeditation", and a file
+"[your game installation file path]\The Witcher 3 Wild Hunt GOTY\bin\config\r4game\user_config_matrix\pc\modalchemyrequiresmeditation.xml"
+- next go to "[your game installation file path]\The Witcher 3 Wild Hunt GOTY\bin\config\r4game\user_config_matrix\pc\dx11filelist.txt"
+- open it in a text editor (e.g. Notepad) and add the line 'modalchemyrequiresmeditation.xml;' at the bottom, without the inverted commas
+- repeat the process for "[your game installation file path]\The Witcher 3 Wild Hunt GOTY\bin\config\r4game\user_config_matrix\pc\dx12filelist.txt",adding 'modalchemyrequiresmeditation.xml;' at the bottom once again
+- these lines are telling the DX11 and DX12 versions of the game that the config menu for this mod exists
+- next, find the file "[your drive name, usually C:]\Users\[your user name]\Documents\The Witcher 3\user.settings" and open it in a text editor
+- navigate back to the extracted mod and copy the contents of user.settings.part.txt, and then paste it at the bottom of the file you found in Documents (user.settings)
+- save and close user.settings
+- repeat the process for the file "[your drive name]\Users\[your user name]\Documents\The Witcher 3\dx12user.settings", copying the contents of dx12user.settings.part.txt from the extracted mod folder at the bottom of the file
+- save and close dx12user.settings
+- these last two edits were controlling the default settings of my mod, they also will be where you own configuration will be stored
+
+
+
