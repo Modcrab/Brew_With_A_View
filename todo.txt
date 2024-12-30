@@ -3,6 +3,7 @@ dev 1.3:
 - update smoke test for new features
 - check changes to meditation are required with new confirm intent mode
 - add new English strings as defaults for all languages
+- (Major) camera transitions don't work with 'Auto camera centering' option
 
 dev 1.4:
 - add Arabic localization from sha6er1980
