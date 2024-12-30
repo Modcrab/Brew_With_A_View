@@ -1,7 +1,6 @@
 dev 1.3:
 - check diffs
 - update smoke test for new features
-- check changes to meditation are required with new confirm intent mode
 - see if we can repurpose existing close and default strings
 - see if we can fix new settings and loc in existing translations
 
