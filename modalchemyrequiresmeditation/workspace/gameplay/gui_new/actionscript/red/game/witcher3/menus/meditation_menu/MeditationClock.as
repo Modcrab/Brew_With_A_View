@@ -574,6 +574,12 @@
 							event.handled = true;
 						}
 						break;
+					// modcrab
+					case NavigationCode.GAMEPAD_Y:
+						dispatchEvent( new GameEvent(GameEvent.CALL, 'OnModcrabOnAlchemyPressed' ));
+						event.handled = true;
+						break;
+					// -----
 					}
 				}
 			}
