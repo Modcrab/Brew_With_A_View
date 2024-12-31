@@ -32,7 +32,7 @@
 - Run Script Merger to ensure this mod's changes aren't overwritten.
 
 ### Technical
-- Current version: 1.2
+- Current version: 1.3-dev
 - The mod was formerly known as Alchemy Requires Meditation, the REDkit project retains this name and is frequently referenced in the project files.
 - If you are looking for my changes inside .ws or .as files, search for "modcrab".
 - Mod ID Space: 13425894
@@ -45,11 +45,18 @@
 - Added Hungarian translation. Thank you to Gergo900410 for this.
 - Default to English for unlocalized languages in order to fix empty button prompts. Thank you to RovanFrost for pointing this out.
 #### 1.3
+- (Optional) Add a confirmation screen when switching tabs in the menu, before starting Meditation. A common scenario was that you would access your Inventory, and switch tabs with the shoulder buttons looking for another menu. You would accidently go to the Meditation panel, and it would kick you out into Brew With A View's new Meditation mode. This new feature would isolate this case, asking for confirmation first, and prevents accidently starting Meditation when you don't want to. It will remain optional, though.
+- (Optional) Added an option to control the Camera Style. You can choose between the Brew With A View Default look, or a Close style like Geralt appears on the Main Menu.
+- (Optional) Add a Manual Camera Control option, allowing you to pan the camera around after Geralt has entered the meditation pose.
 - Prevented the HUD reappearing between the Radial Menu/Alchemy/other menus closing, and the overlayed Meditation menu opening.
-- Pressing N during meditation will now function like pressing Escape.
-- Added a confirmation screen when switching tabs in the menu, before starting meditation. This prevents accidently starting meditation and it kicking you out of the menu.
-- Fixed the mouse cursor snapping to the centre of the screen when opening another menu during meditation.
+- Fixed camera transitions when entering and exiting Meditation not working when playing with the 'Auto camera centering' option disabled.
 - Fixed the game not properly pausing whilst resting in Corvo Bianco.
+- (Keyboard) Pressing N during meditation will now function like pressing Escape.
+- (Keyboard) Fixed the mouse cursor sometimes snapping when starting Meditation.
+- (Keyboard) Fixed the mouse cursor snapping to the centre of the screen when opening another menu during Meditation.
+- (Keyboard) Fixed the Alchemy prompt [L] losing it's square braces after meditating once.
+- (Keyboard) Fixed the text on the input prompts on the Meditation menu not being centered.
+
 
 ### Permissions
 - MIT Licence. Feel free to do whatever you like, I only ask that you credit me as the original author.
