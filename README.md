@@ -47,6 +47,7 @@
 - Prevented the HUD reappearing between the Radial Menu/Alchemy/other menus closing, and the overlayed Meditation menu opening.
 - Fixed camera transitions when entering and exiting Meditation not working when playing with the 'Auto camera centering' option disabled.
 - Fixed the game not properly pausing whilst resting in Corvo Bianco.
+- Restored needlessly removed glow effect when the Meditation clock stops moving.
 - (Keyboard) Pressing N during meditation will now function like pressing Escape.
 - (Keyboard) Fixed the mouse cursor sometimes snapping when starting Meditation.
 - (Keyboard) Fixed the mouse cursor snapping to the centre of the screen when opening another menu during Meditation.
