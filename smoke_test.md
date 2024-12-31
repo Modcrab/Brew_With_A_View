@@ -9,10 +9,11 @@ This procedure covers most of the features in the mod, providing a solid assessm
 - exit meditation
 - open meditation from common menu
 - advance time
+- check the glow animation plays after advancing time
 - cancel advance time
 - advance time, then cancel advance time and press it again to quickly close the menu
 - check you can open the alchemy menu during meditation
-- press all buttons during meditation
+- press all buttons during meditation (keybord only: when opening a menu, check the mouse cursor doesn't snap)
 - press all buttons during advancing time
 - press all buttons whilst exiting meditation
 - check you can't save during meditation
@@ -23,7 +24,13 @@ This procedure covers most of the features in the mod, providing a solid assessm
 - try and open meditation in combat
 - (PS5) check that sign R2 haptics are removed during meditation and restored after
 - (keyboard only) open meditation via hotkey (N)
+- (keyboard only) check the N key functions exactly like escape
 - (keyboard only) testing clicking button prompts in meditation menu
+- (keyboard only) check the keyboard prompts are centered
+- (keyboard only) check the Alchemy prompt doesn't lose it's square braces after meditating once
+- (keyboard only) check the Alchemy prompt doesn't lose it's square braces after clicking it
+- (keyboard only) check the Alchemy prompt doesn't lose it's square braces after pressing L
+- (keyboard only) check the mouse cursor doesn't snap when opening meditation, even if you moved the mouse prior to starting
 
 ### Corvo Bianco
 - check you can rest
@@ -32,18 +39,47 @@ This procedure covers most of the features in the mod, providing a solid assessm
 - press all buttons
 - press all buttons whilst advancing time
 - check the Alchemy Table functions as usual
+- check the game is paused properly behind the menu
+- (PS5) check that sign R2 haptics are removed during rest and restored after
 - (keyboard only) test clicking button prompts in rest on keyboard
+- (keyboard only) check the keyboard prompts are centered
+
+### Confirm Intent
+- check the meenu appears when switching tabs
+- check the menu doesn't appear when opening meditation from the radial menu
+- check the menu doesn't appear when opening meditation via hotkey
+- check the menu doesn't appear when opening meditation via common menu home page
+- try and confirm intent when swinging your sword
+- try and confirm intent when mounted
+- try and confirm intent in combat
+- press every button on the confirm intent panel
+- check the game is paused properly behind the menu
+- check button prompt swapping
+- check you can't save
+- check the confirm intent panel is not active during Meditation or Rest
+- check the Meditation menu is not active during Confirm Intent
+- check menu sfx are in sync
+- check Meditation works as normal if you confirm intent first
+- check Meditation works as normal if you cancel confirm intent first
+- check Rest works as normal if you confirm intent first
+- check Rest works as normal if you cancel confirm intent first
+- (PS5) check that sign R2 haptics are removed during confirm intent and restored after
+- (keyboard only) check the keyboard prompts are centered
+- (keyboard only) check the confirm intent button is clickable
 
 ## Do the following only once
 
 ### Exterior
-- check camera transitions in exterior and default camera and campfire
-- check camera transitions in exterior and default camera and no campfire
-- check camera transitions in exterior and close camera and campfire
-- check camera transitions in exterior and close camera and no campfire
+- repeat the following with and without 'Automatic camera centering' enabled and with and without 'Manual Camera Control' enabled and with each new Camera Style
+    - check camera transitions in exterior and default camera and campfire
+    - check camera transitions in exterior and default camera and no campfire
+    - check camera transitions in exterior and close camera and campfire
+    - check camera transitions in exterior and close camera and no campfire
 - check campfire doesn't spawn very far below geralt
 - check campfire doesn't spawn if it would be in shallow water
 - check campfire doesn't spawn if Geralt is in shallow water
+- check the HUD doesn't appear when entering meditation from the radial menu
+- check the HUD doesn't appear after closing another menu during meditation
 - check campfire spawn position when meditating whilst jogging
 - check campfire spawn position when meditating after just releasing jogging
 - check campfire spawn position when meditating whilst sprinting
@@ -54,6 +90,9 @@ This procedure covers most of the features in the mod, providing a solid assessm
 - check alchemy takes time toggle works
 - check show alchemy prompt toggle works
 - check use campfire toggle works
+- check Manual Camera Control works
+- check Camera Style works
+- check confirm intent works
 
 ### Boat
 - check camera transitions on boat and default camera
