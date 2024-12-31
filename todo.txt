@@ -1,6 +1,7 @@
 dev 1.3:
 - update smoke test for new features (include testing sfx)
 - confirm intent panel should play appear animation (rest menu too?)
+- any animation polish for confirm intent menu?
 - localize new strings in French, Spanish and Italian via Lily
 - localize new strings in Russian via Arkwulf
 - localize new strings in Hungarian via blupatrik
