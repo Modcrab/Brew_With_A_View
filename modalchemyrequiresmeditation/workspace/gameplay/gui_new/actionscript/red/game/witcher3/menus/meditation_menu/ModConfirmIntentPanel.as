@@ -29,6 +29,7 @@
 	import red.game.witcher3.utils.CommonUtils;
 	import scaleform.gfx.MouseEventEx;
 	import flash.events.Event;
+	import flash.geom.ColorTransform;
 	
 	/**
 	 * Brew With A View panel to confirm intent when switching tabs in common menu
@@ -41,12 +42,16 @@
 		// references to elements in stage, the names must match the instance name
 		public var mcActivateButton:InputFeedbackButton;
 		public var mcActivateButtonPc:InputFeedbackButton;
+		public var mcBackground:MovieClip;
 		public var lbPanelTextField:TextField;
 
 		private var _confirmIntentMode:Boolean = false;
 		private var _confirmedIntent:Boolean = false;
 		private var _panelText:String = "";
 		private var _buttonPromptLabel:String = "";
+		private var _entranceAnimationTargetY :Number;
+		private var _animationTimerSeconds:Number = 0;
+		private var _previousTimeMilliseconds:Number;
 
 		public function ModConfirmIntentPanel()
 		{
@@ -69,13 +74,21 @@
 			if (!value)
 				return;
 
+			_previousTimeMilliseconds = getTimer();
+
 			mcActivateButtonPc.addEventListener(ButtonEvent.PRESS, handleActionButtonPress, false, 0, true);
 			UpdateTextAndButtonPrompts();
+
+			_entranceAnimationTargetY = this.y;
+			this.y = _entranceAnimationTargetY + 700;
+			this.alpha = 0;
+			removeEventListener(Event.ENTER_FRAME, UpdateAnimation, /*useCapture :*/ false);
+			addEventListener(Event.ENTER_FRAME, UpdateAnimation, /*useCapture :*/ false, /*priority :*/ 0, /*useWeakReference :*/ true);
 		}
 
 		public function ModcrabCleanup():void
 		{
-			
+			removeEventListener(Event.ENTER_FRAME, UpdateAnimation, /*useCapture :*/ false);
 		}
 
 		private function UpdateTextAndButtonPrompts():void
@@ -122,6 +135,41 @@
 				dispatchEvent( new GameEvent(GameEvent.CALL, 'OnModcrabConfirmedIntent' ));
 				_confirmedIntent = true;
 			}
+		}
+
+		function UpdateAnimation(e : Event) : void
+		{
+			var currentTimeMilliseconds:Number = getTimer();
+    		var dt:Number = (currentTimeMilliseconds - _previousTimeMilliseconds) / 1000; // delta time in seconds
+
+			_animationTimerSeconds += dt;
+
+			// fade in
+			this.alpha += 0.03;
+			if (this.alpha >= 1)
+			{
+				this.alpha = 1;
+			}
+
+			// tween up
+			var difference:Number = _entranceAnimationTargetY - this.y;
+    		this.y += difference * 0.12;
+			if (Math.abs(difference) < 1)
+			{
+				this.y = _entranceAnimationTargetY;
+			}
+
+			// pulse bg brightness
+			var p_min:Number = 0.6;
+			var sineValue:Number = (Math.sin(_animationTimerSeconds * 2.5) + 1 ) * (1 - p_min) * 0.5 + p_min; // oscillate between p_min and 1
+			var brightness:int = sineValue * 255;
+			var brightnessTransform:ColorTransform = new ColorTransform();
+			brightnessTransform.redMultiplier = brightness / 255; // use multiplier to change brightness proportionally
+			brightnessTransform.greenMultiplier = brightness / 255;
+			brightnessTransform.blueMultiplier = brightness / 255;
+			mcBackground.transform.colorTransform = brightnessTransform;
+
+			_previousTimeMilliseconds = currentTimeMilliseconds;
 		}
 
 		// ----- events -----

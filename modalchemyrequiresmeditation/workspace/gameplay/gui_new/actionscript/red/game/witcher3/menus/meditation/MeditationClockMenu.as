@@ -152,10 +152,10 @@ package red.game.witcher3.menus.meditation {
 		public function ModcrabSetIsInConfirmIntentMode(value:Boolean, panelText:String, buttonPromptLabel:String)
 		{
 			_modcrabConfirmIntentMode = value;
-			if (mcGeraltImage)
-			{
-				mcGeraltImage.visible = value;
-			}
+			//if (mcGeraltImage)
+			//{
+			//	mcGeraltImage.visible = value;
+			//}
 			meditationClock.ModcrabSetIsInConfirmIntentMode(value);
 			mcModConfirmIntentPanel.ModcrabSetIsInConfirmIntentMode(value, panelText, buttonPromptLabel);
 		}
