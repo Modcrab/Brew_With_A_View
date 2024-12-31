@@ -27,10 +27,6 @@
 - Compatible with Smooth GUI (highly recommended). Just let this mod win any .redswf conflicts. I haven't made any changes to Meditation UI animation speeds to match Smooth GUI, but from playtesting it didn't feel like it needed anything. Please let me know if I missed something.
 - This mod makes use of script annotations to reduce merge conflicts, but you should still always run Script Merger!
 
-### Installation
-- Install like any other mod. The Tome of Witcher 3 Modding is a great place to start if you are new to the process.
-- Run Script Merger to ensure this mod's changes aren't overwritten.
-
 ### Technical
 - Current version: 1.3-dev
 - The mod was formerly known as Alchemy Requires Meditation, the REDkit project retains this name and is frequently referenced in the project files.
