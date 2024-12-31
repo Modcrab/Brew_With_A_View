@@ -61,14 +61,14 @@
 		override protected function configUI():void
 		{
 			super.configUI();
+			_panelText = "[[mod_meditation_clock_confirm_intent_prompt_label]]";
+			_buttonPromptLabel = "[[panel_button_common_accept]]";
 			InputManager.getInstance().addEventListener(ControllerChangeEvent.CONTROLLER_CHANGE, handleControllerChange, false, 0, true);
 		}
 
-		public function ModcrabSetIsInConfirmIntentMode(value:Boolean, panelText:String, buttonPromptLabel:String):void
+		public function ModcrabSetIsInConfirmIntentMode(value:Boolean):void
 		{
 			_confirmIntentMode = value;
-			_panelText = panelText;
-			_buttonPromptLabel = buttonPromptLabel;
 			visible = value;
 
 			if (!value)

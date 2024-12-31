@@ -149,15 +149,11 @@ package red.game.witcher3.menus.meditation {
 			}
 		}
 
-		public function ModcrabSetIsInConfirmIntentMode(value:Boolean, panelText:String, buttonPromptLabel:String)
+		public function ModcrabSetIsInConfirmIntentMode(value:Boolean)
 		{
 			_modcrabConfirmIntentMode = value;
-			//if (mcGeraltImage)
-			//{
-			//	mcGeraltImage.visible = value;
-			//}
 			meditationClock.ModcrabSetIsInConfirmIntentMode(value);
-			mcModConfirmIntentPanel.ModcrabSetIsInConfirmIntentMode(value, panelText, buttonPromptLabel);
+			mcModConfirmIntentPanel.ModcrabSetIsInConfirmIntentMode(value);
 		}
 		public function ModcrabCleanup()
 		{
