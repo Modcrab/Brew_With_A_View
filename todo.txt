@@ -1,5 +1,4 @@
 dev 1.3:
-- update changelog
 - update smoke test for new features
 - localize new strings in French, Spanish and Italian via Lily
 - localize new strings in Russian via Arkwulf
