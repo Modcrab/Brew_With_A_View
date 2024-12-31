@@ -1174,7 +1174,7 @@
 			_modcrabEntranceAnimationStarted = true;
 			if( doEntranceAnimation )
 			{
-				addEventListener(Event.ENTER_FRAME, modcrabEntranceAnimationTick);
+				addEventListener(Event.ENTER_FRAME, modcrabEntranceAnimationTick, /*useCapture :*/ false, /*priority :*/ 0, /*useWeakReference :*/ true);
 			}
 			else
 			{
@@ -1195,7 +1195,7 @@
 				this.y = _modcrabEntranceAnimationTargetY;
 			}
 
-			removeEventListener(Event.ENTER_FRAME, modcrabEntranceAnimationTick);
+			removeEventListener(Event.ENTER_FRAME, modcrabEntranceAnimationTick, /*useCapture :*/ false);
 
 			_modcrabEntranceAnimationStopped = true;
 		}
