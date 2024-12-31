@@ -53,6 +53,8 @@
 - (Keyboard) Fixed the mouse cursor snapping to the centre of the screen when opening another menu during Meditation.
 - (Keyboard) Fixed the Alchemy prompt [L] losing it's square braces after meditating once.
 - (Keyboard) Fixed the text on the input prompts on the Meditation menu not being centered.
+- (Spanish) Fixed some missing accents.
+- (French) Fixed some missing accents.
 
 
 ### Permissions
