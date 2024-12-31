@@ -7,21 +7,18 @@ This procedure covers most of the features in the mod, providing a solid assessm
 ### Basic Meditation
 - open meditation from radial menu
 - exit meditation
-- open meditation from common menu
+- open meditation from common menu home page
 - advance time
 - check the glow animation plays after advancing time
 - cancel advance time
 - advance time, then cancel advance time and press it again to quickly close the menu
+- open the meditation menu by switching tabs in the common menu
 - check you can open the alchemy menu during meditation
 - press all buttons during meditation (keybord only: when opening a menu, check the mouse cursor doesn't snap)
 - press all buttons during advancing time
 - press all buttons whilst exiting meditation
-- check you can't save during meditation
-- test other menu hotkeys
+- confirm that you can't save during meditation
 - test button prompt swapping when swapping between controller type
-- try and open meditation when swinging your sword
-- try and open meditation when on roach
-- try and open meditation in combat
 - (PS5) check that sign R2 haptics are removed during meditation and restored after
 - (keyboard only) open meditation via hotkey (N)
 - (keyboard only) check the N key functions exactly like escape
@@ -33,13 +30,16 @@ This procedure covers most of the features in the mod, providing a solid assessm
 - (keyboard only) check the mouse cursor doesn't snap when opening meditation, even if you moved the mouse prior to starting
 
 ### Corvo Bianco
-- check you can rest
-- test other menu hotkeys don't function during rest
+- open the rest menu
+- close the rest menu
+- advance time
+- cancel advancing time
+- cancel advancing time and double press to leave the menu quickly
+- check the glow animation plays
 - test button prompt swapping
 - press all buttons
 - press all buttons whilst advancing time
-- check the Alchemy Table functions as usual
-- check the game is paused properly behind the menu
+- press all buttons whilst exiting rest
 - (PS5) check that sign R2 haptics are removed during rest and restored after
 - (keyboard only) test clicking button prompts in rest on keyboard
 - (keyboard only) check the keyboard prompts are centered
@@ -110,6 +110,9 @@ This procedure covers most of the features in the mod, providing a solid assessm
 - check that meditation refills health on lower difficulties
 - check meditation is interrupted by combat
 - check advancing time is interrupted by combat
+- try and open meditation when swinging your sword (by all four means)
+- try and open meditation when on roach (by all four means)
+- try and open meditation in combat (by all four means)
 
 ### Alchemy
 - check you can't craft alchemy items outside of meditation
@@ -124,3 +127,4 @@ This procedure covers most of the features in the mod, providing a solid assessm
 - check non-quest items give the correct warning outside meditation
 - check quest items give the correct warning inside meditation
 - check quest items give the correct warning outside meditation
+- check the Alchemy Table functions as usual
