@@ -160,8 +160,8 @@
 			}
 
 			// pulse bg brightness
-			var p_min:Number = 0.6;
-			var sineValue:Number = (Math.sin(_animationTimerSeconds * 2.5) + 1 ) * (1 - p_min) * 0.5 + p_min; // oscillate between p_min and 1
+			var p_min:Number = 0.45;
+			var sineValue:Number = (Math.sin(_animationTimerSeconds * 2.75) + 1 ) * (1 - p_min) * 0.5 + p_min; // oscillate between p_min and 1
 			var brightness:int = sineValue * 255;
 			var brightnessTransform:ColorTransform = new ColorTransform();
 			brightnessTransform.redMultiplier = brightness / 255; // use multiplier to change brightness proportionally
