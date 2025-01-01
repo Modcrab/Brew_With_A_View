@@ -37,7 +37,8 @@ This procedure covers most of the features in the mod, providing a solid assessm
 - cancel advancing time and double press to leave the menu quickly
 - check the glow animation plays
 - test button prompt swapping
-- press all buttons
+- press all buttons whilst entering rest
+- press all buttons whilst sitting on the rest menu
 - press all buttons whilst advancing time
 - press all buttons whilst exiting rest
 - (PS5) check that sign R2 haptics are removed during rest and restored after
