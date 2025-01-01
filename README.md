@@ -55,6 +55,7 @@
 - (Keyboard) Fixed the text on the input prompts on the Meditation menu not being centered.
 - (Spanish) Fixed some missing accents.
 - (French) Fixed some missing accents.
+- Miscellaneous tweaks, fixes and improvements are too small to mention.
 
 
 ### Permissions
