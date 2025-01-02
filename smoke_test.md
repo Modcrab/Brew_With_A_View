@@ -13,20 +13,17 @@ This procedure covers most of the features in the mod, providing a solid assessm
 - cancel advance time
 - advance time, then cancel advance time and press it again to quickly close the menu
 - open the meditation menu by switching tabs in the common menu
-- check you can open the alchemy menu during meditation
 - press all buttons during meditation (keybord only: when opening a menu, check the mouse cursor doesn't snap)
 - press all buttons during advancing time
 - press all buttons whilst exiting meditation
 - confirm that you can't save during meditation
 - test button prompt swapping when swapping between controller type
+- check the Meditation menu is not active during Confirm Intent
 - (PS5) check that sign R2 haptics are removed during meditation and restored after
 - (keyboard only) open meditation via hotkey (N)
 - (keyboard only) check the N key functions exactly like escape
 - (keyboard only) testing clicking button prompts in meditation menu
-- (keyboard only) check the keyboard prompts are centered
 - (keyboard only) check the Alchemy prompt doesn't lose it's square braces after meditating once
-- (keyboard only) check the Alchemy prompt doesn't lose it's square braces after clicking it
-- (keyboard only) check the Alchemy prompt doesn't lose it's square braces after pressing L
 - (keyboard only) check the mouse cursor doesn't snap when opening meditation, even if you moved the mouse prior to starting
 
 ### Corvo Bianco
@@ -41,31 +38,21 @@ This procedure covers most of the features in the mod, providing a solid assessm
 - press all buttons whilst sitting on the rest menu
 - press all buttons whilst advancing time
 - press all buttons whilst exiting rest
+- check Rest works as normal if you confirm intent first
+- check Rest works as normal if you cancel confirm intent first
 - (PS5) check that sign R2 haptics are removed during rest and restored after
 - (keyboard only) test clicking button prompts in rest on keyboard
 - (keyboard only) check the keyboard prompts are centered
 
 ### Confirm Intent
-- check the meenu appears when switching tabs
+- check the menu appears when switching tabs
 - check the menu doesn't appear when opening meditation from the radial menu
 - check the menu doesn't appear when opening meditation via hotkey
 - check the menu doesn't appear when opening meditation via common menu home page
-- try and confirm intent when swinging your sword
-- try and confirm intent when mounted
-- try and confirm intent in combat
 - press every button on the confirm intent panel
-- check the game is paused properly behind the menu
 - check button prompt swapping
 - check you can't save
-- check the confirm intent panel is not active during Meditation or Rest
-- check the Meditation menu is not active during Confirm Intent
-- check menu sfx are in sync
-- check Meditation works as normal if you confirm intent first
-- check Meditation works as normal if you cancel confirm intent first
-- check Rest works as normal if you confirm intent first
-- check Rest works as normal if you cancel confirm intent first
 - (PS5) check that sign R2 haptics are removed during confirm intent and restored after
-- (keyboard only) check the keyboard prompts are centered
 - (keyboard only) check the confirm intent button is clickable
 
 ## Do the following only once
@@ -114,6 +101,9 @@ This procedure covers most of the features in the mod, providing a solid assessm
 - try and open meditation when swinging your sword (by all four means)
 - try and open meditation when on roach (by all four means)
 - try and open meditation in combat (by all four means)
+- check Meditation works as normal if you confirm intent first
+- check Meditation works as normal if you cancel confirm intent first
+- check the game is paused properly behind the confirm intent menu
 
 ### Alchemy
 - check you can't craft alchemy items outside of meditation
