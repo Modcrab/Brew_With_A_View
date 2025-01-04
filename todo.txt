@@ -19,6 +19,7 @@ future:
 - fix geralt sometimes standing bolt upright when exiting meditation
 - disable meditation in common menu when CanMeditateHere will fail?
 - see if we can make HUD fade back in not snap
+- Menu option to alter the speed of time during meditation - I find the vanilla 'fast forward' a bit jarring for such an immersive scene. 
 
 tests:
 - 
