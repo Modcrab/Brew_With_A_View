@@ -1,6 +1,6 @@
 dev 1.4:
 - add Polish loc from RudzikoV and shogo87 - pending
-- add Portuguese Brazilian loc from Sakatsuky
+- add Portuguese Brazilian loc from Sakatsuky - pending
 - add German translation from optkm - pending
 - add Arabic localization from sha6er1980 - pending
 
