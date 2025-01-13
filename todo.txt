@@ -5,6 +5,7 @@ dev 1.4:
 
 1.4 credits
 - Polish loc from RudzikoV and shogo87
+- Simplified Chinese loc from ssc19940105
 
 dev 1.5:
 - patch for Preparations
