@@ -1,7 +1,7 @@
 {
     "name": "modalchemyrequiresmeditation",
     "modName": "Brew With A View",
-    "version": "1.4-dev",
+    "version": "1.4-rc1",
     "gameVersion": "",
     "description": "A mod for The Witcher 3 Next-Gen. Overhauled meditation menu showing Geralt meditating in real time. Optionally, you can only perform Alchemy whilst Meditating or at a herbalist. Made with REDkit.",
     "thumbnail": "",
