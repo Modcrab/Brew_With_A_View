@@ -1,11 +1,8 @@
-dev 1.4:
-- add Portuguese Brazilian loc from Sakatsuky - pending
-- add German translation from optkm - pending
-- add Arabic localization from sha6er1980 - pending
-
 1.4 credits
 - Polish loc from RudzikoV and shogo87
 - Simplified Chinese loc from ssc19940105
+- Portuguese Brazilian loc from Sakatsuky
+- German translation from optkm
 
 dev 1.5:
 - patch for Preparations
@@ -13,6 +10,9 @@ dev 1.5:
 - (Minor) if you press N + M, or N + I, at the same time, the map opens, with no bg menu, and when you close it, you are meditating
 - (Minor) fix hardcoded canCookStatus == 6
 - (Minor) rest menu could have an appear animation?
+
+dev 1.6:
+- add Arabic localization from sha6er1980 - pending
 
 future:
 - improve feet sliding on stand up animation
