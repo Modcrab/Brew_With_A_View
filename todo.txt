@@ -1,11 +1,7 @@
-1.4 credits
-- Polish loc from RudzikoV and shogo87
-- Simplified Chinese loc from ssc19940105
-- Portuguese Brazilian loc from Sakatsuky
-- German translation from optkm
-
 dev 1.5:
 - patch for Preparations
+- (Normal) check health regeneration is computed via in-game time not real-time
+- (Normal) allow using photo mode
 - (Minor) the alchemy tutorial is not completable if you open alchemy outside of meditation
 - (Minor) if you press N + M, or N + I, at the same time, the map opens, with no bg menu, and when you close it, you are meditating
 - (Minor) fix hardcoded canCookStatus == 6
