@@ -17,6 +17,7 @@ future:
 - see if we can make HUD fade back in not snap
 - Menu option to alter the speed of time during meditation - I find the vanilla 'fast forward' a bit jarring for such an immersive scene.
 - don't spawn campfire if there is one nearby
+- force holster torch when meditating
 
 tests:
 - 
